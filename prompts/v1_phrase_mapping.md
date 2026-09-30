@@ -70,4 +70,3 @@ Input template (civil, series CT): `N square metres of sub-base in and compacted
 }
 ```
 
-This example is checked against CT-00001 and line PA-00233-13 (D.41.010, 792 m2).
