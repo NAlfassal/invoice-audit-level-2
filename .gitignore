@@ -1,0 +1,25 @@
+# The original brief: read-only
+invoice-auditing-level-2-main/
+
+# Local settings
+.env
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.ruff_cache/
+
+# Local caches and temp files (uv cache, TEMP), kept on the project drive
+.cache/
+
+# Virtual environments
+.venv
+
+# Local working files, not part of the submission
+prompts/v0.md
+scripts/docling_auto.md

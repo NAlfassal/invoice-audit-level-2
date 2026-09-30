@@ -1,0 +1,57 @@
+[
+  {
+    "contract": "civil",
+    "page": 24,
+    "ocr_text": "| %96                |",
+    "corrected": "| 96%                |",
+    "reason": "Schedule 4 Part 3, A.12.010 band 4,001 to 16,000: digits and % sign reversed by OCR; the scan reads 96%"
+  },
+  {
+    "contract": "civil",
+    "page": 25,
+    "ocr_text": "| %06                |",
+    "corrected": "| 90%                |",
+    "reason": "Schedule 4 Part 3, A.13.010 band above 20,000: reversed by OCR; the scan reads 90%"
+  },
+  {
+    "contract": "civil",
+    "page": 25,
+    "ocr_text": "| %16                |",
+    "corrected": "| 91%                |",
+    "reason": "Schedule 4 Part 3, A.14.010 band above 8,000: reversed by OCR; the scan reads 91%"
+  },
+  {
+    "contract": "drilling",
+    "page": 16,
+    "append": "| LW-430 | LWD data processing and final log | well | 8,394.75 |\n| RM-510 | Hydraulic underreaming, reamed | metre | 38.45 |\n| RM-511 | Underreamer rental | day | 1,379.15 |\n| RM-520 | Roller reamer and stabiliser rental | day | 419.85 |\n| RM-530 | Back-reaming while tripping | hour | 264.55 |\n| HC-601 | Hole cleaning circulating sub | day | 689.35 |\n| HC-610 | Wiper trip supervision | trip | 1,947.15 |\n| HC-620 | Drilling jar rental | day | 539.65 |\n| HC-630 | Casing drift and clean-out run | run | 4,295.85 |\n| HC-640 | Cuttings bed monitoring | day | 719.55 |",
+    "reason": "Schedule 1, Series 400 (end) to 600: OCR lost the table structure and listed codes, units and rates apart; rows re-paired in page order and each row read on the scan"
+  },
+  {
+    "contract": "drilling",
+    "page": 21,
+    "ocr_text": "%00%",
+    "corrected": "100%",
+    "reason": "Schedule 3 Part 3, LW-420 standby charge: the scan reads 100%"
+  },
+  {
+    "contract": "drilling",
+    "page": 36,
+    "ocr_text": "mnuod tr",
+    "corrected": "mud motor",
+    "reason": "Appendix G, LH-711 report term: the scan reads 'mud motor'"
+  },
+  {
+    "contract": "drilling",
+    "page": 39,
+    "ocr_text": "MW-30IMWD",
+    "corrected": "MW-301 MWD",
+    "reason": "Amendment No. 1, 1.2 Substituted rates: OCR read the digit 1 as the letter I; the scan reads MW-301"
+  },
+  {
+    "contract": "drilling",
+    "page": 41,
+    "ocr_text": "19,237:00",
+    "corrected": "19,237.00",
+    "reason": "Amendment No. 2, 2.2 Substituted rates, MB-701: OCR read the decimal point as a colon; the scan reads 19,237.00"
+  }
+]

@@ -1,0 +1,16 @@
+## DIRECTIONAL DRILLING SERVICES CONTRACT DRILLING CAMPAIGN 2025
+
+Contract reference: DDS-2025-118
+
+THIS CONTRACT is made between NORTHGATE PETROLEUM OPERATING COMPANY ("the Company") and MERIDIAN DOWNHOLE SERVICES LTD ("the Contractor") for the provision of directional drilling, performance drilling, measurement while drilling, logging while drilling, reaming and hole enlargement, and hole conditioning services on the wells the Company drills during the term.
+
+The Contract Price is ascertained from the services actually provided, at the rates in Schedule 1 and Schedule 2, as adjusted by Schedules 3 and 6 and by Part III, and invoiced as Part IV requires. No lump sum is agreed other than the lump sums Schedule 1 states.
+
+| Commencement date   | 01 January 2025                         |
+|---------------------|-----------------------------------------|
+| Expiry date         | 31 December 2025                        |
+| Currency            | United States Dollars (USD)             |
+| Value Added Tax     | 15 per cent                             |
+| Rounding            | to the cent, half to even, at each step |
+| Invoicing           | per well, within 30 days of period end  |
+| Operations          | 24 hours a day, 7 days a week           |

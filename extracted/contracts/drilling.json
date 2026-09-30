@@ -1,0 +1,1696 @@
+{
+ "contract_ref": "DDS-2025-118",
+ "items": {
+  "DD-101": {
+   "description": "Directional driller, 24-hour coverage",
+   "unit": "person-day",
+   "rate": {
+    "value": "1847.35",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 4365 of 4365 lines"
+   }
+  },
+  "DD-102": {
+   "description": "Directional coordinator, office based",
+   "unit": "day",
+   "rate": {
+    "value": "948.60",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 8151 of 8151 lines"
+   }
+  },
+  "DD-110": {
+   "description": "Positive displacement motor rental",
+   "unit": "day",
+   "rate": {
+    "value": "1417.75",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 3302 of 3304 lines"
+   }
+  },
+  "DD-111": {
+   "description": "Motor redress and inspection",
+   "unit": "run",
+   "rate": {
+    "value": "3589.45",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 654 of 654 lines"
+   }
+  },
+  "DD-120": {
+   "description": "Rotary steerable system, circulating",
+   "unit": "hour",
+   "rate": {
+    "value": "384.15",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 1173 of 1173 lines"
+   }
+  },
+  "DD-121": {
+   "description": "Rotary steerable system on standby",
+   "unit": "day",
+   "rate": {
+    "value": "2893.65",
+    "source": "p.15 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "DD-130": {
+   "description": "Gyro survey",
+   "unit": "survey",
+   "rate": {
+    "value": "2446.15",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 480 of 480 lines"
+   }
+  },
+  "DD-140": {
+   "description": "Well planning and anti-collision study",
+   "unit": "well",
+   "rate": {
+    "value": "12489.50",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 214 of 214 lines"
+   }
+  },
+  "PD-201": {
+   "description": "Drilling optimisation engineer",
+   "unit": "person-day",
+   "rate": {
+    "value": "2094.85",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 2561 of 2561 lines"
+   }
+  },
+  "PD-210": {
+   "description": "Performance drilling footage",
+   "unit": "metre",
+   "rate": {
+    "value": "Schedule 2",
+    "source": "p.15 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "PD-220": {
+   "description": "Downhole vibration mitigation tool",
+   "unit": "day",
+   "rate": {
+    "value": "1148.35",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 1190 of 1190 lines"
+   }
+  },
+  "PD-230": {
+   "description": "Drilling dynamics memory sub",
+   "unit": "day",
+   "rate": {
+    "value": "639.15",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 1190 of 1190 lines"
+   }
+  },
+  "MW-301": {
+   "description": "MWD engineer",
+   "unit": "person-day",
+   "rate": {
+    "value": "1646.55",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 4363 of 4366 lines"
+   }
+  },
+  "MW-310": {
+   "description": "MWD directional and gamma tool",
+   "unit": "day",
+   "rate": {
+    "value": "2245.85",
+    "source": "p.15 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "MW-320": {
+   "description": "Pressure while drilling module",
+   "unit": "day",
+   "rate": {
+    "value": "779.65",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 4846 of 4847 lines"
+   }
+  },
+  "MW-330": {
+   "description": "Real-time data transmission",
+   "unit": "day",
+   "rate": {
+    "value": "309.75",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 8151 of 8151 lines"
+   }
+  },
+  "LW-401": {
+   "description": "LWD engineer",
+   "unit": "person-day",
+   "rate": {
+    "value": "1898.45",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 1765 of 1766 lines"
+   }
+  },
+  "LW-410": {
+   "description": "LWD resistivity, logged",
+   "unit": "metre",
+   "rate": {
+    "value": "11.37",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 2963 of 2964 lines"
+   }
+  },
+  "LW-411": {
+   "description": "LWD density and neutron, logged",
+   "unit": "metre",
+   "rate": {
+    "value": "16.83",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 2250 of 2250 lines"
+   }
+  },
+  "LW-412": {
+   "description": "LWD sonic, logged",
+   "unit": "metre",
+   "rate": {
+    "value": "13.29",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 954 of 955 lines"
+   }
+  },
+  "LW-413": {
+   "description": "Formation pressure tester, per pressure point",
+   "unit": "point",
+   "rate": {
+    "value": "1849.65",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 445 of 445 lines"
+   }
+  },
+  "LW-420": {
+   "description": "Radioactive source handling",
+   "unit": "run",
+   "rate": {
+    "value": "2746.55",
+    "source": "p.15 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 369 of 369 lines"
+   }
+  },
+  "MB-701": {
+   "description": "Mobilisation to rig site",
+   "unit": "well",
+   "rate": {
+    "value": "18497.50",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 151 of 151 lines"
+   }
+  },
+  "MB-702": {
+   "description": "Demobilisation from rig site",
+   "unit": "well",
+   "rate": {
+    "value": "14196.25",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 214 of 214 lines"
+   }
+  },
+  "LH-711": {
+   "description": "Lost in hole, positive displacement motor",
+   "unit": "each",
+   "rate": {
+    "value": "Clause 31",
+    "source": "p.16 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "LH-712": {
+   "description": "Lost in hole, rotary steerable system",
+   "unit": "each",
+   "rate": {
+    "value": "Clause 31",
+    "source": "p.16 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "LH-713": {
+   "description": "Lost in hole, MWD tool",
+   "unit": "each",
+   "rate": {
+    "value": "Clause 31",
+    "source": "p.16 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "LH-714": {
+   "description": "Lost in hole, LWD resistivity tool",
+   "unit": "each",
+   "rate": {
+    "value": "Clause 31",
+    "source": "p.16 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "LW-430": {
+   "description": "LWD data processing and final log",
+   "unit": "well",
+   "rate": {
+    "value": "8394.75",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 214 of 214 lines"
+   }
+  },
+  "RM-510": {
+   "description": "Hydraulic underreaming, reamed",
+   "unit": "metre",
+   "rate": {
+    "value": "38.45",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 679 of 679 lines"
+   }
+  },
+  "RM-511": {
+   "description": "Underreamer rental",
+   "unit": "day",
+   "rate": {
+    "value": "1379.15",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 805 of 806 lines"
+   }
+  },
+  "RM-520": {
+   "description": "Roller reamer and stabiliser rental",
+   "unit": "day",
+   "rate": {
+    "value": "419.85",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 1767 of 1767 lines"
+   }
+  },
+  "RM-530": {
+   "description": "Back-reaming while tripping",
+   "unit": "hour",
+   "rate": {
+    "value": "264.55",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 943 of 943 lines"
+   }
+  },
+  "HC-601": {
+   "description": "Hole cleaning circulating sub",
+   "unit": "day",
+   "rate": {
+    "value": "689.35",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 516 of 516 lines"
+   }
+  },
+  "HC-610": {
+   "description": "Wiper trip supervision",
+   "unit": "trip",
+   "rate": {
+    "value": "1947.15",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 943 of 943 lines"
+   }
+  },
+  "HC-620": {
+   "description": "Drilling jar rental",
+   "unit": "day",
+   "rate": {
+    "value": "539.65",
+    "source": "p.16 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "HC-630": {
+   "description": "Casing drift and clean-out run",
+   "unit": "run",
+   "rate": {
+    "value": "4295.85",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 428 of 428 lines"
+   }
+  },
+  "HC-640": {
+   "description": "Cuttings bed monitoring",
+   "unit": "day",
+   "rate": {
+    "value": "719.55",
+    "source": "p.16 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 2142 of 2142 lines"
+   }
+  }
+ },
+ "depth_bands": [
+  {
+   "value": "42.35",
+   "source": "p.17 Schedule 2",
+   "verified": false,
+   "evidence": "",
+   "band": "Band 1",
+   "over_m": "0",
+   "to_m": "1500"
+  },
+  {
+   "value": "58.15",
+   "source": "p.17 Schedule 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 684 of 685 lines",
+   "band": "Band 2",
+   "over_m": "1500",
+   "to_m": "3000"
+  },
+  {
+   "value": "76.45",
+   "source": "p.17 Schedule 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 1410 of 1416 lines",
+   "band": "Band 3",
+   "over_m": "3000",
+   "to_m": "4500"
+  },
+  {
+   "value": "98.70",
+   "source": "p.17 Schedule 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 289 of 289 lines",
+   "band": "Band 4",
+   "over_m": "4500",
+   "to_m": null
+  }
+ ],
+ "contract_year_bands": [
+  {
+   "value": "100",
+   "source": "p.17 Schedule 2 Part 2",
+   "verified": false,
+   "evidence": "",
+   "band": "Band 1",
+   "from_m": "1",
+   "to_m": "40000"
+  },
+  {
+   "value": "96",
+   "source": "p.17 Schedule 2 Part 2",
+   "verified": false,
+   "evidence": "",
+   "band": "Band 2",
+   "from_m": "40001",
+   "to_m": "120000"
+  },
+  {
+   "value": "92",
+   "source": "p.17 Schedule 2 Part 2",
+   "verified": false,
+   "evidence": "",
+   "band": "Band 3",
+   "from_m": "120001",
+   "to_m": null
+  }
+ ],
+ "indexed": {
+  "items": {
+   "MW-310": {
+    "value": "2245.85",
+    "source": "p.18 Schedule 2C",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 8134 of 8150 lines",
+    "description": "MWD directional and gamma tool"
+   },
+   "HC-620": {
+    "value": "539.65",
+    "source": "p.18 Schedule 2C",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 8149 of 8151 lines",
+    "description": "Drilling jar rental"
+   }
+  },
+  "index": {
+   "value": {
+    "2025-01": "100.00",
+    "2025-02": "100.70",
+    "2025-03": "101.50",
+    "2025-04": "102.30",
+    "2025-05": "103.10",
+    "2025-06": "103.60",
+    "2025-07": "104.80",
+    "2025-08": "105.40",
+    "2025-09": "104.90",
+    "2025-10": "106.20",
+    "2025-11": "107.10",
+    "2025-12": "108.00",
+    "2026-01": "109.30",
+    "2026-02": "110.00",
+    "2026-03": "110.60",
+    "2026-04": "111.40",
+    "2026-05": "110.90",
+    "2026-06": "112.20",
+    "2026-07": "113.00",
+    "2026-08": "112.60",
+    "2026-09": "113.90",
+    "2026-10": "114.70",
+    "2026-11": "115.30",
+    "2026-12": "116.10"
+   },
+   "source": "p.18 Schedule 2C",
+   "verified": true,
+   "evidence": "calibration: 23 months reproduce billed rates",
+   "confirmed_months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11"
+   ]
+  }
+ },
+ "section_factors": {
+  "factors": {
+   "26\"": {
+    "value": "1.315",
+    "source": "p.20 Schedule 3 Part 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 1361 of 1362 lines",
+    "label": "26\""
+   },
+   "17-1/2\"": {
+    "value": "1.145",
+    "source": "p.20 Schedule 3 Part 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 3359 of 3365 lines",
+    "label": "17-1/2\""
+   },
+   "12-1/4\"": {
+    "value": "1.00",
+    "source": "p.20 Schedule 3 Part 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 5263 of 5267 lines",
+    "label": "12-1/4\""
+   },
+   "8-1/2\"": {
+    "value": "0.945",
+    "source": "p.20 Schedule 3 Part 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 3073 of 3074 lines",
+    "label": "8-1/2\""
+   },
+   "6\"": {
+    "value": "0.885",
+    "source": "p.20 Schedule 3 Part 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 1602 of 1603 lines",
+    "label": "6\""
+   }
+  },
+  "items": {
+   "value": [
+    "DD-110",
+    "DD-120",
+    "PD-220",
+    "MW-310",
+    "RM-510",
+    "RM-511"
+   ],
+   "source": "p.20 Schedule 3 Part 1",
+   "verified": false,
+   "evidence": ""
+  }
+ },
+ "class_factors": {
+  "factors": {
+   "Standard": {
+    "value": "1.00",
+    "source": "p.20 Schedule 3 Part 2",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 11935 of 11949 lines",
+    "label": "Standard"
+   },
+   "Extended Reach": {
+    "value": "1.175",
+    "source": "p.20 Schedule 3 Part 2",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 5509 of 5514 lines",
+    "label": "Extended Reach"
+   },
+   "HPHT": {
+    "value": "1.325",
+    "source": "p.20 Schedule 3 Part 2",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 3321 of 3321 lines",
+    "label": "HPHT"
+   }
+  },
+  "items": {
+   "value": [
+    "DD-120",
+    "PD-210",
+    "MW-310",
+    "MW-320",
+    "LW-410",
+    "LW-411",
+    "LW-412",
+    "LW-413"
+   ],
+   "source": "p.20 Schedule 3 Part 2",
+   "verified": false,
+   "evidence": ""
+  }
+ },
+ "standby": {
+  "DD-101": {
+   "value": "80",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 213 of 213 lines"
+  },
+  "DD-102": {
+   "value": "100",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 381 of 381 lines"
+  },
+  "DD-110": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 140 of 140 lines"
+  },
+  "DD-111": {
+   "value": "100",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 9 of 9 lines"
+  },
+  "DD-120": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "DD-130": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "PD-201": {
+   "value": "80",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 127 of 127 lines"
+  },
+  "PD-210": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "PD-220": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 60 of 60 lines"
+  },
+  "PD-230": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 60 of 60 lines"
+  },
+  "MW-301": {
+   "value": "80",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 213 of 213 lines"
+  },
+  "MW-310": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 376 of 381 lines"
+  },
+  "MW-320": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 240 of 241 lines"
+  },
+  "MW-330": {
+   "value": "100",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 381 of 381 lines"
+  },
+  "LW-401": {
+   "value": "80",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 85 of 86 lines"
+  },
+  "LW-410": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-411": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-412": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-413": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-420": {
+   "value": "100",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 9 of 9 lines"
+  },
+  "RM-510": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "RM-511": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 49 of 50 lines"
+  },
+  "RM-520": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 85 of 85 lines"
+  },
+  "RM-530": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "HC-601": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 32 of 32 lines"
+  },
+  "HC-610": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "HC-620": {
+   "value": "50",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 381 of 381 lines"
+  },
+  "HC-630": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": false,
+   "evidence": ""
+  },
+  "HC-640": {
+   "value": "not chargeable",
+   "source": "pp.20-21 Schedule 3 Part 3",
+   "verified": true,
+   "evidence": "second OCR engine, Schedule 3 Part 3 p.20-21"
+  }
+ },
+ "daily_limits": {
+  "DD-101": {
+   "value": "2",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "person-day"
+  },
+  "DD-102": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "DD-110": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "DD-120": {
+   "value": "24",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "hour"
+  },
+  "DD-121": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "DD-130": {
+   "value": "3",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "survey"
+  },
+  "PD-201": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "person-day"
+  },
+  "PD-220": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "PD-230": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "MW-301": {
+   "value": "2",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "person-day"
+  },
+  "MW-310": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "MW-320": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "MW-330": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "LW-401": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "person-day"
+  },
+  "LW-413": {
+   "value": "12",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "point"
+  },
+  "RM-511": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "RM-520": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "RM-530": {
+   "value": "24",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "hour"
+  },
+  "HC-601": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "HC-610": {
+   "value": "2",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "trip"
+  },
+  "HC-620": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  },
+  "HC-640": {
+   "value": "1",
+   "source": "pp.21-22 Schedule 3 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 14",
+   "unit": "day"
+  }
+ },
+ "once_per_well": {
+  "value": [
+   "DD-140",
+   "LW-430",
+   "MB-701",
+   "MB-702"
+  ],
+  "source": "p.22 Schedule 3 Part 6",
+  "verified": true,
+  "evidence": "eye check, crop 15"
+ },
+ "minimum_hours": {
+  "DD-120": {
+   "value": "6",
+   "source": "p.22 Schedule 3 Part 7",
+   "verified": false,
+   "evidence": ""
+  }
+ },
+ "ddr_parts": {
+  "DD-111": {
+   "value": "B",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "DD-130": {
+   "value": "C",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-410": {
+   "value": "B",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-411": {
+   "value": "B",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-412": {
+   "value": "B",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-413": {
+   "value": "B",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-420": {
+   "value": "D",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "RM-510": {
+   "value": "B",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LH-711": {
+   "value": "E",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LH-712": {
+   "value": "E",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LH-713": {
+   "value": "E",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  },
+  "LH-714": {
+   "value": "E",
+   "source": "p.24 Schedule 5",
+   "verified": false,
+   "evidence": ""
+  }
+ },
+ "lost_in_hole": {
+  "usd_values": {
+   "LH-711": {
+    "value": "145000.00",
+    "source": "p.25 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "description": "Positive displacement motor"
+   },
+   "LH-712": {
+    "value": "1250000.00",
+    "source": "p.25 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "description": "Rotary steerable system"
+   },
+   "LH-713": {
+    "value": "385000.00",
+    "source": "p.25 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "description": "MWD directional and gamma tool"
+   },
+   "LH-714": {
+    "value": "520000.00",
+    "source": "p.25 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "description": "LWD resistivity tool"
+   }
+  },
+  "sar_values": {
+   "LH-711": {
+    "value": "543750.00",
+    "source": "p.19 Schedule 2D",
+    "verified": false,
+    "evidence": "",
+    "description": "Lost in hole, positive displacement motor"
+   },
+   "LH-712": {
+    "value": "4687500.00",
+    "source": "p.19 Schedule 2D",
+    "verified": false,
+    "evidence": "",
+    "description": "Lost in hole, rotary steerable system"
+   },
+   "LH-713": {
+    "value": "1443750.00",
+    "source": "p.19 Schedule 2D",
+    "verified": false,
+    "evidence": "",
+    "description": "Lost in hole, MWD tool"
+   },
+   "LH-714": {
+    "value": "1950000.00",
+    "source": "p.19 Schedule 2D",
+    "verified": false,
+    "evidence": "",
+    "description": "Lost in hole, LWD resistivity tool"
+   }
+  },
+  "halalas_per_usd": {
+   "value": {
+    "2025-01": "375.00",
+    "2025-02": "375.10",
+    "2025-03": "375.00",
+    "2025-04": "374.90",
+    "2025-05": "375.20",
+    "2025-06": "375.30",
+    "2025-07": "375.10",
+    "2025-08": "375.00",
+    "2025-09": "374.80",
+    "2025-10": "375.40",
+    "2025-11": "375.60",
+    "2025-12": "375.50",
+    "2026-01": "376.00",
+    "2026-02": "375.80",
+    "2026-03": "375.90",
+    "2026-04": "376.20",
+    "2026-05": "376.40",
+    "2026-06": "376.10",
+    "2026-07": "375.70",
+    "2026-08": "376.30",
+    "2026-09": "376.60",
+    "2026-10": "376.80",
+    "2026-11": "377.00",
+    "2026-12": "376.50"
+   },
+   "source": "p.19 Schedule 2D",
+   "verified": false,
+   "evidence": ""
+  }
+ },
+ "report_terms": {
+  "DD-101": {
+   "value": "directional hands",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "DD-102": {
+   "value": "night man",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "DD-110": {
+   "value": "mud motor",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "DD-120": {
+   "value": "rotary steerable",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "HC-601": {
+   "value": "circulating sub",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "HC-620": {
+   "value": "drilling jars",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "HC-640": {
+   "value": "float sub",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "LH-711": {
+   "value": "mud motor",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "LH-712": {
+   "value": "rotary steerable",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "LH-713": {
+   "value": "MWD collar",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "LH-714": {
+   "value": "gamma tool",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-401": {
+   "value": "logging engineers",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-410": {
+   "value": "gamma tool",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-411": {
+   "value": "resistivity tool",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "LW-412": {
+   "value": "density-neutron",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "MW-301": {
+   "value": "MWD engineers",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "MW-310": {
+   "value": "MWD collar",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "MW-320": {
+   "value": "survey package",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "MW-330": {
+   "value": "real-time link",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "PD-201": {
+   "value": "performance engineer",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "PD-220": {
+   "value": "bit and reamer",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "PD-230": {
+   "value": "hydraulics package",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "RM-511": {
+   "value": "hole opener",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  },
+  "RM-520": {
+   "value": "stabiliser string",
+   "source": "p.36 Appendix G",
+   "verified": false,
+   "evidence": ""
+  }
+ },
+ "instruments": [
+  {
+   "title": "SUPPLEMENT NO. 1 TO CONTRACT DDS-2025-118",
+   "reference": "DDS-2025-118/S1",
+   "issued": {
+    "value": "2025-05-19",
+    "source": "p.38 Supplement No. 1",
+    "verified": true,
+    "evidence": "eye check, crop 18"
+   },
+   "effective": {
+    "value": "2025-07-01",
+    "source": "p.38 Supplement No. 1",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {
+    "DD-120": {
+     "value": "398.50",
+     "source": "p.38 Supplement No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "384.15",
+     "effective": "2025-07-01"
+    },
+    "DD-121": {
+     "value": "2984.00",
+     "source": "p.38 Supplement No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "2893.65",
+     "effective": "2025-07-01"
+    }
+   },
+   "monthly_rates": {
+    "HC-601": {
+     "value": {
+      "2025-07": "701.50",
+      "2025-08": "714.00",
+      "2025-09": "722.60",
+      "2025-10": "719.80",
+      "2025-11": "731.00",
+      "2025-12": "736.40"
+     },
+     "source": "p.38 Supplement No. 1",
+     "verified": false,
+     "evidence": "",
+     "carry_forward_last_month": true
+    }
+   },
+   "discount": null,
+   "schedule_changes": "rates: DD-120, DD-121; monthly rate: HC-601."
+  },
+  {
+   "title": "AMENDMENT NO. 1 TO CONTRACT DDS-2025-118",
+   "reference": "DDS-2025-118/A1",
+   "issued": {
+    "value": "2025-11-07",
+    "source": "p.39 Amendment No. 1",
+    "verified": true,
+    "evidence": "eye check, crop 19"
+   },
+   "effective": {
+    "value": "2026-01-01",
+    "source": "p.39 Amendment No. 1",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {
+    "DD-101": {
+     "value": "1916.50",
+     "source": "p.39 Amendment No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "1847.35",
+     "effective": "2026-01-01"
+    },
+    "MW-301": {
+     "value": "1708.00",
+     "source": "p.39 Amendment No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "1646.55",
+     "effective": "2026-01-01"
+    },
+    "LW-401": {
+     "value": "1969.00",
+     "source": "p.39 Amendment No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "1898.45",
+     "effective": "2026-01-01"
+    }
+   },
+   "monthly_rates": {},
+   "discount": null,
+   "term_end": {
+    "value": "2026-06-30",
+    "source": "p.39 Amendment No. 1",
+    "verified": true,
+    "evidence": "eye check, crop 19"
+   },
+   "schedule_changes": "expiry to 2026-06-30; rates: DD-101, MW-301, LW-401"
+  },
+  {
+   "title": "SUPPLEMENT NO. 2 TO CONTRACT DDS-2025-118",
+   "reference": "DDS-2025-118/S2",
+   "issued": {
+    "value": "2026-02-24",
+    "source": "p.40 Supplement No. 2",
+    "verified": true,
+    "evidence": "eye check, crop 18"
+   },
+   "effective": {
+    "value": "2026-04-01",
+    "source": "p.40 Supplement No. 2",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {},
+   "monthly_rates": {
+    "DD-120": {
+     "value": {
+      "2026-04": "406.00",
+      "2026-05": "411.50",
+      "2026-06": "411.50",
+      "2026-07": "423.00",
+      "2026-08": "429.50",
+      "2026-09": "434.00",
+      "2026-10": "434.00",
+      "2026-11": "441.00",
+      "2026-12": "447.50"
+     },
+     "source": "p.40 Supplement No. 2",
+     "verified": false,
+     "evidence": "",
+     "carry_forward_last_month": true
+    }
+   },
+   "discount": {
+    "value": "4",
+    "source": "p.40 Supplement No. 2",
+    "verified": false,
+    "evidence": "",
+    "start": "2026-04-01",
+    "items": [
+     "DD-101",
+     "MW-301",
+     "LW-401",
+     "DD-120",
+     "MB-701"
+    ]
+   },
+   "schedule_changes": "monthly rate: DD-120; 4 per cent on DD-101, MW-301, LW-401, DD-120, MB-701"
+  },
+  {
+   "title": "AMENDMENT NO. 2 TO CONTRACT DDS-2025-118",
+   "reference": "DDS-2025-118/A2",
+   "issued": {
+    "value": "2026-05-21",
+    "source": "p.41 Amendment No. 2",
+    "verified": true,
+    "evidence": "eye check, crop 20"
+   },
+   "effective": {
+    "value": "2026-07-01",
+    "source": "p.41 Amendment No. 2",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {
+    "MW-301": {
+     "value": "1763.00",
+     "source": "p.41 Amendment No. 2",
+     "verified": false,
+     "evidence": "",
+     "previous": "1708.00",
+     "effective": "2026-07-01"
+    },
+    "MB-701": {
+     "value": "19237.00",
+     "source": "p.41 Amendment No. 2",
+     "verified": false,
+     "evidence": "",
+     "previous": "18497.50",
+     "effective": "2026-07-01"
+    }
+   },
+   "monthly_rates": {},
+   "discount": {
+    "value": "7",
+    "source": "p.41 Amendment No. 2",
+    "verified": false,
+    "evidence": "",
+    "start": "2026-07-01",
+    "items": [
+     "DD-101",
+     "MW-301",
+     "LW-401",
+     "DD-120",
+     "MB-701"
+    ]
+   },
+   "term_end": {
+    "value": "2026-12-31",
+    "source": "p.41 Amendment No. 2",
+    "verified": true,
+    "evidence": "eye check, crop 20"
+   },
+   "schedule_changes": "expiry to 2026-12-31; rates: MW-301, MB-701; 7 per cent on DD-101, MW-301, LW-401, DD-120, MB-701"
+  },
+  {
+   "title": "AMENDMENT NO. 3 TO CONTRACT DDS-2025-118",
+   "reference": "DDS-2025-118/A3",
+   "issued": {
+    "value": "2026-08-17",
+    "source": "p.42 Amendment No. 3",
+    "verified": true,
+    "evidence": "second OCR engine, crop 21"
+   },
+   "effective": {
+    "value": "2026-02-01",
+    "source": "p.42 Amendment No. 3",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {
+    "DD-120": {
+     "value": "416.00",
+     "source": "p.42 Amendment No. 3",
+     "verified": false,
+     "evidence": "",
+     "previous": "398.50",
+     "effective": "2026-02-01"
+    },
+    "DD-101": {
+     "value": "1954.00",
+     "source": "p.42 Amendment No. 3",
+     "verified": false,
+     "evidence": "",
+     "previous": "1916.50",
+     "effective": "2026-02-01"
+    }
+   },
+   "monthly_rates": {},
+   "discount": null,
+   "schedule_changes": "rates: DD-120, DD-101"
+  }
+ ],
+ "terms": {
+  "contract_ref": {
+   "value": "DDS-2025-118",
+   "source": "p.1 Agreement",
+   "verified": true,
+   "evidence": "data: 1903 of 1906 invoice headers",
+   "quote": "Contract reference: DDS-2025-118"
+  },
+  "issuer": {
+   "value": "MERIDIAN DOWNHOLE SERVICES LTD",
+   "source": "p.1 Agreement",
+   "verified": true,
+   "evidence": "data: 1906 of 1906 invoice headers",
+   "quote": "MERIDIAN DOWNHOLE SERVICES LTD (\"the Contractor\")"
+  },
+  "expiry": {
+   "value": "2026-12-31",
+   "source": "p.37 Schedule of Variations",
+   "verified": true,
+   "evidence": "second OCR engine, crop 17",
+   "quote": "As twice extended it runs from 1 January 2025 to31 December 2026."
+  },
+  "commencement": {
+   "value": "2025-01-01",
+   "source": "p.37 Schedule of Variations",
+   "verified": true,
+   "evidence": "second OCR engine, crop 17",
+   "quote": "The Term as let ran from 1 January 2025 to 31 December 2025."
+  },
+  "expiry_as_let": {
+   "value": "2025-12-31",
+   "source": "p.37 Schedule of Variations",
+   "verified": true,
+   "evidence": "second OCR engine, crop 17",
+   "quote": "The Term as let ran from 1 January 2025 to 31 December 2025."
+  },
+  "window_days": {
+   "value": 30,
+   "source": "p.8 Cl.33",
+   "verified": true,
+   "evidence": "second OCR engine, crop 13",
+   "quote": "shall be submitted within 30 days after it."
+  },
+  "rounding": {
+   "value": "half_even_each_step",
+   "source": "p.6 Cl.17",
+   "verified": true,
+   "evidence": "header check: VAT reproduced on 1906 of 1906 invoices",
+   "quote": "a result exactly half way between two cents is rounded to the even cent."
+  },
+  "discount_threshold": {
+   "value": "250000.00",
+   "source": "p.8 Cl.38",
+   "verified": true,
+   "evidence": "header check: DS-900 reproduced on 1903 of 1906 invoices",
+   "quote": "exceeds 250,000.00 USD, the Contractor allows a discount of 4 per cent of the excess"
+  },
+  "discount_pct": {
+   "value": "4",
+   "source": "p.8 Cl.38",
+   "verified": true,
+   "evidence": "header check: DS-900 reproduced on 1903 of 1906 invoices",
+   "quote": "the Contractor allows a discount of 4 per cent of the excess"
+  },
+  "discount_basis": {
+   "value": "each_invoice_alone",
+   "source": "p.11 P11",
+   "verified": false,
+   "evidence": "",
+   "quote": "The discount under Clause 38 is calculated on each invoice alone"
+  },
+  "vat_pct": {
+   "value": "15",
+   "source": "p.8 Cl.39",
+   "verified": true,
+   "evidence": "header check: VAT reproduced on 1906 of 1906 invoices",
+   "quote": "Value Added Tax is charged at 15 per cent of the net amount of the invoice"
+  },
+  "depth_band_boundary": {
+   "value": "shallower_band",
+   "source": "p.6 Cl.23",
+   "verified": false,
+   "evidence": "",
+   "quote": "A boundary depth belongs to the shallower band."
+  },
+  "section_factor_on_standby": {
+   "value": "not_applied",
+   "source": "p.35 Cl.17B",
+   "verified": false,
+   "evidence": "",
+   "quote": "The hole-section factor in Schedule 3 Part 1 is not applied on a day the rig is on Standby"
+  },
+  "class_factor_on_pd210": {
+   "value": "not_applied",
+   "source": "p.35 Cl.17B",
+   "verified": false,
+   "evidence": "",
+   "quote": "The well-class factor in Schedule 3 Part 2 is not applied to item PD-210"
+  },
+  "chargeable_hour_deduction": {
+   "value": 1,
+   "source": "p.35 Cl.21A",
+   "verified": true,
+   "evidence": "eye check, crop 16",
+   "quote": "the invoice charges one fewer."
+  },
+  "metres_tolerance_pct": {
+   "value": "1",
+   "source": "p.35 Cl.25A",
+   "verified": true,
+   "evidence": "eye check, crop 16",
+   "quote": "Metres charged not exceeding the metres the report supports by more than 1 per cent are payable as charged."
+  },
+  "lost_in_hole_depreciation_pct": {
+   "value": "1",
+   "source": "p.7 Cl.31",
+   "verified": true,
+   "evidence": "eye check, crop 12",
+   "quote": "less depreciation of 1 per cent for each complete 25 circulating hours"
+  },
+  "lost_in_hole_depreciation_hours": {
+   "value": 25,
+   "source": "p.7 Cl.31",
+   "verified": true,
+   "evidence": "eye check, crop 12",
+   "quote": "less depreciation of 1 per cent for each complete 25 circulating hours"
+  },
+  "lost_in_hole_depreciation_max_pct": {
+   "value": "50",
+   "source": "p.7 Cl.31",
+   "verified": true,
+   "evidence": "eye check, crop 12",
+   "quote": "to a depreciation of not more than 50 per cent."
+  },
+  "index_base": {
+   "value": "100.00",
+   "source": "p.18 Schedule 2C",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 16283 of 16301 lines",
+   "quote": "Rig Services Index, base 100.00"
+  },
+  "retro_settlement": {
+   "value": "first_invoice_on_or_after_issue",
+   "source": "p.35 Cl.36A",
+   "verified": false,
+   "evidence": "",
+   "quote": "is shown as a single adjustment on the first invoice submitted on or after the date of issue, and on no other."
+  },
+  "contract_year": {
+   "value": "from_commencement_anniversary",
+   "source": "p.35 Cl.3A",
+   "verified": false,
+   "evidence": "",
+   "quote": "The first Contract Year runs from the Commencement Date to the day before its first anniversary"
+  },
+  "standby_only_items": {
+   "value": [
+    "DD-121"
+   ],
+   "source": "p.21 Schedule 3 Part 4",
+   "verified": false,
+   "evidence": "",
+   "quote": "DD-121 is charged only on a Standby day, in place of item DD-120 (Clause 21)."
+  }
+ }
+}

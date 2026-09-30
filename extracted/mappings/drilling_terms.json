@@ -1,0 +1,213 @@
+{
+ "description": "Drilling service -> what the Daily Drilling Report must show for it: the rig word (Appendix G), the count, hours or metres field, or the event (run, well, loss), with the report part Schedule 5 requires. Read from the contract; checked against the invoices in Phase 4. No LLM call.",
+ "services": {
+  "DD-101": {
+   "basis": "crew",
+   "source": "p.36 Appendix G ('directional hands'); pp.27-28 Schedule 8; p.6 Cl.22",
+   "term": "directional hands"
+  },
+  "DD-102": {
+   "basis": "crew",
+   "source": "p.36 Appendix G ('night man'); pp.27-28 Schedule 8; p.6 Cl.22",
+   "term": "night man"
+  },
+  "DD-110": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('mud motor'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "mud motor"
+  },
+  "DD-111": {
+   "basis": "run_last_day",
+   "source": "p.7 Cl.26; pp.27-28 Schedule 8",
+   "term": "mud motor",
+   "report_part": "B",
+   "part_source": "p.24 Schedule 5"
+  },
+  "DD-120": {
+   "basis": "hours",
+   "source": "pp.27-28 Schedule 8; p.6 Cl.21; p.35 Cl.21A (D23)",
+   "field": "circulating_hours"
+  },
+  "DD-121": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('rotary steerable'); pp.27-28 Schedule 8; p.21 Sch.3 Pt4",
+   "term": "rotary steerable"
+  },
+  "DD-130": {
+   "basis": "count",
+   "source": "pp.27-28 Schedule 8; p.7 Cl.30",
+   "field": "gyro_surveys",
+   "report_part": "C",
+   "part_source": "p.24 Schedule 5"
+  },
+  "DD-140": {
+   "basis": "well_first_day",
+   "source": "p.7 Cl.27; p.22 Sch.3 Pt6"
+  },
+  "HC-601": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('circulating sub'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "circulating sub"
+  },
+  "HC-610": {
+   "basis": "count",
+   "source": "pp.27-28 Schedule 8; p.7 Cl.30",
+   "field": "wiper_trips"
+  },
+  "HC-620": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('drilling jars'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "drilling jars"
+  },
+  "HC-630": {
+   "basis": "count",
+   "source": "pp.27-28 Schedule 8; p.7 Cl.30",
+   "field": "clean_out_runs"
+  },
+  "HC-640": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('float sub'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "float sub"
+  },
+  "LH-711": {
+   "basis": "lost_in_hole",
+   "source": "p.36 Appendix G (Part E 'mud motor'); p.7 Cl.31; p.35 Cl.31A",
+   "term": "mud motor",
+   "report_part": "E",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LH-712": {
+   "basis": "lost_in_hole",
+   "source": "p.36 Appendix G (Part E 'rotary steerable'); p.7 Cl.31; p.35 Cl.31A",
+   "term": "rotary steerable",
+   "report_part": "E",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LH-713": {
+   "basis": "lost_in_hole",
+   "source": "p.36 Appendix G (Part E 'MWD collar'); p.7 Cl.31; p.35 Cl.31A",
+   "term": "MWD collar",
+   "report_part": "E",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LH-714": {
+   "basis": "lost_in_hole",
+   "source": "p.36 Appendix G (Part E 'gamma tool'); p.7 Cl.31; p.35 Cl.31A",
+   "term": "gamma tool",
+   "report_part": "E",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LW-401": {
+   "basis": "crew",
+   "source": "p.36 Appendix G ('logging engineers'); pp.27-28 Schedule 8; p.6 Cl.22",
+   "term": "logging engineers"
+  },
+  "LW-410": {
+   "basis": "metres_with_tool",
+   "source": "p.36 Appendix G ('gamma tool'); p.6 Cl.24; p.35 Cl.25A",
+   "term": "gamma tool",
+   "report_part": "B",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LW-411": {
+   "basis": "metres_with_tool",
+   "source": "p.36 Appendix G ('resistivity tool'); p.6 Cl.24; p.35 Cl.25A",
+   "term": "resistivity tool",
+   "report_part": "B",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LW-412": {
+   "basis": "metres_with_tool",
+   "source": "p.36 Appendix G ('density-neutron'); p.6 Cl.24; p.35 Cl.25A",
+   "term": "density-neutron",
+   "report_part": "B",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LW-413": {
+   "basis": "count",
+   "source": "pp.27-28 Schedule 8; p.7 Cl.30",
+   "field": "pressure_points",
+   "report_part": "B",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LW-420": {
+   "basis": "run_first_day",
+   "source": "p.7 Cl.26; pp.27-28 Schedule 8",
+   "report_part": "D",
+   "part_source": "p.24 Schedule 5"
+  },
+  "LW-430": {
+   "basis": "well_last_day",
+   "source": "p.7 Cl.27; p.22 Sch.3 Pt6"
+  },
+  "MB-701": {
+   "basis": "well_first_day",
+   "source": "p.7 Cl.27; p.22 Sch.3 Pt6"
+  },
+  "MB-702": {
+   "basis": "well_last_day",
+   "source": "p.7 Cl.27; p.22 Sch.3 Pt6"
+  },
+  "MW-301": {
+   "basis": "crew",
+   "source": "p.36 Appendix G ('MWD engineers'); pp.27-28 Schedule 8; p.6 Cl.22",
+   "term": "MWD engineers"
+  },
+  "MW-310": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('MWD collar'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "MWD collar"
+  },
+  "MW-320": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('survey package'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "survey package"
+  },
+  "MW-330": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('real-time link'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "real-time link"
+  },
+  "PD-201": {
+   "basis": "crew",
+   "source": "p.36 Appendix G ('performance engineer'); pp.27-28 Schedule 8; p.6 Cl.22",
+   "term": "performance engineer"
+  },
+  "PD-210": {
+   "basis": "metres_drilled",
+   "source": "p.6 Cl.23; p.35 Cl.25A"
+  },
+  "PD-220": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('bit and reamer'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "bit and reamer"
+  },
+  "PD-230": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('hydraulics package'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "hydraulics package"
+  },
+  "RM-510": {
+   "basis": "metres_with_tool",
+   "source": "p.36 Appendix G ('hole opener', the underreamer); p.6 Cl.25; p.35 Cl.25A",
+   "term": "hole opener",
+   "report_part": "B",
+   "part_source": "p.24 Schedule 5"
+  },
+  "RM-511": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('hole opener'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "hole opener"
+  },
+  "RM-520": {
+   "basis": "day_in_hole",
+   "source": "p.36 Appendix G ('stabiliser string'); pp.27-28 Schedule 8; p.7 Cl.28",
+   "term": "stabiliser string"
+  },
+  "RM-530": {
+   "basis": "hours",
+   "source": "pp.27-28 Schedule 8; p.35 Cl.21A (D23)",
+   "field": "back_reaming_hours"
+  }
+ }
+}

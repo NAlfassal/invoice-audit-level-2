@@ -1,0 +1,25 @@
+## SCHEDULE 5 — RECORDS REQUIRED AS A CONDITION OF PAYMENT
+
+The items listed below are not payable in any valuation until the record named against them has been delivered to the Engineer. Each record bears a reference from the series shown, and that reference is quoted against the line in the Application (Clause 47A). The record is written in the words of the person who did the work and does not repeat the description in Schedule 1.
+
+| Code     | Description                                                                | Record required             | Reference series   |
+|----------|----------------------------------------------------------------------------|-----------------------------|--------------------|
+| A.12.030 | Excavation in trench, ·depth 2 m to 4 m                                    | Daily Excavation Record     | DX                 |
+| A.14.010 | Imported granular fill, placed and compacted                               | Compaction Test Certificate | CT                 |
+| B.21.020 | Reinforced concrete to foundations, C32/40Concrete Pour Record             |                             | PR                 |
+| B.21.030 | Reinforced concrete to slabs, C32/40                                       | Concrete Pour Record        | PR                 |
+| C.31.020 | Ductile iron pipe, 400 mm, laid and jointed                                | Pressure Test Certificate   | PT                 |
+| D.41.010 | Sub-base, Type 1 granular, 250 mm compacted                                | Compaction Test Certificate | CT                 |
+| E.51.010 | Wet weather standby, plant and operator                                    | Meteorological Record       | MO                 |
+| A.12.040 | Excavation in trench, depth exceeding 4 m                                  | Daily Excavation Record     | DX                 |
+| A.16.010 | Dewatering by wellpoint, per week in operation                             | Dewatering Log              | DW                 |
+| B.21.040 | Reinforced concrete to walls, C32/40                                       | Concrete Pour Record        | PR                 |
+| C.32.030 | Precast manhole, 1800 mm diameter, depth Pressure Test Certificate to 5 m. |                             | PT                 |
+| C.35.010 | CCTV survey of completed drainage run                                      | CCTV Survey Report          | CV                 |
+| D.41.040 | Capping layer, 300 mm compacted                                            | Compaction Test Certificate | CT                 |
+| E.51.030 | Standing time, tracked excavator and operator                              | Plant Standing Record       | PS                 |
+| B.23.010 | High-yield reinforcement bar, cut, bent and Joint Survey Sheet fixed       |                             | JS                 |
+| E.52.010 | Joint survey and setting out, chainage band Joint Survey Sheet             |                             | JS                 |
+| B.23.020 | Mesh reinforcement, A393, laid and lapped Joint Survey Sheet               |                             | JS                 |
+
+A record covering a week records each day worked. A week is measurable only where the record shows work on not fewer than five days of that week (Clause 47A).

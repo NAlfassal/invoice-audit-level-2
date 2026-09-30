@@ -1,0 +1,277 @@
+invoice_id,line_ref,check_id,category,delta_minor_units,clause,evidence,confidence,status
+MDS-00038,,c03,invoice_window,0,p.8 Cl.33,"submitted 2025-03-17, 55 days after period end 2025-01-21 (limit 30)",0.9,error
+MDS-00042,MDS-00042-058,c08,rate_buildup,-68957,p.6 Cl.17-18,RM-511: billed 1379.15 (1379.15); contract 689.58 (689.58); billed rate matches the build-up with no standby percentage; contract 689.58 (Schedule 1),0.9,error
+MDS-00062,MDS-00062-021,c05,quantity_over_record,-52302,p.36 Appendix G ('gamma tool'); p.6 Cl.24; p.35 Cl.25A,LW-410 billed 171 metre; DDR-106-20250126 supports 125,0.85,error
+MDS-00072,,c11,discount_misapplied,-4230210,p.8 Cl.38,"services 1307552.40: DS-900 should be -42302.10, billed 0.00",0.95,error
+MDS-00078,MDS-00078-041,c08,rate_buildup,-38983,p.6 Cl.17-18,MW-320: billed 779.65 (779.65); contract 389.82 (389.82); billed rate matches the build-up with no standby percentage; contract 389.82 (Schedule 1),0.9,error
+MDS-00121,MDS-00121-043,c08,discount_misapplied,23052,p.37 Schedule of Variations,MW-301: billed 1531.29 (3062.58); contract 1646.55 (3293.10); billed with a 7% discount; in force: 0%,0.9,error
+MDS-00128,MDS-00128-026,c04,missing_record,-329310,p.8 Cl.37; p.24 Schedule 5,"DDR-142-20250218 is for NGP-HA-142 on 2025-02-18, the line for NGP-HA-142 on 2025-02-19",0.85,error
+MDS-00164,MDS-00164-050,c03,invoice_window,-209485,p.8 Cl.32,work date 2025-04-04 outside stated period 2025-03-02..2025-03-06,0.9,error
+MDS-00199,,c03,invoice_window,0,p.8 Cl.33,"submitted 2025-05-07, 51 days after period end 2025-03-17 (limit 30)",0.9,error
+MDS-00204,MDS-00204-007,c08,rate_buildup,-34322,p.6 Cl.17-18,MW-310: billed 2953.29 (2953.29); contract 2610.07 (2610.07); billed rate 2953.29 not reproduced by one changed step; contract 2610.07 (Schedule 1),0.9,error
+MDS-00214,MDS-00214-011,c08,rate_buildup,-1697,p.6 Cl.17-18,MW-310: billed 2171.14 (2171.14); contract 2154.17 (2154.17); billed rate matches the build-up with index of the next month; contract 2154.17 (Schedule 1),0.9,error
+MDS-00215,MDS-00215-020,c08,rate_buildup,-41904,p.6 Cl.17-18,LW-412: billed 17.61 (1708.17); contract 13.29 (1289.13); billed rate matches the build-up with class HPHT; contract 13.29 (Schedule 1),0.9,error
+MDS-00282,,c11,discount_misapplied,-847095,p.8 Cl.38,"services 461773.78: DS-900 should be -8470.95, billed 0.00",0.95,error
+MDS-00287,MDS-00287-082,c05,quantity_over_record,-130330,p.36 Appendix G ('hole opener'); pp.27-28 Schedule 8; p.7 Cl.28,RM-511 billed 1 day; DDR-054-20250419 supports 0,0.85,error
+MDS-00307,MDS-00307-006,c08,rate_buildup,-32693,p.7 Cl.31; p.35 Cl.31A; p.19 Schedule 2D,LH-712 billed 1225653.68; Schedule 2D value for 2025-04 less depreciation for 57 h is 1225326.75,0.9,error
+MDS-00310,MDS-00310-042,c05,quantity_over_record,-18513,p.36 Appendix G ('resistivity tool'); p.6 Cl.24; p.35 Cl.25A,LW-411 billed 124 metre; DDR-108-20250425 supports 113,0.85,error
+MDS-00320,MDS-00320-016,c09,limit_exceeded,-1849750,p.7 Cl.27; p.22 Schedule 3 Part 6,MB-701 is charged once per well; already charged on NGP-QA-054,0.85,error
+MDS-00323,MDS-00323-016,c08,rate_buildup,-16657,p.6 Cl.17-18,"MW-310: billed 1315.32 (1315.32); contract 1148.75 (1148.75); billed rate matches the build-up with section 17-1/2""; contract 1148.75 (Schedule 1)",0.9,error
+MDS-00332,MDS-00332-013,c11,arithmetic,-1000,"p.8 Cl.34, Cl.36","101 x 76.45 = 7721.45, billed 7731.45",0.95,error
+MDS-00340,MDS-00340-010,c04,unsigned_record,-295576,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00340,MDS-00340-011,c04,unsigned_record,-94860,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00340,MDS-00340-012,c04,unsigned_record,-70888,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00340,MDS-00340-013,c04,unsigned_record,-34468,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00340,MDS-00340-014,c04,unsigned_record,-27819,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00340,MDS-00340-015,c04,unsigned_record,-263448,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00340,MDS-00340-016,c04,unsigned_record,-153400,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00340,MDS-00340-017,c04,unsigned_record,-30975,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00340,MDS-00340-018,c04,unsigned_record,-20992,p.5 Cl.15,DDR-055-20250503 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00365,MDS-00365-052,c08,rate_buildup,-108811,p.6 Cl.17-18,MW-310: billed 2245.85 (2245.85); contract 1157.74 (1157.74); billed rate 2245.85 not reproduced by one changed step; contract 1157.74 (Schedule 1),0.9,error
+MDS-00388,MDS-00388-005,c08,rate_buildup,-270,p.6 Cl.17-18,HC-620: billed 559.08 (559.08); contract 556.38 (556.38); billed rate matches the build-up with index of the next month; contract 556.38 (Schedule 1),0.9,error
+MDS-00398,MDS-00398-017,c08,rate_buildup,-270,p.6 Cl.17-18,HC-620: billed 559.08 (559.08); contract 556.38 (556.38); billed rate matches the build-up with index of the next month; contract 556.38 (Schedule 1),0.9,error
+MDS-00406,MDS-00406-015,c11,arithmetic,3400,"p.8 Cl.34, Cl.36","1 x 1379.15 = 1379.15, billed 1345.15",0.95,error
+MDS-00463,MDS-00463-033,c08,rate_buildup,-151626,p.7 Cl.31; p.35 Cl.31A; p.19 Schedule 2D,LH-712 billed 1138106.99; Schedule 2D value for 2025-06 less depreciation for 231 h is 1136590.73,0.9,error
+MDS-00476,MDS-00476-051,c10,duplicate_charge,-329310,p.7 Cl.29,"same well, date, service and depth interval; first billed on MDS-00476-045",0.95,error
+MDS-00537,,c03,invoice_window,0,p.8 Cl.33,"submitted 2025-08-29, 46 days after period end 2025-07-14 (limit 30)",0.9,error
+MDS-00541,MDS-00541-018,c03,invoice_window,-329310,p.8 Cl.32,work date 2025-08-09 outside stated period 2025-07-12..2025-07-14,0.9,error
+MDS-00551,,c11,arithmetic,-238691,p.8 Cl.40,"net 200447.86 + VAT 30067.18 = 230515.04, total 232901.95",0.95,error
+MDS-00580,MDS-00580-046,c10,duplicate_charge,-189845,p.7 Cl.29,"same well, date, service and depth interval; first billed on MDS-00580-039",0.95,error
+MDS-00586,MDS-00586-039,c08,rate_buildup,-204700,p.6 Cl.17-18,PD-210: billed 98.70 (9080.40); contract 76.45 (7033.40); billed rate matches the build-up with depth Band 4 rate 98.70; contract 76.45 (Schedule 2),0.9,error
+MDS-00622,MDS-00622-014,c08,rate_buildup,-37969,p.6 Cl.17-18,LW-401: billed 1898.45 (1898.45); contract 1518.76 (1518.76); billed rate matches the build-up with no standby percentage; contract 1518.76 (Schedule 1),0.9,error
+MDS-00626,MDS-00626-067,c09,limit_exceeded,-71955,p.6 Cl.20; pp.20-21 Schedule 3 Part 3,HC-640 charged on a Standby day; Sch.3 Pt3: not chargeable,0.85,error
+MDS-00635,MDS-00635-037,c08,discount_misapplied,23052,p.37 Schedule of Variations,MW-301: billed 1531.29 (3062.58); contract 1646.55 (3293.10); billed with a 7% discount; in force: 0%,0.9,error
+MDS-00639,MDS-00639-027,c08,rate_buildup,-2695000,p.7 Cl.31; p.35 Cl.31A; p.19 Schedule 2D,LH-713 billed 385000.00; Schedule 2D value for 2025-08 less depreciation for 189 h is 358050.00,0.9,error
+MDS-00643,MDS-00643-015,c08,rate_buildup,-25559,p.6 Cl.17-18,MW-310: billed 3913.11 (3913.11); contract 3657.52 (3657.52); billed rate 3913.11 not reproduced by one changed step; contract 3657.52 (Schedule 1),0.9,error
+MDS-00645,,c03,invoice_window,0,p.8 Cl.33,"submitted 2025-08-21, 2 days before period end 2025-08-23",0.9,error
+MDS-00653,MDS-00653-019,c08,rate_buildup,7649,p.6 Cl.17-18,"MW-310: billed 1314.20 (1314.20); contract 1390.69 (1390.69); billed rate matches the build-up with section 8-1/2""; contract 1390.69 (Schedule 1)",0.9,error
+MDS-00672,,c01,wrong_contract_ref,0,p.1 Agreement,"contract_ref 'DSS-2025-118', contract is 'DDS-2025-118'",0.9,error
+MDS-00700,MDS-00700-022,c05,quantity_over_record,-43516,p.36 Appendix G ('resistivity tool'); p.6 Cl.24; p.35 Cl.25A,LW-411 billed 140 metre; DDR-094-20250910 supports 118,0.85,error
+MDS-00732,MDS-00732-034,c08,rate_buildup,-2919,p.6 Cl.17-18,MW-310: billed 2385.09 (2385.09); contract 2355.90 (2355.90); billed rate matches the build-up with index of the next month; contract 2355.90 (Schedule 1),0.9,error
+MDS-00767,MDS-00767-012,c05,quantity_over_record,-30975,p.36 Appendix G ('real-time link'); pp.27-28 Schedule 8; p.7 Cl.28,MW-330 billed 2 day; DDR-058-20251001 supports 1,0.85,error
+MDS-00767,MDS-00767-012,c09,limit_exceeded,-30975,p.6 Cl.22; pp.21-22 Schedule 3 Part 5,"MW-330 on NGP-QA-058 2025-10-01: limit 1 a day, 1 of 2 within it",0.85,error
+MDS-00791,MDS-00791-024,c08,rate_buildup,-105331,p.6 Cl.17-18,MW-310: billed 2245.85 (2245.85); contract 1192.54 (1192.54); billed rate 2245.85 not reproduced by one changed step; contract 1192.54 (Schedule 1),0.9,error
+MDS-00799,MDS-00799-009,c05,quantity_over_record,-30975,p.36 Appendix G ('real-time link'); pp.27-28 Schedule 8; p.7 Cl.28,MW-330 billed 2 day; DDR-165-20251013 supports 1,0.85,error
+MDS-00799,MDS-00799-009,c09,limit_exceeded,-30975,p.6 Cl.22; pp.21-22 Schedule 3 Part 5,"MW-330 on NGP-BD-165 2025-10-13: limit 1 a day, 1 of 2 within it",0.85,error
+MDS-00804,MDS-00804-009,c08,discount_misapplied,23052,p.37 Schedule of Variations,MW-301: billed 1531.29 (3062.58); contract 1646.55 (3293.10); billed with a 7% discount; in force: 0%,0.9,error
+MDS-00828,,c03,invoice_window,0,p.8 Cl.33,"submitted 2025-10-26, 1 days before period end 2025-10-27",0.9,error
+MDS-00840,MDS-00840-023,c07,superseded_rate,9035,p.37 Schedule of Variations; p.38 Supplement No. 1,DD-121: billed 2893.65 (2893.65); contract 2984.00 (2984.00); billed at the Schedule 1 rate 2893.65; in force: DDS-2025-118/S1 2984.00,0.9,error
+MDS-00842,MDS-00842-001,c04,unsigned_record,-295576,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00842,MDS-00842-002,c04,unsigned_record,-94860,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00842,MDS-00842-003,c04,unsigned_record,-70888,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00842,MDS-00842-004,c04,unsigned_record,-35990,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00842,MDS-00842-005,c04,unsigned_record,-28656,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00842,MDS-00842-006,c04,unsigned_record,-263448,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00842,MDS-00842-007,c04,unsigned_record,-119254,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00842,MDS-00842-008,c04,unsigned_record,-30975,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00842,MDS-00842-009,c04,unsigned_record,-20992,p.5 Cl.15,DDR-218-20251029 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00856,MDS-00856-039,c05,quantity_over_record,-26455,pp.27-28 Schedule 8; p.35 Cl.21A (D23),RM-530 billed 7 hour; DDR-059-20251106 supports 6,0.85,error
+MDS-00864,MDS-00864-075,c05,quantity_over_record,-199940,"p.36 Appendix G ('hole opener', the underreamer); p.6 Cl.25; p.35 Cl.25A",RM-510 billed 245 metre; DDR-218-20251111 supports 193,0.85,error
+MDS-00876,MDS-00876-062,c04,missing_record,-274655,p.8 Cl.37; p.24 Schedule 5,LW-420 needs Part D; DDR-201-20251115 has parts AB,0.85,error
+MDS-00895,MDS-00895-051,c03,invoice_window,-329310,p.8 Cl.32,work date 2025-12-24 outside stated period 2025-11-18..2025-11-23,0.9,error
+MDS-00901,MDS-00901-016,c04,unsigned_record,-369470,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-017,c04,unsigned_record,-94860,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-018,c04,unsigned_record,-1003219,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-019,c04,unsigned_record,-57797,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-020,c04,unsigned_record,-71955,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-021,c04,unsigned_record,-329310,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-022,c04,unsigned_record,-318704,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-023,c04,unsigned_record,-103304,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-024,c04,unsigned_record,-30975,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-025,c04,unsigned_record,-209485,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-026,c04,unsigned_record,-721060,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-027,c04,unsigned_record,-114835,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-028,c04,unsigned_record,-63915,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-029,c04,unsigned_record,-476780,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00901,MDS-00901-030,c04,unsigned_record,-137915,p.5 Cl.15,DDR-149-20251122 is not signed by the Company Representative and the lead directional driller,0.85,error
+MDS-00916,,c11,arithmetic,-6415,p.8 Cl.40,"net 84102.83 + VAT 12615.42 = 96718.25, total 96782.40",0.95,error
+MDS-00954,MDS-00954-021,c04,missing_record,-244615,p.8 Cl.37; p.24 Schedule 5,DD-130 needs Part C; DDR-009-20251211 has parts AB,0.85,error
+MDS-00975,MDS-00975-005,c08,rate_buildup,-58883,p.7 Cl.31; p.35 Cl.31A; p.19 Schedule 2D,LH-713 billed 315868.46; Schedule 2D value for 2025-12 less depreciation for 468 h is 315279.63,0.9,error
+MDS-00977,MDS-00977-053,c08,rate_buildup,-117744,p.6 Cl.17-18,PD-210: billed 89.83 (7905.04); contract 76.45 (6727.60); billed rate matches the build-up with well-class factor 1.175 applied; contract 76.45 (Schedule 2),0.9,error
+MDS-00978,MDS-00978-026,c08,rate_buildup,-1177763,p.7 Cl.31; p.35 Cl.31A; p.19 Schedule 2D,LH-711 billed 145000.00; Schedule 2D value for 2025-12 less depreciation for 200 h is 133222.37,0.9,error
+MDS-00979,MDS-00979-034,c08,rate_buildup,-17607,p.6 Cl.17-18,MW-310: billed 2953.29 (2953.29); contract 2777.22 (2777.22); billed rate 2953.29 not reproduced by one changed step; contract 2777.22 (Schedule 1),0.9,error
+MDS-00988,,c01,wrong_contract_ref,0,p.1 Agreement,"contract_ref 'DSS-2025-118', contract is 'DDS-2025-118'",0.9,error
+MDS-00991,MDS-00991-021,c05,quantity_over_record,-73055,"p.36 Appendix G ('hole opener', the underreamer); p.6 Cl.25; p.35 Cl.25A",RM-510 billed 210 metre; DDR-132-20251223 supports 191,0.85,error
+MDS-01043,MDS-01043-030,c05,quantity_over_record,-157913,p.36 Appendix G ('hole opener'); pp.27-28 Schedule 8; p.7 Cl.28,RM-511 billed 1 day; DDR-168-20260110 supports 0,0.85,error
+MDS-01044,MDS-01044-025,c11,arithmetic,600,"p.8 Cl.34, Cl.36","1 x 779.65 = 779.65, billed 773.65",0.95,error
+MDS-01047,MDS-01047-030,c05,quantity_over_record,-12024,p.36 Appendix G ('gamma tool'); p.6 Cl.24; p.35 Cl.25A,LW-410 billed 106 metre; DDR-185-20260113 supports 97,0.85,error
+MDS-01049,,c11,discount_misapplied,-98370,p.8 Cl.38,"services 274592.55: DS-900 should be -983.70, billed 0.00",0.95,error
+MDS-01050,MDS-01050-019,c08,rate_buildup,-162725,p.7 Cl.31; p.35 Cl.31A; p.19 Schedule 2D,LH-714 billed 509871.93; Schedule 2D value for 2026-01 less depreciation for 52 h is 508244.68,0.9,error
+MDS-01086,MDS-01086-025,c08,rate_buildup,-11679,p.6 Cl.17-18,MW-310: billed 2571.50 (2571.50); contract 2454.71 (2454.71); billed rate 2571.50 not reproduced by one changed step; contract 2454.71 (Schedule 1),0.9,error
+MDS-01089,MDS-01089-032,c08,rate_buildup,-387175,p.7 Cl.31; p.35 Cl.31A; p.19 Schedule 2D,LH-712 billed 1213147.01; Schedule 2D value for 2026-01 less depreciation for 76 h is 1209275.26,0.9,error
+MDS-01137,MDS-01137-028,c07,superseded_rate,12290,p.37 Schedule of Variations; p.39 Amendment No. 1,MW-301: billed 1646.55 (3293.10); contract 1708.00 (3416.00); billed at the Schedule 1 rate 1646.55; in force: DDS-2025-118/A1 1708.00,0.9,error
+MDS-01183,MDS-01183-041,c09,limit_exceeded,-71955,p.6 Cl.20; pp.20-21 Schedule 3 Part 3,HC-640 charged on a Standby day; Sch.3 Pt3: not chargeable,0.85,error
+MDS-01258,,c03,invoice_window,0,p.8 Cl.33,"submitted 2026-03-26, 2 days before period end 2026-03-28",0.9,error
+MDS-01265,MDS-01265-028,c05,quantity_over_record,-209485,p.36 Appendix G ('performance engineer'); pp.27-28 Schedule 8; p.6 Cl.22,PD-201 billed 2 person-day; DDR-134-20260330 supports 1,0.85,error
+MDS-01265,MDS-01265-028,c09,limit_exceeded,-209485,p.6 Cl.22; pp.21-22 Schedule 3 Part 5,"PD-201 on NGP-WS-134 2026-03-30: limit 1 a day, 1 of 2 within it",0.85,error
+MDS-01268,MDS-01268-014,c05,quantity_over_record,-122055,p.36 Appendix G ('hole opener'); pp.27-28 Schedule 8; p.7 Cl.28,RM-511 billed 1 day; DDR-221-20260330 supports 0,0.85,error
+MDS-01273,MDS-01273-044,c07,superseded_rate,-821,p.37 Schedule of Variations; p.39 Amendment No. 1,"LW-401: billed 1898.45 (1898.45); contract 1890.24 (1890.24); billed at the Schedule 1 rate 1898.45 with a 0% discount; in force: DDS-2025-118/A1 1969.00, 4%",0.9,error
+MDS-01302,MDS-01302-031,c08,rate_buildup,8084,p.6 Cl.17-18,"MW-310: billed 1389.02 (1389.02); contract 1469.86 (1469.86); billed rate matches the build-up with section 8-1/2""; contract 1469.86 (Schedule 1)",0.9,error
+MDS-01313,MDS-01313-024,c08,rate_buildup,-433875,p.6 Cl.17-18,PD-210: billed 98.70 (19246.50); contract 76.45 (14907.75); billed rate matches the build-up with depth Band 4 rate 98.70; contract 76.45 (Schedule 2),0.9,error
+MDS-01317,,c11,arithmetic,-68274,p.8 Cl.40,"net 119265.26 + VAT 17889.79 = 137155.05, total 137837.79",0.95,error
+MDS-01338,MDS-01338-026,c05,quantity_over_record,-26455,pp.27-28 Schedule 8; p.35 Cl.21A (D23),RM-530 billed 5 hour; DDR-029-20260425 supports 4,0.85,error
+MDS-01341,MDS-01341-016,c05,quantity_over_record,-572930,p.36 Appendix G ('MWD collar'); pp.27-28 Schedule 8; p.7 Cl.28,MW-310 billed 3 day; DDR-118-20260426 supports 1,0.85,error
+MDS-01341,MDS-01341-016,c09,limit_exceeded,-572930,p.6 Cl.22; pp.21-22 Schedule 3 Part 5,"MW-310 on NGP-HA-118 2026-04-26: limit 1 a day, 1 of 3 within it",0.85,error
+MDS-01342,MDS-01342-017,c08,discount_misapplied,-13664,p.40 Supplement No. 2,MW-301: billed 1708.00 (3416.00); contract 1639.68 (3279.36); billed with a 0% discount; in force: 4%,0.9,error
+MDS-01352,MDS-01352-007,c04,missing_record,-40392,p.8 Cl.37; p.24 Schedule 5,"DDR-063-20260427 is for NGP-HA-063 on 2026-04-27, the line for NGP-HA-063 on 2026-04-28",0.85,error
+MDS-01373,MDS-01373-016,c05,quantity_over_record,-189024,p.36 Appendix G ('logging engineers'); pp.27-28 Schedule 8; p.6 Cl.22,LW-401 billed 2 person-day; DDR-222-20260507 supports 1,0.85,error
+MDS-01373,MDS-01373-016,c09,limit_exceeded,-189024,p.6 Cl.22; pp.21-22 Schedule 3 Part 5,"LW-401 on NGP-HA-222 2026-05-07: limit 1 a day, 1 of 2 within it",0.85,error
+MDS-01387,MDS-01387-037,c08,rate_buildup,-313740,p.6 Cl.17-18,PD-210: billed 77.05 (12790.30); contract 58.15 (9652.90); billed rate matches the build-up with well-class factor 1.325 applied; contract 58.15 (Schedule 2),0.9,error
+MDS-01393,MDS-01393-036,c04,missing_record,-274655,p.8 Cl.37; p.24 Schedule 5,LW-420 needs Part D; DDR-029-20260515 has parts AB,0.85,error
+MDS-01415,MDS-01415-045,c08,rate_buildup,-55545,p.6 Cl.17-18,MW-310: billed 3407.24 (3407.24); contract 2851.79 (2851.79); billed rate 3407.24 not reproduced by one changed step; contract 2851.79 (Schedule 1),0.9,error
+MDS-01416,MDS-01416-007,c08,rate_buildup,-9500,p.6 Cl.17-18,MW-310: billed 3021.51 (3021.51); contract 2926.51 (2926.51); billed rate 3021.51 not reproduced by one changed step; contract 2926.51 (Schedule 1),0.9,error
+MDS-01424,MDS-01424-048,c09,limit_exceeded,-71955,p.6 Cl.20; pp.20-21 Schedule 3 Part 3,HC-640 charged on a Standby day; Sch.3 Pt3: not chargeable,0.85,error
+MDS-01427,MDS-01427-031,c07,superseded_rate,-821,p.37 Schedule of Variations; p.39 Amendment No. 1,"LW-401: billed 1898.45 (1898.45); contract 1890.24 (1890.24); billed at the Schedule 1 rate 1898.45 with a 0% discount; in force: DDS-2025-118/A1 1969.00, 4%",0.9,error
+MDS-01438,MDS-01438-039,c08,discount_misapplied,-73990,p.40 Supplement No. 2,MB-701: billed 18497.50 (18497.50); contract 17757.60 (17757.60); billed with a 0% discount; in force: 4%,0.9,error
+MDS-01438,MDS-01438-039,c09,limit_exceeded,-1849750,p.7 Cl.27; p.22 Schedule 3 Part 6,MB-701 is charged once per well; already charged on NGP-QA-171,0.85,error
+MDS-01445,MDS-01445-015,c08,rate_buildup,-24790,p.6 Cl.17-18,LW-410: billed 15.07 (1009.69); contract 11.37 (761.79); billed rate matches the build-up with class HPHT; contract 11.37 (Schedule 1),0.9,error
+MDS-01458,MDS-01458-040,c08,rate_buildup,-6638460,p.7 Cl.31; p.35 Cl.31A; p.19 Schedule 2D,LH-713 billed 385000.00; Schedule 2D value for 2026-06 less depreciation for 428 h is 318615.40,0.9,error
+MDS-01459,MDS-01459-028,c08,rate_buildup,-45591,p.6 Cl.17-18,MW-310: billed 2975.75 (2975.75); contract 2519.84 (2519.84); billed rate 2975.75 not reproduced by one changed step; contract 2519.84 (Schedule 1),0.9,error
+MDS-01483,MDS-01483-058,c08,rate_buildup,-2057,p.6 Cl.17-18,MW-310: billed 2905.79 (2905.79); contract 2885.22 (2885.22); billed rate matches the build-up with index of the next month; contract 2885.22 (Schedule 1),0.9,error
+MDS-01491,MDS-01491-003,c08,rate_buildup,-8506,p.6 Cl.17-18,"DD-110: billed 1339.77 (1339.77); contract 1254.71 (1254.71); billed rate matches the build-up with section 8-1/2""; contract 1254.71 (Schedule 1)",0.9,error
+MDS-01499,MDS-01499-038,c05,quantity_over_record,-37521,p.36 Appendix G ('gamma tool'); p.6 Cl.24; p.35 Cl.25A,LW-410 billed 121 metre; DDR-223-20260623 supports 88,0.85,error
+MDS-01534,MDS-01534-016,c08,rate_buildup,706,p.6 Cl.17-18,MW-310: billed 3407.24 (3407.24); contract 3414.30 (3414.30); billed rate 3407.24 not reproduced by one changed step; contract 3414.30 (Schedule 1),0.9,error
+MDS-01556,MDS-01556-057,c08,rate_buildup,-338200,p.6 Cl.17-18,PD-210: billed 98.70 (15002.40); contract 76.45 (11620.40); billed rate matches the build-up with depth Band 4 rate 98.70; contract 76.45 (Schedule 2),0.9,error
+MDS-01601,MDS-01601-023,c08,rate_buildup,-24102,p.6 Cl.17-18,"DD-110: billed 1864.34 (1864.34); contract 1623.32 (1623.32); billed rate matches the build-up with section 26""; contract 1623.32 (Schedule 1)",0.9,error
+MDS-01604,MDS-01604-055,c05,quantity_over_record,-227290,pp.27-28 Schedule 8; p.6 Cl.21; p.35 Cl.21A (D23),DD-120 billed 20 hour; DDR-084-20260801 supports 15,0.85,error
+MDS-01619,MDS-01619-045,c02,outside_term,-77965,p.37 Schedule of Variations,work date 2027-01-13 outside term 2025-01-01..2026-12-31,0.9,error
+MDS-01620,MDS-01620-054,c09,limit_exceeded,-71955,p.6 Cl.20; pp.20-21 Schedule 3 Part 3,HC-640 charged on a Standby day; Sch.3 Pt3: not chargeable,0.85,error
+MDS-01625,,c07,retro_adjustment,0,p.35 Cl.36A; p.42 Amendment No. 3,DDS-2025-118/A3 issued 2026-08-17: settlement of 309965.52 on 3309 lines due on the first invoice submitted on or after the issue date; MDS-01625 (2026-08-17) carries 0.00,0.9,error
+MDS-01646,MDS-01646-054,c05,quantity_over_record,-183117,p.36 Appendix G ('logging engineers'); pp.27-28 Schedule 8; p.6 Cl.22,LW-401 billed 2 person-day; DDR-084-20260815 supports 1,0.85,error
+MDS-01646,MDS-01646-054,c09,limit_exceeded,-183117,p.6 Cl.22; pp.21-22 Schedule 3 Part 5,"LW-401 on NGP-BD-084 2026-08-15: limit 1 a day, 1 of 2 within it",0.85,error
+MDS-01651,MDS-01651-025,c05,quantity_over_record,-182800,pp.27-28 Schedule 8; p.6 Cl.21; p.35 Cl.21A (D23),DD-120 billed 14 hour; DDR-120-20260815 supports 9,0.85,error
+MDS-01654,MDS-01654-078,c10,duplicate_charge,-183117,p.7 Cl.29,"same well, date, service and depth interval; first billed on MDS-01654-069",0.95,error
+MDS-01670,MDS-01670-038,c05,quantity_over_record,-116064,pp.27-28 Schedule 8; p.6 Cl.21; p.35 Cl.21A (D23),DD-120 billed 24 hour; DDR-190-20260823 supports 21,0.85,error
+MDS-01675,MDS-01675-046,c08,discount_misapplied,-27356,p.41 Amendment No. 2,DD-101: billed 1954.00 (3908.00); contract 1817.22 (3634.44); billed with a 0% discount; in force: 7%,0.9,error
+MDS-01725,MDS-01725-062,c07,superseded_rate,9035,p.37 Schedule of Variations; p.38 Supplement No. 1,DD-121: billed 2893.65 (2893.65); contract 2984.00 (2984.00); billed at the Schedule 1 rate 2893.65; in force: DDS-2025-118/S1 2984.00,0.9,error
+MDS-01725,MDS-01725-062,c09,limit_exceeded,-289365,p.21 Schedule 3 Part 4,DD-121 charged on a day recorded as Operating; charged only on a Standby day,0.85,error
+MDS-01739,MDS-01739-041,c07,superseded_rate,-14274,p.37 Schedule of Variations; p.42 Amendment No. 3,"DD-120: billed 376.58 (4895.54); contract 365.60 (4752.80); billed at the DDS-2025-118/S1 rate 398.50 with a 0% discount; in force: DDS-2025-118/A3 416.00, 7%",0.9,error
+MDS-01751,MDS-01751-010,c05,quantity_over_record,-163959,p.36 Appendix G ('MWD engineers'); pp.27-28 Schedule 8; p.6 Cl.22,MW-301 billed 3 person-day; DDR-225-20260916 supports 2,0.85,error
+MDS-01751,MDS-01751-010,c09,limit_exceeded,-163959,p.6 Cl.22; pp.21-22 Schedule 3 Part 5,"MW-301 on NGP-WS-225 2026-09-16: limit 2 a day, 2 of 3 within it",0.85,error
+MDS-01764,MDS-01764-027,c07,superseded_rate,9035,p.37 Schedule of Variations; p.38 Supplement No. 1,DD-121: billed 2893.65 (2893.65); contract 2984.00 (2984.00); billed at the Schedule 1 rate 2893.65; in force: DDS-2025-118/S1 2984.00,0.9,error
+MDS-01764,MDS-01764-027,c09,limit_exceeded,-289365,p.21 Schedule 3 Part 4,DD-121 charged on a day recorded as Operating; charged only on a Standby day,0.85,error
+MDS-01782,MDS-01782-055,c07,superseded_rate,9035,p.37 Schedule of Variations; p.38 Supplement No. 1,DD-121: billed 2893.65 (2893.65); contract 2984.00 (2984.00); billed at the Schedule 1 rate 2893.65; in force: DDS-2025-118/S1 2984.00,0.9,error
+MDS-01782,MDS-01782-055,c09,limit_exceeded,-289365,p.21 Schedule 3 Part 4,DD-121 charged on a day recorded as Operating; charged only on a Standby day,0.85,error
+MDS-01798,MDS-01798-045,c02,outside_term,-327918,p.37 Schedule of Variations,work date 2027-01-23 outside term 2025-01-01..2026-12-31,0.9,error
+MDS-01799,,c01,wrong_contract_ref,0,p.1 Agreement,"contract_ref 'DDS-2025-181', contract is 'DDS-2025-118'",0.9,error
+MDS-01818,MDS-01818-027,c08,rate_buildup,-307050,p.6 Cl.17-18,PD-210: billed 98.70 (13620.60); contract 76.45 (10550.10); billed rate matches the build-up with depth Band 4 rate 98.70; contract 76.45 (Schedule 2),0.9,error
+MDS-01823,MDS-01823-019,c08,discount_misapplied,-27356,p.41 Amendment No. 2,DD-101: billed 1954.00 (3908.00); contract 1817.22 (3634.44); billed with a 0% discount; in force: 7%,0.9,error
+MDS-01825,MDS-01825-061,c07,superseded_rate,9035,p.37 Schedule of Variations; p.38 Supplement No. 1,DD-121: billed 2893.65 (2893.65); contract 2984.00 (2984.00); billed at the Schedule 1 rate 2893.65; in force: DDS-2025-118/S1 2984.00,0.9,error
+MDS-01825,MDS-01825-061,c09,limit_exceeded,-289365,p.21 Schedule 3 Part 4,DD-121 charged on a day recorded as Operating; charged only on a Standby day,0.85,error
+MDS-01860,MDS-01860-039,c02,outside_term,-243431,p.37 Schedule of Variations,work date 2027-01-12 outside term 2025-01-01..2026-12-31,0.9,error
+MDS-01877,MDS-01877-046,c05,quantity_over_record,-36560,pp.27-28 Schedule 8; p.6 Cl.21; p.35 Cl.21A (D23),DD-120 billed 20 hour; DDR-086-20261104 supports 19,0.85,error
+MDS-01878,MDS-01878-014,c08,rate_buildup,-278125,p.6 Cl.17-18,PD-210: billed 98.70 (12337.50); contract 76.45 (9556.25); billed rate matches the build-up with depth Band 4 rate 98.70; contract 76.45 (Schedule 2),0.9,error
+MDS-01887,MDS-01887-049,c07,superseded_rate,-60709,p.37 Schedule of Variations; p.41 Amendment No. 2,"MB-701: billed 18497.50 (18497.50); contract 17890.41 (17890.41); billed at the Schedule 1 rate 18497.50 with a 0% discount; in force: DDS-2025-118/A2 19237.00, 7%",0.9,error
+MDS-01887,MDS-01887-049,c09,limit_exceeded,-1849750,p.7 Cl.27; p.22 Schedule 3 Part 6,MB-701 is charged once per well; already charged on NGP-WS-192,0.85,error
+MDS-01900,MDS-01900-016,c05,quantity_over_record,-73120,pp.27-28 Schedule 8; p.6 Cl.21; p.35 Cl.21A (D23),DD-120 billed 21 hour; DDR-033-20261115 supports 19,0.85,error
+PA-00006,,c07,retro_adjustment,0,p.32 Cl.31A; p.43 Amendment No. 3,"CW-2025-0417-CIV/A3 issued 2026-05-12: settlement of 60508.18 on 89 lines due on the first invoice submitted on or after the issue date; PA-00006 (2026-05-12) carries 0.00; 3 invoices tie on 2026-05-12: PA-00006, PA-00023, PA-00380",0.33,error
+PA-00019,PA-00019-02,c10,duplicate_charge,-156880,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00388-01,0.85,error
+PA-00023,,c07,retro_adjustment,0,p.32 Cl.31A; p.43 Amendment No. 3,"CW-2025-0417-CIV/A3 issued 2026-05-12: settlement of 60508.18 on 89 lines due on the first invoice submitted on or after the issue date; PA-00023 (2026-05-12) carries 0.00; 3 invoices tie on 2026-05-12: PA-00006, PA-00023, PA-00380",0.33,error
+PA-00043,,c11,arithmetic,-3218,p.8 Cl.43,"lines sum to 231425.26, application_total 231457.44",0.95,error
+PA-00052,PA-00052-02,c06,wrong_unit,-423904,p.6 Cl.26; p.18 Schedule 1,D.42.010 billed in 'no.'; Schedule 1 unit is 'lm',0.9,error
+PA-00059,PA-00059-01,c10,duplicate_charge,-148000,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00431-07,0.85,error
+PA-00067,PA-00067-09,c10,duplicate_charge,-152400,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00877-07,0.85,error
+PA-00090,PA-00090-01,c08,rate_buildup,-16065,p.6 Cl.27-28,C.31.010: billed 94.99 (29921.85); contract 94.48 (29761.20); billed rate 94.99 not reproduced by one changed step; contract 94.48 (Schedule 1),0.9,error
+PA-00101,PA-00101-07,c08,rate_buildup,-35616,p.6 Cl.27-28,B.23.020: billed 153.46 (103125.12); contract 152.93 (102768.96); billed rate 153.46 not reproduced by one changed step; contract 152.93 (Schedule 1),0.9,error
+PA-00111,PA-00111-12,c04,missing_record,-191200,p.27 Schedule 5; p.8 Cl.46,E.52.010 requires a JS record; record_ref is blank,0.85,error
+PA-00111,PA-00111-13,c04,missing_record,-527814,p.27 Schedule 5; p.8 Cl.46,A.12.030 requires a DX record; record_ref is blank,0.85,error
+PA-00115,PA-00115-05,c08,rate_buildup,-300,p.6 Cl.27-28,A.12.040: billed 121.80 (36540.00); contract 121.79 (36537.00); billed rate 121.80 not reproduced by one changed step; contract 121.79 (Schedule 1),0.9,error
+PA-00116,PA-00116-07,c10,duplicate_charge,-161544,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00116-02,0.85,error
+PA-00120,PA-00120-04,c08,rate_buildup,-65816,p.6 Cl.27-28,A.12.060: billed 8.83 (3823.39); contract 7.31 (3165.23); billed rate matches the build-up with zone Z4; contract 7.31 (Schedule 1),0.9,error
+PA-00125,,c03,invoice_window,0,p.8 Cl.41,"submitted 2025-04-15, 14 days before period end 2025-04-29",0.9,error
+PA-00138,PA-00138-09,c08,rate_buildup,-893106,p.6 Cl.27-28,D.41.030: billed 155.19 (34452.18); contract 114.96 (25521.12); billed rate matches the build-up with rest-day uplift 35%; contract 114.96 (Schedule 1),0.9,error
+PA-00154,,c01,invoice_window,0,p.8 Cl.40,"stated period 2025-10-24..2025-11-01, work executed 2025-10-24..2025-11-10",0.5,error
+PA-00154,PA-00154-03,c03,invoice_window,-130416,p.8 Cl.41,work date 2025-11-10 outside stated period 2025-10-24..2025-11-01,0.9,error
+PA-00170,PA-00170-04,c04,missing_record,-6222216,p.27 Schedule 5; p.8 Cl.46,B.23.020 requires a JS record; line cites PT-00189,0.85,error
+PA-00219,PA-00219-12,c10,duplicate_charge,-152400,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00101-03,0.85,error
+PA-00236,PA-00236-10,c08,rate_buildup,0,p.6 Cl.27-28,A.12.010: billed 21.50 (7815.84); contract 20.64 (7815.84); billed rate matches the build-up with band rebate not applied; contract 20.64 (Schedule 1),0.9,error
+PA-00243,PA-00243-03,c05,quantity_over_record,-24600,"p.8 Cl.46; p.32 Cl.6A, Cl.33A, Cl.47A",E.51.010 billed 10 hour; MO-00126 supports 9 ('rained off -- crew and plant stood for 10 hours'),0.85,error
+PA-00243,PA-00243-10,c09,limit_exceeded,-136800,p.6 Cl.31; pp.25-26 Schedule 4 Part 4,"E.51.020 on S-05 Compound Extension 2026-06-29: limit 1 day a day, 1 of 3 within it",0.85,error
+PA-00248,PA-00248-05,c08,rate_buildup,20374,p.6 Cl.27-28,A.14.010: billed 53.57 (8946.19); contract 54.79 (9149.93); billed rate 53.57 not reproduced by one changed step; contract 54.79 (CW-2025-0417-CIV/A3),0.9,error
+PA-00262,PA-00262-07,c10,duplicate_charge,-161544,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00352-03,0.85,error
+PA-00263,PA-00263-01,c10,duplicate_charge,-195072,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00547-04,0.85,error
+PA-00268,PA-00268-03,c08,discount_misapplied,-223416,p.42 Amendment No.2,D.41.020: billed 261.06 (27933.42); contract 240.18 (25699.26); billed with a 0% discount; in force: 8%,0.9,error
+PA-00291,PA-00291-05,c08,rate_buildup,-710370,p.6 Cl.27-28,C.31.030: billed 96.45 (26041.50); contract 70.14 (18937.80); billed rate matches the build-up with ground G4; contract 70.14 (Schedule 1),0.9,error
+PA-00297,PA-00297-07,c07,superseded_rate,15261624,p.38 Schedule of Variations; p.39 Supplement No. 1,D.41.020: billed 72.71 (61730.79); contract 252.47 (214347.03); billed at the Schedule 1 rate 63.50; in force: CW-2025-0417-CIV/S1 2025-09 220.50,0.9,error
+PA-00297,PA-00297-02,c08,rate_buildup,-113238,p.6 Cl.27-28,B.26.010: billed 22.02 (10701.72); contract 19.69 (9569.34); billed rate matches the build-up with zone Z4; contract 19.69 (Schedule 1),0.9,error
+PA-00303,PA-00303-03,c08,rate_buildup,0,p.6 Cl.27-28,B.23.010: billed 4717.40 (18162.00); contract 4575.88 (18162.00); billed rate matches the build-up with band rebate not applied; contract 4575.88 (Schedule 1),0.9,error
+PA-00309,PA-00309-05,c10,duplicate_charge,-148000,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00431-07,0.85,error
+PA-00312,PA-00312-04,c05,quantity_over_record,-47800,"p.8 Cl.46; p.32 Cl.6A, Cl.33A, Cl.47A",E.52.010 billed 4 no.; JS-00041 supports 3 ('set out and agreed 3 chainage band with the Engineer'),0.85,error
+PA-00312,PA-00312-05,c08,rate_buildup,-153615,p.6 Cl.27-28,D.41.040: billed 41.73 (30671.55); contract 39.64 (29135.40); billed rate matches the build-up with band rebate not applied; contract 39.64 (Schedule 1),0.9,error
+PA-00320,PA-00320-02,c08,rate_buildup,-55856,p.6 Cl.27-28,B.25.010: billed 940.58 (7524.64); contract 870.76 (6966.08); billed rate matches the build-up with zone Z3; contract 870.76 (Schedule 1),0.9,error
+PA-00320,PA-00320-04,c08,rate_buildup,-54614,p.6 Cl.27-28,A.12.010: billed 37.15 (3492.10); contract 31.34 (2945.96); billed rate matches the build-up with ground G5; contract 31.34 (Schedule 1),0.9,error
+PA-00348,PA-00348-11,c10,duplicate_charge,-195072,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00006-11,0.85,error
+PA-00350,PA-00350-02,c08,rate_buildup,-242245,p.6 Cl.27-28,"C.32.010: billed 2357.51 (11787.55); contract 1873.02 (9365.10); billed rate 2357.51 not reproduced by one changed step; contract 1873.02 (Schedule 1, discount 5%)",0.9,error
+PA-00374,PA-00374-02,c08,rate_buildup,-76396,p.6 Cl.27-28,A.14.010: billed 56.80 (15279.20); contract 53.96 (14515.24); billed rate matches the build-up with band rebate not applied; contract 53.96 (CW-2025-0417-CIV/A3),0.9,error
+PA-00375,PA-00375-07,c02,outside_term,-94234,p.38 Schedule of Variations,work date 2026-10-26 outside term 2025-01-05..2026-09-30,0.9,error
+PA-00380,,c07,retro_adjustment,0,p.32 Cl.31A; p.43 Amendment No. 3,"CW-2025-0417-CIV/A3 issued 2026-05-12: settlement of 60508.18 on 89 lines due on the first invoice submitted on or after the issue date; PA-00380 (2026-05-12) carries 0.00; 3 invoices tie on 2026-05-12: PA-00006, PA-00023, PA-00380",0.33,error
+PA-00395,PA-00395-05,c10,duplicate_charge,-195072,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00395-02,0.85,error
+PA-00406,PA-00406-03,c06,wrong_unit,-917928,p.6 Cl.26; p.17 Schedule 1,A.14.030 billed in 'lm'; Schedule 1 unit is 'm2',0.9,error
+PA-00406,PA-00406-02,c08,discount_misapplied,139752,p.38 Schedule of Variations,C.32.030: billed 5357.17 (16071.51); contract 5823.01 (17469.03); billed with a 8% discount; in force: 0%,0.9,error
+PA-00411,PA-00411-11,c10,duplicate_charge,-195072,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00026-02,0.85,error
+PA-00468,PA-00468-01,c08,rate_buildup,-335649,p.6 Cl.27-28,C.32.030: billed 6509.57 (19528.71); contract 5390.74 (16172.22); billed rate matches the build-up with zone Z4; contract 5390.74 (Schedule 1),0.9,error
+PA-00468,PA-00468-04,c10,duplicate_charge,-156880,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00175-01,0.85,error
+PA-00479,PA-00479-04,c10,duplicate_charge,-174498,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00741-02,0.85,error
+PA-00489,PA-00489-02,c08,rate_buildup,-51852,p.6 Cl.27-28,"B.23.010: billed 5444.42 (5444.42); contract 4925.90 (4925.90); billed rate 5444.42 not reproduced by one changed step; contract 4925.90 (CW-2025-0417-CIV/A1, discount 8%)",0.9,error
+PA-00496,PA-00496-02,c08,rate_buildup,-58145,p.6 Cl.27-28,A.13.010: billed 24.19 (9700.19); contract 22.74 (9118.74); billed rate matches the build-up with band rebate not applied; contract 22.74 (Schedule 1),0.9,error
+PA-00503,PA-00503-03,c08,rate_buildup,-1050107,p.6 Cl.27-28,C.31.010: billed 172.66 (38503.18); contract 125.57 (28002.11); billed rate matches the build-up with ground G4; contract 125.57 (Schedule 1),0.9,error
+PA-00506,PA-00506-06,c08,rate_buildup,0,p.6 Cl.27-28,D.41.040: billed 37.33 (30446.16); contract 35.46 (30446.16); billed rate matches the build-up with band rebate not applied; contract 35.46 (Schedule 1),0.9,error
+PA-00509,PA-00509-02,c08,rate_buildup,-583451,p.6 Cl.27-28,A.12.050: billed 109.33 (37281.53); contract 92.22 (31447.02); billed rate matches the build-up with ground G5; contract 92.22 (Schedule 1),0.9,error
+PA-00529,PA-00529-10,c10,duplicate_charge,-195072,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00368-03,0.85,error
+PA-00560,,c01,wrong_contract_ref,0,p.1 Agreement,"contract_ref 'CW-2024-0417-CIV', contract is 'CW-2025-0417-CIV'",0.9,error
+PA-00576,PA-00576-09,c08,rate_buildup,0,p.6 Cl.27-28,A.14.010: billed 53.20 (6480.16); contract 50.54 (6480.16); billed rate matches the build-up with band rebate not applied; contract 50.54 (Schedule 1),0.9,error
+PA-00578,PA-00578-03,c08,rate_buildup,0,p.6 Cl.27-28,D.41.010: billed 53.50 (37952.30); contract 50.83 (37952.30); billed rate matches the build-up with band rebate not applied; contract 50.83 (Schedule 1),0.9,error
+PA-00580,PA-00580-10,c10,duplicate_charge,-161544,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00508-04,0.85,error
+PA-00599,PA-00599-02,c08,rate_buildup,0,p.6 Cl.27-28,A.12.020: billed 64.95 (9844.05); contract 63.00 (9844.05); billed rate matches the build-up with band rebate not applied; contract 63.00 (Schedule 1),0.9,error
+PA-00609,PA-00609-01,c04,missing_record,-1320624,p.27 Schedule 5; p.8 Cl.46,"D.41.010 cites CT-00126, which is not in civilwork/records",0.85,error
+PA-00610,PA-00610-02,c11,arithmetic,3100,p.8 Cl.42; p.6 Cl.28,"116 x 9.40 = 1090.40, billed 1059.40",0.95,error
+PA-00613,,c03,invoice_window,0,p.8 Cl.41,"submitted 2025-08-09, 26 days after period end 2025-07-14 (limit 21)",0.9,error
+PA-00613,PA-00613-01,c04,unsigned_record,-2793000,p.8 Cl.47,DX-00089 is not signed by the Engineer's representative,0.85,error
+PA-00619,PA-00619-03,c08,rate_buildup,0,p.6 Cl.27-28,D.41.040: billed 32.60 (22001.84); contract 30.97 (22001.84); billed rate matches the build-up with band rebate not applied; contract 30.97 (Schedule 1),0.9,error
+PA-00631,PA-00631-10,c04,missing_record,-3154800,p.27 Schedule 5; p.8 Cl.46,E.52.010 requires a JS record; record_ref is blank,0.85,error
+PA-00636,PA-00636-02,c08,rate_buildup,-272440,p.6 Cl.27-28,A.12.030: billed 88.84 (8706.32); contract 61.04 (5981.92); billed rate matches the build-up with ground G5; contract 61.04 (Schedule 1),0.9,error
+PA-00636,PA-00636-06,c08,rate_buildup,-111020,p.6 Cl.27-28,B.24.010: billed 86.27 (10524.94); contract 77.17 (9414.74); billed rate matches the build-up with zone Z4; contract 77.17 (Schedule 1),0.9,error
+PA-00659,PA-00659-03,c11,arithmetic,500,p.8 Cl.42; p.6 Cl.28,"3 x 2557.50 = 7672.50, billed 7667.50",0.95,error
+PA-00668,PA-00668-02,c08,rate_buildup,-92904,p.6 Cl.27-28,D.43.010: billed 23.68 (4641.28); contract 18.94 (3712.24); billed rate matches the build-up with night uplift 25%; contract 18.94 (Schedule 1),0.9,error
+PA-00670,PA-00670-02,c08,rate_buildup,0,p.6 Cl.27-28,A.14.010: billed 65.04 (2764.50); contract 61.78 (2764.50); billed rate matches the build-up with band rebate not applied; contract 61.78 (CW-2025-0417-CIV/A3),0.9,error
+PA-00672,PA-00672-04,c04,missing_record,-93600,p.27 Schedule 5; p.8 Cl.46,"E.51.030 cites PS-00039, which is not in civilwork/records",0.85,error
+PA-00672,PA-00672-02,c11,arithmetic,800,p.8 Cl.42; p.6 Cl.28,"151 x 294.25 = 44431.75, billed 44423.75",0.95,error
+PA-00678,,c01,invoice_window,0,p.8 Cl.40,"stated period 2026-01-31..2026-10-22, work executed 2026-02-01..2026-10-22",0.5,error
+PA-00678,PA-00678-10,c02,outside_term,-1481887,p.38 Schedule of Variations,work date 2026-10-22 outside term 2025-01-05..2026-09-30,0.9,error
+PA-00678,PA-00678-06,c04,missing_record,-98400,p.27 Schedule 5; p.8 Cl.46,"E.51.010 cites MO-00089, which is not in civilwork/records",0.85,error
+PA-00678,,c07,retro_adjustment,0,p.32 Cl.45A,first application after completion (2026-09-30): release of 4034571.73 due (50% of 8069143.47 held on 898 earlier applications); PA-00678 releases 0.00,0.9,error
+PA-00699,,c03,invoice_window,0,p.8 Cl.41,"submitted 2025-12-05, 49 days after period end 2025-10-17 (limit 21)",0.9,error
+PA-00700,,c01,invoice_window,0,p.8 Cl.40,"stated period 2025-02-18..2025-02-24, work executed 2025-02-18..2025-03-14",0.5,error
+PA-00700,PA-00700-01,c03,invoice_window,-3360272,p.8 Cl.41,work date 2025-03-14 outside stated period 2025-02-18..2025-02-24,0.9,error
+PA-00707,PA-00707-04,c08,rate_buildup,-231308,p.6 Cl.27-28,C.31.010: billed 101.26 (31188.08); contract 93.75 (28875.00); billed rate matches the build-up with zone Z3; contract 93.75 (Schedule 1),0.9,error
+PA-00708,,c03,invoice_window,0,p.8 Cl.41,"submitted 2026-02-14, 44 days after period end 2026-01-01 (limit 21)",0.9,error
+PA-00711,,c01,wrong_contract_ref,0,p.1 Agreement,"contract_ref 'CW-2024-0417-CIV', contract is 'CW-2025-0417-CIV'",0.9,error
+PA-00732,PA-00732-05,c08,rate_buildup,-59976,p.6 Cl.27-28,A.12.010: billed 28.91 (3931.76); contract 24.50 (3332.00); billed rate 28.91 not reproduced by one changed step; contract 24.50 (Schedule 1),0.9,error
+PA-00734,PA-00734-06,c08,rate_buildup,0,p.6 Cl.27-28,B.22.010: billed 78.97 (49591.32); contract 75.81 (49591.32); billed rate matches the build-up with band rebate not applied; contract 75.81 (Schedule 1),0.9,error
+PA-00738,PA-00738-03,c07,superseded_rate,-474240,p.38 Schedule of Variations; p.41 Supplement No. 2,"D.41.020: billed 226.40 (64524.00); contract 209.76 (59781.60); billed at the CW-2025-0417-CIV/S1 2025-07 rate 226.40 with a 0% discount; in force: CW-2025-0417-CIV/S2 228.00, 8%",0.9,error
+PA-00742,PA-00742-03,c08,rate_buildup,0,p.6 Cl.27-28,D.41.010: billed 44.31 (29250.20); contract 42.09 (29250.20); billed rate matches the build-up with band rebate not applied; contract 42.09 (Schedule 1),0.9,error
+PA-00761,PA-00761-02,c08,rate_buildup,47838,p.6 Cl.27-28,A.12.020: billed 38.65 (5179.10); contract 42.22 (5657.48); billed rate 38.65 not reproduced by one changed step; contract 42.22 (Schedule 1),0.9,error
+PA-00761,PA-00761-06,c08,rate_buildup,-914030,p.6 Cl.27-28,C.31.020: billed 311.91 (49281.78); contract 254.06 (40141.48); billed rate matches the build-up with ground G4; contract 254.06 (Schedule 1),0.9,error
+PA-00766,PA-00766-12,c04,missing_record,-11582400,p.27 Schedule 5; p.8 Cl.46,A.16.010 requires a DW record; record_ref is blank,0.85,error
+PA-00768,PA-00768-03,c08,rate_buildup,-137555,p.6 Cl.27-28,A.14.020: billed 29.60 (9028.00); contract 25.09 (7652.45); billed rate 29.60 not reproduced by one changed step; contract 25.09 (Schedule 1),0.9,error
+PA-00768,PA-00768-04,c08,rate_buildup,-769304,p.6 Cl.27-28,C.31.010: billed 124.81 (28207.06); contract 90.77 (20514.02); billed rate matches the build-up with ground G4; contract 90.77 (Schedule 1),0.9,error
+PA-00787,PA-00787-05,c08,rate_buildup,-177165,p.6 Cl.27-28,A.12.040: billed 82.15 (31299.15); contract 77.50 (29527.50); billed rate matches the build-up with zone Z2; contract 77.50 (Schedule 1),0.9,error
+PA-00791,PA-00791-10,c08,rate_buildup,0,p.6 Cl.27-28,"B.23.010: billed 4094.00 (51011.24); contract 3971.18 (51011.24); billed rate matches the build-up with band rebate not applied; contract 3971.18 (CW-2025-0417-CIV/A1, discount 8%)",0.9,error
+PA-00801,PA-00801-05,c09,limit_exceeded,-555520,p.6 Cl.32; p.26 Schedule 4 Part 5; p.13 P19,A.14.020 measured the same day as A.14.010 on S-04 Drainage Corridor,0.6,error
+PA-00803,PA-00803-12,c08,discount_misapplied,590386,p.38 Schedule of Variations,D.41.020: billed 208.29 (67902.54); contract 226.40 (73806.40); billed with a 8% discount; in force: 0%,0.9,error
+PA-00813,PA-00813-01,c10,duplicate_charge,-189440,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00286-09,0.85,error
+PA-00815,PA-00815-05,c08,rate_buildup,0,p.6 Cl.27-28,B.22.010: billed 95.36 (80782.06); contract 91.55 (80782.06); billed rate matches the build-up with band rebate not applied; contract 91.55 (Schedule 1),0.9,error
+PA-00817,PA-00817-02,c08,rate_buildup,-788511,p.6 Cl.27-28,"B.23.010: billed 4870.20 (82793.40); contract 4406.37 (74908.29); billed rate 4870.20 not reproduced by one changed step; contract 4406.37 (CW-2025-0417-CIV/A1, discount 8%)",0.9,error
+PA-00817,PA-00817-04,c08,rate_buildup,-194425,p.6 Cl.27-28,A.12.050: billed 67.07 (18444.25); contract 60.00 (16500.00); billed rate matches the build-up with zone Z4; contract 60.00 (Schedule 1),0.9,error
+PA-00822,PA-00822-06,c08,rate_buildup,-275154,p.6 Cl.27-28,D.41.010: billed 49.67 (18030.21); contract 42.09 (15278.67); billed rate 49.67 not reproduced by one changed step; contract 42.09 (Schedule 1),0.9,error
+PA-00825,PA-00825-02,c10,duplicate_charge,-161544,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00557-06,0.85,error
+PA-00833,PA-00833-07,c06,wrong_unit,-489770,p.6 Cl.26; p.18 Schedule 1,C.31.040 billed in 'no.'; Schedule 1 unit is 'lm',0.9,error
+PA-00833,PA-00833-05,c10,duplicate_charge,-152400,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00896-04,0.85,error
+PA-00845,PA-00845-03,c09,limit_exceeded,-2394960,p.6 Cl.31; pp.25-26 Schedule 4 Part 4,"D.41.030 on S-01 Platform North 2025-09-14: limit 3200 m2 a day, 3200 of 3440 within it",0.85,error
+PA-00871,PA-00871-04,c08,rate_buildup,-28304,p.6 Cl.27-28,B.23.010: billed 4717.40 (9434.80); contract 4575.88 (9151.76); billed rate matches the build-up with band rebate not applied; contract 4575.88 (Schedule 1),0.9,error
+PA-00874,PA-00874-03,c10,duplicate_charge,-174498,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00044-07,0.85,error
+PA-00880,PA-00880-04,c10,duplicate_charge,-195072,"p.8 Cl.44, Cl.46",same item billed again on the same record; first billed on PA-00253-01,0.85,error
+PA-00889,PA-00889-08,c08,rate_buildup,8820,p.6 Cl.27-28,A.14.010: billed 64.69 (3881.40); contract 66.16 (3969.60); billed rate 64.69 not reproduced by one changed step; contract 66.16 (CW-2025-0417-CIV/A3),0.9,error
+PA-00892,PA-00892-06,c06,wrong_unit,-197823,p.6 Cl.26; p.17 Schedule 1,A.14.020 billed in 'no.'; Schedule 1 unit is 'm3',0.9,error
+PA-00893,PA-00893-05,c08,rate_buildup,0,p.6 Cl.27-28,A.12.020: billed 39.85 (6602.48); contract 38.65 (6602.48); billed rate matches the build-up with band rebate not applied; contract 38.65 (Schedule 1),0.9,error
+PA-00898,PA-00898-01,c08,rate_buildup,-222312,p.6 Cl.27-28,A.12.050: billed 76.37 (11990.09); contract 62.21 (9766.97); billed rate matches the build-up with ground G4; contract 62.21 (Schedule 1),0.9,error

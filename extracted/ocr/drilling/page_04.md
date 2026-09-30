@@ -1,0 +1,5 @@
+The Company may suspend the services on any well. A day of suspension recorded as Standby on the Daily Drilling Report is charged under Clause 20.
+
+## 14. Termination
+
+The Company may terminate the Contract on thirty days' notice without cause.

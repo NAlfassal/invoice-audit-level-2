@@ -1,0 +1,94 @@
+{
+ "description": "Values confirmed outside the invoices: by the user's eye check of a crop (extracted/ocr/crops/README.md) or by a second OCR engine. The extract stage sets these values to verified with this evidence.",
+ "checks": [
+  {
+   "crop": "01",
+   "evidence": "eye check, crop 01"
+  },
+  {
+   "crop": "02",
+   "evidence": "second OCR engine, crop 02"
+  },
+  {
+   "crop": "03",
+   "evidence": "eye check, crop 03"
+  },
+  {
+   "crop": "04",
+   "evidence": "second OCR engine, crop 04"
+  },
+  {
+   "crop": "05",
+   "evidence": "eye check, crop 05"
+  },
+  {
+   "crop": "06",
+   "evidence": "second OCR engine, crop 06"
+  },
+  {
+   "crop": "07",
+   "evidence": "eye check, crop 07"
+  },
+  {
+   "crop": "08",
+   "evidence": "eye check, crop 08"
+  },
+  {
+   "crop": "09",
+   "evidence": "eye check, crop 09"
+  },
+  {
+   "crop": "10",
+   "evidence": "eye check, crop 10"
+  },
+  {
+   "crop": "11",
+   "evidence": "second OCR engine, crop 11"
+  },
+  {
+   "crop": "12",
+   "evidence": "eye check, crop 12"
+  },
+  {
+   "crop": "13",
+   "evidence": "second OCR engine, crop 13"
+  },
+  {
+   "crop": "14",
+   "evidence": "eye check, crop 14"
+  },
+  {
+   "crop": "15",
+   "evidence": "eye check, crop 15"
+  },
+  {
+   "crop": "16",
+   "evidence": "eye check, crop 16"
+  },
+  {
+   "crop": "17",
+   "evidence": "second OCR engine, crop 17"
+  },
+  {
+   "crop": "18",
+   "evidence": "eye check, crop 18"
+  },
+  {
+   "crop": "19",
+   "evidence": "eye check, crop 19"
+  },
+  {
+   "crop": "20",
+   "evidence": "eye check, crop 20"
+  },
+  {
+   "crop": "21",
+   "evidence": "second OCR engine, crop 21"
+  },
+  {
+   "contract": "drilling",
+   "path": "standby.HC-640",
+   "evidence": "second OCR engine, Schedule 3 Part 3 p.20-21"
+  }
+ ]
+}

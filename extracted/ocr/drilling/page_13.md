@@ -1,0 +1,49 @@
+## PART VII — HEALTH, SAFETY AND ENVIRONMENT
+
+## H1. Compliance
+
+The Contractor shall comply with the Company's HSE management system.
+
+## H2. Permits
+
+No work shall start on the rig floor without a valid permit to work.
+
+## H3. Dropped objects
+
+Tools shall be secured against dropped objects when in the derrick.
+
+## H4. Lifting
+
+Lifting operations shall be planned and supervised by a competent person.
+
+## H5. Well control
+
+Contractor personnel shall hold current well control certification.
+
+## H6. Radioactive sources
+
+Radioactive sources shall be transported, stored and handled by licensed personnel, with a Source Handling Certificate for every run.
+
+## H7. Explosives
+
+No explosives shall be brought to the rig site without written approval.
+
+## H8. Hydrogen sulphide
+
+Personnel shall carry H2S monitors in areas the Company designates.
+
+## H9. Fatigue
+
+No person shall work more than twelve hours in any twenty-four.
+
+## H10. Incidents
+
+Any incident shall be reported to the Company Representative within one hour.
+
+## H11. Waste
+
+Contractor waste shall be removed from the rig site.
+
+## H12. Environmental spills
+
+Any spill shall be reported and cleaned up at once.

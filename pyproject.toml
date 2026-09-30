@@ -1,0 +1,51 @@
+[project]
+name = "invoice-audit-level2"
+version = "0.1.0"
+description = "Audit of civil-works and drilling invoices against two amended, scanned contracts."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docling>=2.130.0",
+    "pandas>=3.0.6",
+    "pypdfium2>=5.13.0",
+    "pytesseract>=0.3.13",
+]
+
+# A build backend makes uv install src/audit into .venv, so `python -m audit` works from any folder.
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "audit"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["scripts"]  # the OCR comparison script is kept exactly as it was run
+
+[tool.ruff.lint]
+# PEP 8 (E, W), unused names (F), import order (I), docstrings (D), bugbear (B), pyupgrade (UP),
+# type hints on every signature (ANN), no print outside the CLI (T20)
+select = ["E", "W", "F", "I", "D", "B", "UP", "ANN", "T20"]
+ignore = ["D105", "D107"]  # magic methods and __init__ need no docstring
+# The google convention leaves D401 off; CLAUDE.md asks for an imperative first line.
+extend-select = ["D401"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+# Test names say what they test, so test functions carry no docstrings.
+"tests/*" = ["D"]
+# The CLI's printed lines are its output meant for the user (CLAUDE.md: print only there).
+"src/audit/cli.py" = ["T201"]

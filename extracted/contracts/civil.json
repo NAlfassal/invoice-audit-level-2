@@ -1,0 +1,2145 @@
+{
+ "contract_ref": "CW-2025-0417-CIV",
+ "items": {
+  "A.11.010": {
+   "description": "Site clearance, vegetation and topsoil strip",
+   "unit": "m2",
+   "rate": {
+    "value": "3.85",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 148 of 148 lines"
+   }
+  },
+  "A.11.020": {
+   "description": "Removal of existing hardstanding, broken out",
+   "unit": "m2",
+   "rate": {
+    "value": "12.40",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 141 of 141 lines"
+   }
+  },
+  "A.12.010": {
+   "description": "General excavation to reduce level",
+   "unit": "m3",
+   "rate": {
+    "value": "21.50",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 38 of 144 lines"
+   }
+  },
+  "A.12.020": {
+   "description": "Excavation in trench, depth not exceeding 2 m",
+   "unit": "m3",
+   "rate": {
+    "value": "34.80",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 16 of 100 lines"
+   }
+  },
+  "A.12.030": {
+   "description": "Excavation in trench, depth 2 m to 4 m",
+   "unit": "m3",
+   "rate": {
+    "value": "47.60",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 134 of 135 lines"
+   }
+  },
+  "A.13.010": {
+   "description": "Disposal of excavated material off site",
+   "unit": "m3",
+   "rate": {
+    "value": "18.90",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 47 of 126 lines"
+   }
+  },
+  "A.13.020": {
+   "description": "Retention of excavated material on site, stockpiled",
+   "unit": "m3",
+   "rate": {
+    "value": "6.40",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 128 of 128 lines"
+   }
+  },
+  "A.14.010": {
+   "description": "Imported granular fill, placed and compacted",
+   "unit": "m3",
+   "rate": {
+    "value": "53.20",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 12 of 53 lines"
+   }
+  },
+  "A.14.020": {
+   "description": "Backfilling to trenches with selected arisings",
+   "unit": "m3",
+   "rate": {
+    "value": "22.40",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 124 of 125 lines"
+   }
+  },
+  "A.11.030": {
+   "description": "Grubbing up tree roots, girth exceeding 600 mm",
+   "unit": "no.",
+   "rate": {
+    "value": "148.00",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 130 of 130 lines"
+   }
+  },
+  "A.12.040": {
+   "description": "Excavation in trench, depth exceeding 4 m",
+   "unit": "m3",
+   "rate": {
+    "value": "69.20",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 130 of 132 lines"
+   }
+  },
+  "A.12.050": {
+   "description": "Excavation for manholes and chambers",
+   "unit": "m3",
+   "rate": {
+    "value": "52.40",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 145 of 148 lines"
+   }
+  },
+  "A.12.060": {
+   "description": "Trimming of formation to level and gradient",
+   "unit": "m2",
+   "rate": {
+    "value": "6.90",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 138 of 139 lines"
+   }
+  },
+  "A.13.030": {
+   "description": "Double handling of stockpiled material",
+   "unit": "m3",
+   "rate": {
+    "value": "9.80",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 141 of 141 lines"
+   }
+  },
+  "A.14.030": {
+   "description": "Geotextile separation membrane, laid and lapped",
+   "unit": "m2",
+   "rate": {
+    "value": "14.60",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 131 of 131 lines"
+   }
+  },
+  "A.15.010": {
+   "description": "Earthwork support to trenches, depth to 2 m",
+   "unit": "m2",
+   "rate": {
+    "value": "31.80",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 122 of 122 lines"
+   }
+  },
+  "A.15.020": {
+   "description": "Earthwork support to trenches, depth exceeding 2 m",
+   "unit": "m2",
+   "rate": {
+    "value": "49.50",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 120 of 120 lines"
+   }
+  },
+  "A.16.010": {
+   "description": "Dewatering by wellpoint, per week in operation",
+   "unit": "week",
+   "rate": {
+    "value": "1480.00",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 25 of 25 lines"
+   }
+  },
+  "B.21.010": {
+   "description": "Blinding concrete, C15/20, thickness 75 mm",
+   "unit": "m2",
+   "rate": {
+    "value": "29.60",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 107 of 107 lines"
+   }
+  },
+  "B.21.020": {
+   "description": "Reinforced concrete to foundations, C32/40",
+   "unit": "m3",
+   "rate": {
+    "value": "415.00",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 17 of 17 lines"
+   }
+  },
+  "B.21.030": {
+   "description": "Reinforced concrete to slabs, C32/40",
+   "unit": "m3",
+   "rate": {
+    "value": "389.00",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 121 of 121 lines"
+   }
+  },
+  "B.22.010": {
+   "description": "Formwork to vertical faces, basic finish",
+   "unit": "m2",
+   "rate": {
+    "value": "74.50",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 8 of 145 lines"
+   }
+  },
+  "B.22.020": {
+   "description": "Formwork to soffits, propped, height to 3.5 m",
+   "unit": "m2",
+   "rate": {
+    "value": "91.80",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 125 of 125 lines"
+   }
+  },
+  "B.23.010": {
+   "description": "High-yield reinforcement bar, cut, bent and fixed",
+   "unit": "tonne",
+   "rate": {
+    "value": "4120.00",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 8 of 21 lines"
+   }
+  },
+  "B.24.010": {
+   "description": "Waterstop to construction joints, 230 mm",
+   "unit": "lm",
+   "rate": {
+    "value": "67.40",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 126 of 127 lines"
+   }
+  },
+  "B.21.040": {
+   "description": "Reinforced concrete to walls, C32/40",
+   "unit": "m3",
+   "rate": {
+    "value": "448.00",
+    "source": "p.17 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 138 of 138 lines"
+   }
+  },
+  "B.21.050": {
+   "description": "Mass concrete fill·to voids, C20/25",
+   "unit": "m3",
+   "rate": {
+    "value": "296.00",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 134 of 134 lines"
+   }
+  },
+  "B.22.030": {
+   "description": "Formwork to edges and risers, height to 500 mm",
+   "unit": "lm",
+   "rate": {
+    "value": "42.60",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 128 of 128 lines"
+   }
+  },
+  "B.23.020": {
+   "description": "Mesh reinforcement, A393, laid and lapped",
+   "unit": "m2",
+   "rate": {
+    "value": "38.40",
+    "source": "p.18 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "B.25.010": {
+   "description": "Cast-in sockets and holding-down bolt assemblies",
+   "unit": "no.",
+   "rate": {
+    "value": "219.00",
+    "source": "p.18 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "B.26.010": {
+   "description": "Surface treatment, power float to slabs",
+   "unit": "m2",
+   "rate": {
+    "value": "17.20",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 127 of 128 lines"
+   }
+  },
+  "B.27.010": {
+   "description": "Movement joint, 20 mm, sealed both faces",
+   "unit": "lm",
+   "rate": {
+    "value": "89.50",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 133 of 133 lines"
+   }
+  },
+  "C.31.010": {
+   "description": "uPVC drainage pipe, 225 mm, laid and jointed",
+   "unit": "lm",
+   "rate": {
+    "value": "86.20",
+    "source": "p.18 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "C.31.020": {
+   "description": "Ductile iron pipe, 400 mm, laid and jointed",
+   "unit": "lm",
+   "rate": {
+    "value": "214.00",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 134 of 135 lines"
+   }
+  },
+  "C.32.010": {
+   "description": "Precast manhole, 1200 mm diameter, depth to 3 m",
+   "unit": "no.",
+   "rate": {
+    "value": "1860.00",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 57 of 57 lines"
+   }
+  },
+  "C.32.020": {
+   "description": "Gully pot and connection to carrier drain",
+   "unit": "no.",
+   "rate": {
+    "value": "287.00",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 137 of 137 lines"
+   }
+  },
+  "C.33.010": {
+   "description": "Ducting, 4-way 110 mm, bedded in sand",
+   "unit": "lm",
+   "rate": {
+    "value": "59.10",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 115 of 115 lines"
+   }
+  },
+  "C.31.030": {
+   "description": "uPVC drainage pipe, 150 mm, laid and jointed",
+   "unit": "lm",
+   "rate": {
+    "value": "54.80",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 132 of 133 lines"
+   }
+  },
+  "C.31.040": {
+   "description": "Concrete surround to pipe, Class A bedding",
+   "unit": "lm",
+   "rate": {
+    "value": "73.10",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 131 of 131 lines"
+   }
+  },
+  "C.32.030": {
+   "description": "Precast manhole, 1800 mm diameter, depth to 5 m",
+   "unit": "no.",
+   "rate": {
+    "value": "3120.00",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 77 of 79 lines"
+   }
+  },
+  "C.32.040": {
+   "description": "Manhole cover and frame, Class D400, bedded",
+   "unit": "no.",
+   "rate": {
+    "value": "423.00",
+    "source": "p.18 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "C.34.010": {
+   "description": "Headwall to outfall, precast, bedded",
+   "unit": "no.",
+   "rate": {
+    "value": "965.00",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 119 of 119 lines"
+   }
+  },
+  "C.35.010": {
+   "description": "CCTV survey of completed drainage run",
+   "unit": "lm",
+   "rate": {
+    "value": "9.40",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 120 of 120 lines"
+   }
+  },
+  "D.41.010": {
+   "description": "Sub-base, Type 1 granular, 250 mm compacted",
+   "unit": "m2",
+   "rate": {
+    "value": "41.80",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 21 of 139 lines"
+   }
+  },
+  "D.41.020": {
+   "description": "Dense bitumen macadam binder course, 60 mm",
+   "unit": "m2",
+   "rate": {
+    "value": "63.50",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 20 of 20 lines"
+   }
+  },
+  "D.41.030": {
+   "description": "Stone mastic asphalt surface course, 40 mm",
+   "unit": "m2",
+   "rate": {
+    "value": "89.40",
+    "source": "p.18 Schedule 1",
+    "verified": false,
+    "evidence": ""
+   }
+  },
+  "D.42.010": {
+   "description": "Precast concrete kerb, bedded and haunched",
+   "unit": "lm",
+   "rate": {
+    "value": "71.20",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 119 of 119 lines"
+   }
+  },
+  "D.43.010": {
+   "description": "Road marking, thermoplastic, 100 mm line",
+   "unit": "lm",
+   "rate": {
+    "value": "14.80",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 121 of 122 lines"
+   }
+  },
+  "D.41.040": {
+   "description": "Capping layer, 300 mm compacted",
+   "unit": "m2",
+   "rate": {
+    "value": "32.60",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 20 of 126 lines"
+   }
+  },
+  "D.41.050": {
+   "description": "Bitumen tack coat between courses",
+   "unit": "m2",
+   "rate": {
+    "value": "6.20",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 140 of 140 lines"
+   }
+  },
+  "D.42.020": {
+   "description": "Precast concrete channel, bedded and haunched",
+   "unit": "lm",
+   "rate": {
+    "value": "64.80",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 119 of 119 lines"
+   }
+  },
+  "D.42.030": {
+   "description": "Edging to footway, flat top, bedded",
+   "unit": "lm",
+   "rate": {
+    "value": "39.40",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 125 of 125 lines"
+   }
+  },
+  "D.43.020": {
+   "description": "Road marking, thermoplastic, hatched area",
+   "unit": "m2",
+   "rate": {
+    "value": "42.60",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 120 of 120 lines"
+   }
+  },
+  "D.44.010": {
+   "description": "Road stud, reflective, bedded in resin",
+   "unit": "no.",
+   "rate": {
+    "value": "31.80",
+    "source": "p.18 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 135 of 135 lines"
+   }
+  },
+  "E.51.010": {
+   "description": "Wet weather standby, plant and operator",
+   "unit": "hour",
+   "rate": {
+    "value": "246.00",
+    "source": "p.19 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 143 of 143 lines"
+   }
+  },
+  "E.51.020": {
+   "description": "Traffic management, two-way signals, per day",
+   "unit": "day",
+   "rate": {
+    "value": "684.00",
+    "source": "p.19 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 104 of 104 lines"
+   }
+  },
+  "E.52.010": {
+   "description": "Joint survey and setting out, chainage band",
+   "unit": "no.",
+   "rate": {
+    "value": "478.00",
+    "source": "p.19 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 113 of 113 lines"
+   }
+  },
+  "E.51.030": {
+   "description": "Standing time, tracked excavator and operator",
+   "unit": "hour",
+   "rate": {
+    "value": "312.00",
+    "source": "p.19 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 144 of 144 lines"
+   }
+  },
+  "E.53.010": {
+   "description": "Attendance on statutory undertaker",
+   "unit": "day",
+   "rate": {
+    "value": "389.00",
+    "source": "p.19 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 130 of 130 lines"
+   }
+  },
+  "E.54.010": {
+   "description": "Temporary haul road, maintained, per week",
+   "unit": "week",
+   "rate": {
+    "value": "876.00",
+    "source": "p.19 Schedule 1",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 63 of 63 lines"
+   }
+  }
+ },
+ "zone_factors": {
+  "Z1": {
+   "value": "1",
+   "source": "p.20 Schedule 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 1498 of 1656 lines",
+   "label": "Z1 Compound"
+  },
+  "Z2": {
+   "value": "1.06",
+   "source": "p.20 Schedule 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 1309 of 1473 lines",
+   "label": "Z2 North Spur"
+  },
+  "Z3": {
+   "value": "1.145",
+   "source": "p.20 Schedule 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 1524 of 1701 lines",
+   "label": "Z3 Wadi Crossing"
+  },
+  "Z4": {
+   "value": "1.28",
+   "source": "p.20 Schedule 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 1341 of 1549 lines",
+   "label": "Z4 Escarpment"
+  }
+ },
+ "ground": {
+  "factors": {
+   "G1": {
+    "value": "0.94",
+    "source": "p.23 Schedule 3",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 185 of 203 lines",
+    "label": "G1 Loose Sand"
+   },
+   "G2": {
+    "value": "1",
+    "source": "p.23 Schedule 3",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 977 of 1100 lines",
+    "label": "G2 Firm Sabkha"
+   },
+   "G3": {
+    "value": "1.12",
+    "source": "p.23 Schedule 3",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 152 of 169 lines",
+    "label": "G3 CementedFill"
+   },
+   "G4": {
+    "value": "1.375",
+    "source": "p.23 Schedule 3",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 161 of 185 lines",
+    "label": "G4 Weathered Rock"
+   },
+   "G5": {
+    "value": "1.63",
+    "source": "p.23 Schedule 3",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 146 of 169 lines",
+    "label": "G5 Sound Rock"
+   }
+  },
+  "items": {
+   "value": [
+    "A.11.020",
+    "A.12.010",
+    "A.12.020",
+    "A.12.030",
+    "A.12.040",
+    "A.12.050",
+    "A.14.020",
+    "A.15.010",
+    "A.15.020",
+    "C.31.010",
+    "C.31.020",
+    "C.31.030",
+    "C.32.010",
+    "C.32.030",
+    "C.33.010"
+   ],
+   "source": "p.23 Schedule 3",
+   "verified": false,
+   "evidence": ""
+  }
+ },
+ "night_uplift": {
+  "A.12.020": {
+   "value": "18",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": false,
+   "evidence": ""
+  },
+  "A.12.030": {
+   "value": "18",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 6 of 6 lines"
+  },
+  "A.14.010": {
+   "value": "18",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": false,
+   "evidence": ""
+  },
+  "B.21.020": {
+   "value": "22",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": false,
+   "evidence": ""
+  },
+  "B.21.030": {
+   "value": "22",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 4 of 4 lines"
+  },
+  "C.31.010": {
+   "value": "18",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": false,
+   "evidence": ""
+  },
+  "D.41.020": {
+   "value": "25",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": false,
+   "evidence": ""
+  },
+  "D.41.030": {
+   "value": "25",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 9 of 9 lines"
+  },
+  "D.43.010": {
+   "value": "25",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 7 of 7 lines"
+  },
+  "A.12.040": {
+   "value": "18",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 11 of 11 lines"
+  },
+  "B.21.040": {
+   "value": "22",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 5 of 5 lines"
+  },
+  "C.31.030": {
+   "value": "18",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 9 of 9 lines"
+  },
+  "D.43.020": {
+   "value": "25",
+   "source": "p.24 Schedule 4 Part 1",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 6 of 6 lines"
+  }
+ },
+ "rest_day_uplift": {
+  "B.21.020": {
+   "value": "35",
+   "source": "p.24 Schedule 4 Part 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 4 of 4 lines"
+  },
+  "B.21.030": {
+   "value": "35",
+   "source": "p.24 Schedule 4 Part 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 21 of 21 lines"
+  },
+  "D.41.030": {
+   "value": "35",
+   "source": "p.24 Schedule 4 Part 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 48 of 48 lines"
+  },
+  "B.21.040": {
+   "value": "35",
+   "source": "p.24 Schedule 4 Part 2",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 44 of 44 lines"
+  }
+ },
+ "bands": {
+  "A.12.010": [
+   {
+    "value": "100",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1",
+    "to_qty": "4000"
+   },
+   {
+    "value": "96",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "4001",
+    "to_qty": "16000"
+   },
+   {
+    "value": "93",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "16001",
+    "to_qty": null
+   }
+  ],
+  "A.12.020": [
+   {
+    "value": "100",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1",
+    "to_qty": "1500"
+   },
+   {
+    "value": "97",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1501",
+    "to_qty": "6000"
+   },
+   {
+    "value": "94",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "6001",
+    "to_qty": null
+   }
+  ],
+  "A.13.010": [
+   {
+    "value": "100",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1",
+    "to_qty": "5000"
+   },
+   {
+    "value": "94",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "5001",
+    "to_qty": "20000"
+   },
+   {
+    "value": "90",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "20001",
+    "to_qty": null
+   }
+  ],
+  "A.14.010": [
+   {
+    "value": "100",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1",
+    "to_qty": "2000"
+   },
+   {
+    "value": "95",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "2001",
+    "to_qty": "8000"
+   },
+   {
+    "value": "91",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "8001",
+    "to_qty": null
+   }
+  ],
+  "B.22.010": [
+   {
+    "value": "100",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1",
+    "to_qty": "1200"
+   },
+   {
+    "value": "96",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1201",
+    "to_qty": "4800"
+   },
+   {
+    "value": "93",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "4801",
+    "to_qty": null
+   }
+  ],
+  "B.23.010": [
+   {
+    "value": "100",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1",
+    "to_qty": "60"
+   },
+   {
+    "value": "97",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "61",
+    "to_qty": "240"
+   },
+   {
+    "value": "94",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "241",
+    "to_qty": null
+   }
+  ],
+  "D.41.010": [
+   {
+    "value": "100",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1",
+    "to_qty": "4500"
+   },
+   {
+    "value": "95",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "4501",
+    "to_qty": "18000"
+   },
+   {
+    "value": "92",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "18001",
+    "to_qty": null
+   }
+  ],
+  "D.41.040": [
+   {
+    "value": "100",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "1",
+    "to_qty": "3500"
+   },
+   {
+    "value": "95",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "3501",
+    "to_qty": "14500"
+   },
+   {
+    "value": "92",
+    "source": "pp.24-25 Schedule 4 Part 3",
+    "verified": false,
+    "evidence": "",
+    "from_qty": "14501",
+    "to_qty": null
+   }
+  ]
+ },
+ "daily_limits": {
+  "A.11.010": {
+   "value": "4500",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "m2"
+  },
+  "A.12.010": {
+   "value": "1200",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "m3"
+  },
+  "B.21.020": {
+   "value": "140",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "m3"
+  },
+  "C.32.010": {
+   "value": "6",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "no."
+  },
+  "D.41.030": {
+   "value": "3200",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "m2"
+  },
+  "E.51.020": {
+   "value": "1",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "day"
+  },
+  "A.13.030": {
+   "value": "800",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "m3"
+  },
+  "C.32.030": {
+   "value": "3",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "no."
+  },
+  "E.53.010": {
+   "value": "2",
+   "source": "pp.25-26 Schedule 4 Part 4",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "unit": "day"
+  }
+ },
+ "exclusions": {
+  "A.14.020": {
+   "value": "2",
+   "source": "p.26 Schedule 4 Part 5",
+   "verified": true,
+   "evidence": "eye check, crop 03",
+   "excluded_by": "A.14.010"
+  }
+ },
+ "surveyed_items": {
+  "value": [
+   "B.23.010",
+   "E.52.010",
+   "B.23.020"
+  ],
+  "source": "p.26 Schedule 4 Part 6",
+  "verified": true,
+  "evidence": "eye check, crop 03"
+ },
+ "record_series": {
+  "A.12.030": {
+   "value": "DX",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 134 of 135 lines quote a DX ref"
+  },
+  "A.14.010": {
+   "value": "CT",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 117 of 117 lines quote a CT ref"
+  },
+  "B.21.020": {
+   "value": "PR",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 106 of 106 lines quote a PR ref"
+  },
+  "B.21.030": {
+   "value": "PR",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 121 of 121 lines quote a PR ref"
+  },
+  "C.31.020": {
+   "value": "PT",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 135 of 135 lines quote a PT ref"
+  },
+  "D.41.010": {
+   "value": "CT",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 139 of 139 lines quote a CT ref"
+  },
+  "E.51.010": {
+   "value": "MO",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 143 of 143 lines quote a MO ref"
+  },
+  "A.12.040": {
+   "value": "DX",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 132 of 132 lines quote a DX ref"
+  },
+  "A.16.010": {
+   "value": "DW",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 134 of 135 lines quote a DW ref"
+  },
+  "B.21.040": {
+   "value": "PR",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 138 of 138 lines quote a PR ref"
+  },
+  "C.32.030": {
+   "value": "PT",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 135 of 135 lines quote a PT ref"
+  },
+  "C.35.010": {
+   "value": "CV",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 120 of 120 lines quote a CV ref"
+  },
+  "D.41.040": {
+   "value": "CT",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 126 of 126 lines quote a CT ref"
+  },
+  "E.51.030": {
+   "value": "PS",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 144 of 144 lines quote a PS ref"
+  },
+  "B.23.010": {
+   "value": "JS",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 129 of 129 lines quote a JS ref"
+  },
+  "E.52.010": {
+   "value": "JS",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 111 of 113 lines quote a JS ref"
+  },
+  "B.23.020": {
+   "value": "JS",
+   "source": "p.27 Schedule 5",
+   "verified": true,
+   "evidence": "data: 128 of 129 lines quote a JS ref"
+  }
+ },
+ "indexed": {
+  "items": {
+   "C.31.010": {
+    "value": "86.20",
+    "source": "p.21 Schedule 2A",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 136 of 140 lines",
+    "description": "uPVC drainage pipe, 225 mm, laid and jointed"
+   },
+   "D.41.030": {
+    "value": "89.40",
+    "source": "p.21 Schedule 2A",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 145 of 146 lines",
+    "description": "Stone mastic asphalt surface course, 40 mm"
+   }
+  },
+  "index": {
+   "value": {
+    "2025-01": "100.00",
+    "2025-02": "100.40",
+    "2025-03": "101.10",
+    "2025-04": "101.80",
+    "2025-05": "102.60",
+    "2025-06": "103.90",
+    "2025-07": "104.70",
+    "2025-08": "104.20",
+    "2025-09": "105.30",
+    "2025-10": "106.80",
+    "2025-11": "107.40",
+    "2025-12": "108.10",
+    "2026-01": "109.60",
+    "2026-02": "110.20",
+    "2026-03": "109.80",
+    "2026-04": "111.50",
+    "2026-05": "112.30",
+    "2026-06": "113.10",
+    "2026-07": "112.40",
+    "2026-08": "113.80",
+    "2026-09": "114.60",
+    "2026-10": "115.20",
+    "2026-11": "115.90",
+    "2026-12": "116.50"
+   },
+   "source": "p.21 Schedule 2A",
+   "verified": true,
+   "evidence": "calibration: 20 months reproduce billed rates",
+   "confirmed_months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+   ]
+  }
+ },
+ "usd": {
+  "items": {
+   "B.23.020": {
+    "value": "38.40",
+    "source": "p.22 Schedule 2B",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 128 of 129 lines",
+    "description": "Mesh reinforcement, A393, laid and lapped"
+   },
+   "B.25.010": {
+    "value": "219.00",
+    "source": "p.22 Schedule 2B",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 124 of 126 lines",
+    "description": "Cast-in sockets and holding-down bolt assemblies"
+   },
+   "C.32.040": {
+    "value": "423.00",
+    "source": "p.22 Schedule 2B",
+    "verified": true,
+    "evidence": "calibration: reproduces the billed rate on 135 of 135 lines",
+    "description": "Manhole cover and frame, Class D400, bedded"
+   }
+  },
+  "halalas_per_usd": {
+   "value": {
+    "2025-01": "375.00",
+    "2025-02": "375.10",
+    "2025-03": "375.00",
+    "2025-04": "374.90",
+    "2025-05": "375.20",
+    "2025-06": "375.30",
+    "2025-07": "375.10",
+    "2025-08": "375.00",
+    "2025-09": "374.80",
+    "2025-10": "375.40",
+    "2025-11": "375.60",
+    "2025-12": "375.50",
+    "2026-01": "376.00",
+    "2026-02": "375.80",
+    "2026-03": "375.90",
+    "2026-04": "376.20",
+    "2026-05": "376.40",
+    "2026-06": "376.10",
+    "2026-07": "375.70",
+    "2026-08": "376.30",
+    "2026-09": "376.60",
+    "2026-10": "376.80",
+    "2026-11": "377.00",
+    "2026-12": "376.50"
+   },
+   "source": "p.22 Schedule 2B",
+   "verified": false,
+   "evidence": "calibration: 20 months reproduce billed rates; not confirmed: 2026-10",
+   "confirmed_months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+   ]
+  }
+ },
+ "daywork": {
+  "rates": {
+   "Ganger": {
+    "value": "78.50",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Skilled operative": {
+    "value": "64.20",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Semi-skilled operative": {
+    "value": "51.80",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "General operative": {
+    "value": "43.60",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Banksman": {
+    "value": "46.90",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Steel fixer": {
+    "value": "71.40",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Carpenter, formwork": {
+    "value": "73.10",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Pipelayer": {
+    "value": "66.30",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Site engineer": {
+    "value": "118.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Foreman": {
+    "value": "96.50",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Tracked excavator, 21 tonne, with operator": {
+    "value": "246.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Tracked excavator, 13 tonne, with operator": {
+    "value": "188.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Wheeled loader, 12 tonne, with operator": {
+    "value": "174.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Articulated dump truck, 25 tonne, with operator": {
+    "value": "212.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Tipper lorry, 8 wheel, with driver": {
+    "value": "156.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Vibrating roller, 12 tonne, with operator": {
+    "value": "138.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Plate compactor": {
+    "value": "34.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Concrete pump, boom, with operator": {
+    "value": "398.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Mobile crane, 50 tonne, with operator": {
+    "value": "472.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   },
+   "Dewatering pump, 100 mm, with hoses": {
+    "value": "1240.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "week"
+   },
+   "Wellpoint system, 30 m run": {
+    "value": "3860.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "week"
+   },
+   "Site dumper, 6 tonne, with operator": {
+    "value": "98.00",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": "",
+    "unit": "hour"
+   }
+  },
+  "additions": {
+   "Labour, to cover supervision and overheads": {
+    "value": "68",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": ""
+   },
+   "Plant, to cover fuel, maintenance and overheads": {
+    "value": "22",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": ""
+   },
+   "Materials, to cover handling and overheads": {
+    "value": "14",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": ""
+   },
+   "Subcontracted daywork": {
+    "value": "10",
+    "source": "pp.28-29 Schedule 6",
+    "verified": false,
+    "evidence": ""
+   }
+  }
+ },
+ "provisional_sums": {
+  "PS.01": {
+   "value": "420000.00",
+   "source": "p.30 Schedule 7",
+   "verified": false,
+   "evidence": "",
+   "description": "Diversion of 11 kV overhead line by the utility"
+  },
+  "PS.02": {
+   "value": "185000.00",
+   "source": "p.30 Schedule 7",
+   "verified": false,
+   "evidence": "",
+   "description": "Ground investigation, additional boreholes"
+  },
+  "PS.03": {
+   "value": "96000.00",
+   "source": "p.30 Schedule 7",
+   "verified": false,
+   "evidence": "",
+   "description": "Archaeological watching brief"
+  },
+  "PS.04": {
+   "value": "310000.00",
+   "source": "p.30 Schedule 7",
+   "verified": false,
+   "evidence": "",
+   "description": "Landscaping to the northern boundary"
+  },
+  "PS.05": {
+   "value": "268000.00",
+   "source": "p.30 Schedule 7",
+   "verified": false,
+   "evidence": "",
+   "description": "Street lighting columns and connections"
+  },
+  "PC.01": {
+   "value": "142000.00",
+   "source": "p.30 Schedule 7",
+   "verified": false,
+   "evidence": "",
+   "description": "Precast concrete headwalls, supply only"
+  },
+  "PC.02": {
+   "value": "88500.00",
+   "source": "p.30 Schedule 7",
+   "verified": false,
+   "evidence": "",
+   "description": "Manhole covers and frames, supply only"
+  },
+  "PC.03": {
+   "value": "515000.00",
+   "source": "p.30 Schedule 7",
+   "verified": false,
+   "evidence": "",
+   "description": "Drainage pipework, supply only"
+  }
+ },
+ "preliminaries": {
+  "PR.01": {
+   "value": "486000.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "item",
+   "description": "Site establishment, offices and welfare"
+  },
+  "PR.02": {
+   "value": "14200.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "week",
+   "description": "Site accommodation, maintained, per week"
+  },
+  "PR.03": {
+   "value": "218.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "lm",
+   "description": "Temporary fencing and hoarding, erected"
+  },
+  "PR.04": {
+   "value": "38500.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "item",
+   "description": "Site signage and safety notices"
+  },
+  "PR.05": {
+   "value": "164000.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "item",
+   "description": "Temporary power supply and distribution"
+  },
+  "PR.06": {
+   "value": "92000.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "item",
+   "description": "Temporary water supply"
+  },
+  "PR.07": {
+   "value": "78000.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "item",
+   "description": "Setting-out equipment and survey instruments"
+  },
+  "PR.08": {
+   "value": "9800.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "week",
+   "description": "Safety officer, full time"
+  },
+  "PR.09": {
+   "value": "2400.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "week",
+   "description": "First aid facilities and trained personnel"
+  },
+  "PR.10": {
+   "value": "6700.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "week",
+   "description": "Site cleaning and waste removal"
+  },
+  "PR.11": {
+   "value": "1900.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "month",
+   "description": "Progress photographs, monthly"
+  },
+  "PR.12": {
+   "value": "142000.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "item",
+   "description": "As-built records and O&M manuals"
+  },
+  "PR.13": {
+   "value": "88000.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "itém",
+   "description": "Testing and commissioning attendance"
+  },
+  "PR.14": {
+   "value": "214000.00",
+   "source": "p.31 Schedule 8",
+   "verified": false,
+   "evidence": "",
+   "unit": "item",
+   "description": "Demobilisation and reinstatement of the compound"
+  }
+ },
+ "instruments": [
+  {
+   "title": "SUPPLEMENT NO. 1 TO SUBCONTRACTCW-2025-0417-CIV",
+   "reference": "CW-2025-0417-CIV/S1",
+   "issued": {
+    "value": "2025-03-24",
+    "source": "p.39 Supplement No. 1",
+    "verified": true,
+    "evidence": "eye check, crop 07"
+   },
+   "effective": {
+    "value": "2025-05-01",
+    "source": "p.39 Supplement No. 1",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {
+    "B.23.010": {
+     "value": "4385.00",
+     "source": "p.39 Supplement No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "4120.00",
+     "effective": "2025-05-01"
+    },
+    "B.21.020": {
+     "value": "431.50",
+     "source": "p.39 Supplement No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "415.00",
+     "effective": "2025-05-01"
+    },
+    "A.16.010": {
+     "value": "1524.00",
+     "source": "p.39 Supplement No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "1480.00",
+     "effective": "2025-05-01"
+    }
+   },
+   "monthly_rates": {
+    "D.41.020": {
+     "value": {
+      "2025-05": "214.50",
+      "2025-06": "219.80",
+      "2025-07": "226.40",
+      "2025-08": "223.10",
+      "2025-09": "220.50"
+     },
+     "source": "p.39 Supplement No. 1",
+     "verified": false,
+     "evidence": "",
+     "carry_forward_last_month": true
+    }
+   },
+   "discount": null,
+   "schedule_changes": "rates: B.23.010, B.21.020, A.16.010; monthly rate: D.41.020"
+  },
+  {
+   "title": "AMENDMENT NO. 1 TO SUBCONTRACT CW-2025-0417-CIV",
+   "reference": "CW-2025-0417-CIV/A1",
+   "issued": {
+    "value": "2025-08-18",
+    "source": "p.40 Amendment No. 1",
+    "verified": true,
+    "evidence": "eye check, crop 08"
+   },
+   "effective": {
+    "value": "2025-09-28",
+    "source": "p.40 Amendment No. 1",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {
+    "E.54.010": {
+     "value": "948.00",
+     "source": "p.40 Amendment No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "876.00",
+     "effective": "2025-10-01"
+    },
+    "B.23.010": {
+     "value": "4450.00",
+     "source": "p.40 Amendment No. 1",
+     "verified": false,
+     "evidence": "",
+     "previous": "4385.00",
+     "effective": "2025-10-01"
+    }
+   },
+   "monthly_rates": {},
+   "discount": null,
+   "term_end": {
+    "value": "2026-03-31",
+    "source": "p.40 Amendment No. 1",
+    "verified": true,
+    "evidence": "eye check, crop 08"
+   },
+   "schedule_changes": "completion to 2026-03-31; rates: E.54.010, B.23.010"
+  },
+  {
+   "title": "SUPPLEMENT NO. 2 TO SUBCONTRACT CW-2025-0417-CIV",
+   "reference": "CW-2025-0417-CIV/S2",
+   "issued": {
+    "value": "2025-11-12",
+    "source": "p.41 Supplement No. 2",
+    "verified": true,
+    "evidence": "eye check, crop 09"
+   },
+   "effective": {
+    "value": "2025-12-01",
+    "source": "p.41 Supplement No. 2",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {
+    "D.41.020": {
+     "value": "228.00",
+     "source": "p.41 Supplement No. 2",
+     "verified": false,
+     "evidence": "",
+     "previous": "220.50",
+     "effective": "2025-12-01"
+    }
+   },
+   "monthly_rates": {},
+   "discount": {
+    "value": "5",
+    "source": "p.41 Supplement No. 2",
+    "verified": false,
+    "evidence": "",
+    "start": "2025-12-01",
+    "items": [
+     "C.32.030",
+     "C.32.010",
+     "D.41.020",
+     "B.23.010"
+    ]
+   },
+   "schedule_changes": "rates: D.41.020; 5 per cent on C.32.030, C.32.010, D.41.020, B.23.010"
+  },
+  {
+   "title": "AMENDMENT NO.2 TO SUBCONTRACT CW-2025-0417-CIV",
+   "reference": "CW-2025-0417-CIV/A2",
+   "issued": {
+    "value": "2026-02-16",
+    "source": "p.42 Amendment No.2",
+    "verified": true,
+    "evidence": "eye check, crop 10"
+   },
+   "effective": {
+    "value": "2026-04-01",
+    "source": "p.42 Amendment No.2",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {},
+   "monthly_rates": {
+    "E.54.010": {
+     "value": {
+      "2026-04": "976.00",
+      "2026-05": "991.00",
+      "2026-06": "1013.00",
+      "2026-07": "1038.00",
+      "2026-08": "1038.00",
+      "2026-09": "1052.00"
+     },
+     "source": "p.42 Amendment No.2",
+     "verified": false,
+     "evidence": "",
+     "carry_forward_last_month": true
+    }
+   },
+   "discount": {
+    "value": "8",
+    "source": "p.42 Amendment No.2",
+    "verified": false,
+    "evidence": "",
+    "start": "2026-04-01",
+    "items": [
+     "C.32.030",
+     "C.32.010",
+     "D.41.020",
+     "B.23.010"
+    ]
+   },
+   "term_end": {
+    "value": "2026-09-30",
+    "source": "p.42 Amendment No.2",
+    "verified": true,
+    "evidence": "eye check, crop 10"
+   },
+   "schedule_changes": "completion to 2026-09-30; monthly rate: E.54.010; 8 per cent on C.32.030, C.32.010, D.41.020, B.23.010"
+  },
+  {
+   "title": "AMENDMENT NO. 3 TO SUBCONTRACT CW-2025-0417-CIV",
+   "reference": "CW-2025-0417-CIV/A3",
+   "issued": {
+    "value": "2026-05-12",
+    "source": "p.43 Amendment No. 3",
+    "verified": true,
+    "evidence": "second OCR engine, crop 11"
+   },
+   "effective": {
+    "value": "2025-11-01",
+    "source": "p.43 Amendment No. 3",
+    "verified": false,
+    "evidence": ""
+   },
+   "rates": {
+    "C.32.010": {
+     "value": "1984.00",
+     "source": "p.43 Amendment No. 3",
+     "verified": false,
+     "evidence": "",
+     "previous": "1860.00",
+     "effective": "2025-11-01"
+    },
+    "A.14.010": {
+     "value": "56.80",
+     "source": "p.43 Amendment No. 3",
+     "verified": false,
+     "evidence": "",
+     "previous": "53.20",
+     "effective": "2025-11-01"
+    }
+   },
+   "monthly_rates": {},
+   "discount": null,
+   "schedule_changes": "rates: C.32.010, A.14.010"
+  }
+ ],
+ "terms": {
+  "contract_ref": {
+   "value": "CW-2025-0417-CIV",
+   "source": "p.1 Agreement",
+   "verified": true,
+   "evidence": "data: 898 of 900 invoice headers",
+   "quote": "Contract reference: CW-2025-0417-CIV"
+  },
+  "issuer": {
+   "value": "RIDGEWAY CIVIL ENGINEERING LLC",
+   "source": "p.1 Agreement",
+   "verified": true,
+   "evidence": "data: 900 of 900 invoice headers",
+   "quote": "RIDGEWAY CIVIL ENGINEERING LLC (\"the Subcontractor\")"
+  },
+  "commencement": {
+   "value": "2025-01-05",
+   "source": "p.38 Schedule of Variations",
+   "verified": true,
+   "evidence": "second OCR engine, crop 06",
+   "quote": "The Term as let ran from 5 January 2025 to 27 September 2025."
+  },
+  "completion_as_let": {
+   "value": "2025-09-27",
+   "source": "p.38 Schedule of Variations",
+   "verified": true,
+   "evidence": "second OCR engine, crop 06",
+   "quote": "The Term as let ran from 5 January 2025 to 27 September 2025."
+  },
+  "completion": {
+   "value": "2026-09-30",
+   "source": "p.38 Schedule of Variations",
+   "verified": true,
+   "evidence": "second OCR engine, crop 06",
+   "quote": "As twice extended it runs from 5 January 2025 to 30 September 2026."
+  },
+  "window_days": {
+   "value": 21,
+   "source": "p.8 Cl.41",
+   "verified": true,
+   "evidence": "second OCR engine, crop 02",
+   "quote": "An application shall be submitted within 21 days of the end of the period it covers."
+  },
+  "retention_pct": {
+   "value": "5",
+   "source": "p.8 Cl.45",
+   "verified": true,
+   "evidence": "header check: retention reproduced on 900 of 900 applications",
+   "quote": "The Contractor shall retain 5 per cent of the value of each valuation."
+  },
+  "retention_rounding": {
+   "value": "down",
+   "source": "p.8 Cl.45",
+   "verified": true,
+   "evidence": "header check: retention reproduced on 900 of 900 applications",
+   "quote": "and is rounded down to the nearest halala."
+  },
+  "rate_rounding": {
+   "value": "half_up_once",
+   "source": "p.6 Cl.28",
+   "verified": false,
+   "evidence": "",
+   "quote": "a half halala being rounded upward. Rates shall not be rounded at intermediate steps."
+  },
+  "conversion_rounding": {
+   "value": "half_even",
+   "source": "p.32 Cl.26A, Cl.29A",
+   "verified": false,
+   "evidence": "",
+   "quote": "rounded to the nearest halala with a half rounded to the nearer even halala"
+  },
+  "rest_days": {
+   "value": [
+    "Friday",
+    "Saturday"
+   ],
+   "source": "p.3 Cl.8",
+   "verified": false,
+   "evidence": "",
+   "quote": "The rest days under this Subcontract are Friday and Saturday."
+  },
+  "night_hours": {
+   "value": "18:00-06:00",
+   "source": "p.3 Cl.7",
+   "verified": true,
+   "evidence": "eye check, crop 01",
+   "quote": "Work executed between 18:00 and 06:00 is Night Work"
+  },
+  "zone_factor_series": {
+   "value": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "source": "p.20 Schedule 2",
+   "verified": false,
+   "evidence": "",
+   "quote": "The factors below apply to every item in Series A, B, C and D."
+  },
+  "concurrent_uplifts": {
+   "value": "rest_day_only",
+   "source": "p.13 P11",
+   "verified": false,
+   "evidence": "",
+   "quote": "In the absence of such an instruction the rest-day uplift alone applies."
+  },
+  "night_uplift_max_zone_factor": {
+   "value": "1.1",
+   "source": "p.32 Cl.27A",
+   "verified": true,
+   "evidence": "second OCR engine, crop 04",
+   "quote": "The night-working uplift is not payable on an item priced at a zone factor exceeding 1.1"
+  },
+  "ground_datum_after": {
+   "value": "2025-09-27",
+   "source": "p.32 Cl.27A",
+   "verified": true,
+   "evidence": "second OCR engine, crop 04",
+   "quote": "for work executed after 27 September 2025, the ground classification is taken as"
+  },
+  "ground_datum_class": {
+   "value": "G2",
+   "source": "p.32 Cl.27A",
+   "verified": false,
+   "evidence": "",
+   "quote": "the ground classification is taken asG2 Firm Sabkha"
+  },
+  "bands_counted_from": {
+   "value": "start_of_contract_year",
+   "source": "p.24 Schedule 4 Part 3 (substitutes Cl.30)",
+   "verified": false,
+   "evidence": "",
+   "quote": "The bands are counted from zero at the start of each Contract Year (Clause 3A)"
+  },
+  "contract_year": {
+   "value": "from_commencement_anniversary",
+   "source": "p.32 Cl.3A",
+   "verified": false,
+   "evidence": "",
+   "quote": "The first Contract Year runs from the Commencement Date to the day before its first anniversary."
+  },
+  "chargeable_hour_deduction": {
+   "value": 1,
+   "source": "p.32 Cl.6A",
+   "verified": true,
+   "evidence": "second OCR engine, crop 04",
+   "quote": "the quantity measured is one hour fewer."
+  },
+  "index_base": {
+   "value": "100.00",
+   "source": "p.21 Schedule 2A",
+   "verified": true,
+   "evidence": "calibration: reproduces the billed rate on 281 of 286 lines",
+   "quote": "Site Materials Index, base 100.00 at 5 January 2025"
+  },
+  "retro_settlement": {
+   "value": "first_application_on_or_after_issue",
+   "source": "p.32 Cl.31A",
+   "verified": false,
+   "evidence": "",
+   "quote": "shall be shown as a single adjustment on the first Application for Payment submitted on or after the date of issue, and on no other."
+  },
+  "survey_tolerance_pct": {
+   "value": "2",
+   "source": "p.32 Cl.33A",
+   "verified": true,
+   "evidence": "second OCR engine, crop 04",
+   "quote": "a measured quantity not exceeding the surveyed quantity by more than 2 per cent is payable as measured."
+  },
+  "retention_release_share": {
+   "value": "50",
+   "source": "p.32 Cl.45A",
+   "verified": true,
+   "evidence": "second OCR engine, crop 04",
+   "quote": "one half of the retention held on all earlier Applications is released, rounded down to the halala."
+  },
+  "week_min_days": {
+   "value": 5,
+   "source": "p.33 Cl.47A",
+   "verified": true,
+   "evidence": "eye check, crop 05",
+   "quote": "a week is measurable only where the record shows work on not fewer than five days of that week."
+  },
+  "traffic_management_item": {
+   "value": "E.51.020",
+   "source": "p.13 P21",
+   "verified": false,
+   "evidence": "",
+   "quote": "Item E.51.020 is not measurable for a work area on a day on which any of items D.41.020, D.41.030, D.41.050, D.43.010 or D.43.020 is measured for that work area."
+  },
+  "surfacing_items": {
+   "value": [
+    "D.41.020",
+    "D.41.030",
+    "D.41.050",
+    "D.43.010",
+    "D.43.020"
+   ],
+   "source": "p.13 P21",
+   "verified": false,
+   "evidence": "",
+   "quote": "Item E.51.020 is not measurable for a work area on a day on which any of items D.41.020, D.41.030, D.41.050, D.43.010 or D.43.020 is measured for that work area."
+  }
+ }
+}

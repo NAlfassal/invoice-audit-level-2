@@ -1,0 +1,401 @@
+{
+ "description": "Civil record work-line templates -> Schedule 1 item. Built once by reading every record's work line (numbers replaced by N) and the Schedule 1 description of each Schedule 5 item; each template belongs to one item. Checked on all 2,169 records; no LLM call.",
+ "templates": [
+  {
+   "series": "CT",
+   "pattern": "(?P<quantity>\\d+(?:\\.\\d+)?) square metres of sub-base in and compacted",
+   "item": "D.41.010",
+   "unit": "m2",
+   "evidence": {
+    "schedule_1": "Sub-base, Type 1 granular, 250 mm compacted (p.18 Schedule 1)",
+    "record_series": "CT: p.27 Schedule 5",
+    "example": "CT-00001: 792 square metres of sub-base in and compacted",
+    "records_matched": 81,
+    "billed_lines": {
+     "D.41.010": 81
+    }
+   }
+  },
+  {
+   "series": "CT",
+   "pattern": "brought in (?P<quantity>\\d+(?:\\.\\d+)?) cube of fill, compacted in layers",
+   "item": "A.14.010",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Imported granular fill, placed and compacted (p.17 Schedule 1)",
+    "record_series": "CT: p.27 Schedule 5",
+    "example": "CT-00009: brought in 89 cube of fill, compacted in layers",
+    "records_matched": 66,
+    "billed_lines": {
+     "A.14.010": 66
+    }
+   }
+  },
+  {
+   "series": "CT",
+   "pattern": "capping layer, (?P<quantity>\\d+(?:\\.\\d+)?) m2 placed and compacted",
+   "item": "D.41.040",
+   "unit": "m2",
+   "evidence": {
+    "schedule_1": "Capping layer, 300 mm compacted (p.18 Schedule 1)",
+    "record_series": "CT: p.27 Schedule 5",
+    "example": "CT-00003: capping layer, 121 m2 placed and compacted",
+    "records_matched": 126,
+    "billed_lines": {
+     "D.41.040": 126
+    }
+   }
+  },
+  {
+   "series": "CT",
+   "pattern": "laid and rolled (?P<quantity>\\d+(?:\\.\\d+)?) m2 of Type 1",
+   "item": "D.41.010",
+   "unit": "m2",
+   "evidence": {
+    "schedule_1": "Sub-base, Type 1 granular, 250 mm compacted (p.18 Schedule 1)",
+    "record_series": "CT: p.27 Schedule 5",
+    "example": "CT-00002: laid and rolled 520 m2 of Type 1",
+    "records_matched": 57,
+    "billed_lines": {
+     "D.41.010": 57
+    }
+   }
+  },
+  {
+   "series": "CT",
+   "pattern": "placed and whacked (?P<quantity>\\d+(?:\\.\\d+)?) m3 of imported stone",
+   "item": "A.14.010",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Imported granular fill, placed and compacted (p.17 Schedule 1)",
+    "record_series": "CT: p.27 Schedule 5",
+    "example": "CT-00007: placed and whacked 309 m3 of imported stone",
+    "records_matched": 51,
+    "billed_lines": {
+     "A.14.010": 51
+    }
+   }
+  },
+  {
+   "series": "CV",
+   "pattern": "surveyed (?P<quantity>\\d+(?:\\.\\d+)?) m of the finished run with the camera",
+   "item": "C.35.010",
+   "unit": "lm",
+   "evidence": {
+    "schedule_1": "CCTV survey of completed drainage run (p.18 Schedule 1)",
+    "record_series": "CV: p.27 Schedule 5",
+    "example": "CV-00001: surveyed 154 m of the finished run with the camera",
+    "records_matched": 120,
+    "billed_lines": {
+     "C.35.010": 120
+    }
+   }
+  },
+  {
+   "series": "DW",
+   "pattern": "pumps kept going (?P<quantity>\\d+(?:\\.\\d+)?) week this period",
+   "item": "A.16.010",
+   "unit": "week",
+   "evidence": {
+    "schedule_1": "Dewatering by wellpoint, per week in operation (p.17 Schedule 1)",
+    "record_series": "DW: p.27 Schedule 5",
+    "example": "DW-00001: pumps kept going 1 week this period",
+    "records_matched": 57,
+    "billed_lines": {
+     "A.16.010": 66
+    }
+   }
+  },
+  {
+   "series": "DW",
+   "pattern": "wellpoints running, (?P<quantity>\\d+(?:\\.\\d+)?) week on the dewatering",
+   "item": "A.16.010",
+   "unit": "week",
+   "evidence": {
+    "schedule_1": "Dewatering by wellpoint, per week in operation (p.17 Schedule 1)",
+    "record_series": "DW: p.27 Schedule 5",
+    "example": "DW-00003: wellpoints running, 1 week on the dewatering",
+    "records_matched": 57,
+    "billed_lines": {
+     "A.16.010": 68
+    }
+   }
+  },
+  {
+   "series": "DX",
+   "pattern": "deep trench (?P<quantity>\\d+(?:\\.\\d+)?) m3, between two and four metres",
+   "item": "A.12.030",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Excavation in trench, depth 2 m to 4 m (p.17 Schedule 1)",
+    "record_series": "DX: p.27 Schedule 5",
+    "example": "DX-00008: deep trench 267 m3, between two and four metres",
+    "records_matched": 61,
+    "billed_lines": {
+     "A.12.030": 61
+    }
+   }
+  },
+  {
+   "series": "DX",
+   "pattern": "trench dig (?P<quantity>\\d+(?:\\.\\d+)?) cube, (?P<depth>\\d+) m deep section",
+   "item": "A.12.030",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Excavation in trench, depth 2 m to 4 m (p.17 Schedule 1)",
+    "record_series": "DX: p.27 Schedule 5",
+    "example": "DX-00001: trench dig 210 cube, 3 m deep section",
+    "records_matched": 73,
+    "billed_lines": {
+     "A.12.030": 73
+    }
+   },
+   "depth_m": {
+    "over": "2",
+    "up_to": "4",
+    "source": "p.17 Schedule 1 A.12.030 'depth 2 m to 4 m'; p.13 P13"
+   }
+  },
+  {
+   "series": "DX",
+   "pattern": "trench over four metres, (?P<quantity>\\d+(?:\\.\\d+)?) m3 dug",
+   "item": "A.12.040",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Excavation in trench, depth exceeding 4 m (p.17 Schedule 1)",
+    "record_series": "DX: p.27 Schedule 5",
+    "example": "DX-00002: trench over four metres, 39 m3 dug",
+    "records_matched": 132,
+    "billed_lines": {
+     "A.12.040": 132
+    }
+   }
+  },
+  {
+   "series": "JS",
+   "pattern": "fixed (?P<quantity>\\d+(?:\\.\\d+)?) tonne of bar, cut and bent to schedule",
+   "item": "B.23.010",
+   "unit": "tonne",
+   "evidence": {
+    "schedule_1": "High-yield reinforcement bar, cut, bent and fixed (p.17 Schedule 1)",
+    "record_series": "JS: p.27 Schedule 5",
+    "example": "JS-00008: fixed 8 tonne of bar, cut and bent to schedule",
+    "records_matched": 78,
+    "billed_lines": {
+     "B.23.010": 78
+    }
+   }
+  },
+  {
+   "series": "JS",
+   "pattern": "laid (?P<quantity>\\d+(?:\\.\\d+)?) m2 of A393 mesh with laps",
+   "item": "B.23.020",
+   "unit": "m2",
+   "evidence": {
+    "schedule_1": "Mesh reinforcement, A393, laid and lapped (p.18 Schedule 1)",
+    "record_series": "JS: p.27 Schedule 5",
+    "example": "JS-00006: laid 45 m2 of A393 mesh with laps",
+    "records_matched": 128,
+    "billed_lines": {
+     "B.23.020": 128
+    }
+   }
+  },
+  {
+   "series": "JS",
+   "pattern": "set out and agreed (?P<quantity>\\d+(?:\\.\\d+)?) chainage band with the Engineer",
+   "item": "E.52.010",
+   "unit": "no.",
+   "evidence": {
+    "schedule_1": "Joint survey and setting out, chainage band (p.19 Schedule 1)",
+    "record_series": "JS: p.27 Schedule 5",
+    "example": "JS-00001: set out and agreed 3 chainage band with the Engineer",
+    "records_matched": 111,
+    "billed_lines": {
+     "E.52.010": 111
+    }
+   }
+  },
+  {
+   "series": "JS",
+   "pattern": "steel fixers placed (?P<quantity>\\d+(?:\\.\\d+)?) t of high yield bar",
+   "item": "B.23.010",
+   "unit": "tonne",
+   "evidence": {
+    "schedule_1": "High-yield reinforcement bar, cut, bent and fixed (p.17 Schedule 1)",
+    "record_series": "JS: p.27 Schedule 5",
+    "example": "JS-00004: steel fixers placed 5 t of high yield bar",
+    "records_matched": 51,
+    "billed_lines": {
+     "B.23.010": 51
+    }
+   }
+  },
+  {
+   "series": "MO",
+   "pattern": "no work possible, weather, (?P<quantity>\\d+(?:\\.\\d+)?) hours standing",
+   "item": "E.51.010",
+   "unit": "hour",
+   "evidence": {
+    "schedule_1": "Wet weather standby, plant and operator (p.19 Schedule 1)",
+    "record_series": "MO: p.27 Schedule 5",
+    "example": "MO-00001: no work possible, weather, 6 hours standing",
+    "records_matched": 77,
+    "billed_lines": {
+     "E.51.010": 77
+    }
+   }
+  },
+  {
+   "series": "MO",
+   "pattern": "rained off -- crew and plant stood for (?P<quantity>\\d+(?:\\.\\d+)?) hours",
+   "item": "E.51.010",
+   "unit": "hour",
+   "evidence": {
+    "schedule_1": "Wet weather standby, plant and operator (p.19 Schedule 1)",
+    "record_series": "MO: p.27 Schedule 5",
+    "example": "MO-00002: rained off -- crew and plant stood for 5 hours",
+    "records_matched": 65,
+    "billed_lines": {
+     "E.51.010": 65
+    }
+   }
+  },
+  {
+   "series": "PR",
+   "pattern": "foundation pour (?P<quantity>\\d+(?:\\.\\d+)?) cube, C32/40 off the truck",
+   "item": "B.21.020",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Reinforced concrete to foundations, C32/40 (p.17 Schedule 1)",
+    "record_series": "PR: p.27 Schedule 5",
+    "example": "PR-00001: foundation pour 140 cube, C32/40 off the truck",
+    "records_matched": 34,
+    "billed_lines": {
+     "B.21.020": 34
+    }
+   }
+  },
+  {
+   "series": "PR",
+   "pattern": "poured (?P<quantity>\\d+(?:\\.\\d+)?) m3 into the foundations, 32/40 mix",
+   "item": "B.21.020",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Reinforced concrete to foundations, C32/40 (p.17 Schedule 1)",
+    "record_series": "PR: p.27 Schedule 5",
+    "example": "PR-00004: poured 140 m3 into the foundations, 32/40 mix",
+    "records_matched": 72,
+    "billed_lines": {
+     "B.21.020": 72
+    }
+   }
+  },
+  {
+   "series": "PR",
+   "pattern": "poured the slab, (?P<quantity>\\d+(?:\\.\\d+)?) cube of C32/40",
+   "item": "B.21.030",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Reinforced concrete to slabs, C32/40 (p.17 Schedule 1)",
+    "record_series": "PR: p.27 Schedule 5",
+    "example": "PR-00009: poured the slab, 176 cube of C32/40",
+    "records_matched": 42,
+    "billed_lines": {
+     "B.21.030": 42
+    }
+   }
+  },
+  {
+   "series": "PR",
+   "pattern": "slab pour (?P<quantity>\\d+(?:\\.\\d+)?) m3, 32/40",
+   "item": "B.21.030",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Reinforced concrete to slabs, C32/40 (p.17 Schedule 1)",
+    "record_series": "PR: p.27 Schedule 5",
+    "example": "PR-00006: slab pour 379 m3, 32/40",
+    "records_matched": 79,
+    "billed_lines": {
+     "B.21.030": 79
+    }
+   }
+  },
+  {
+   "series": "PR",
+   "pattern": "wall pour (?P<quantity>\\d+(?:\\.\\d+)?) m3, 32/40 mix",
+   "item": "B.21.040",
+   "unit": "m3",
+   "evidence": {
+    "schedule_1": "Reinforced concrete to walls, C32/40 (p.17 Schedule 1)",
+    "record_series": "PR: p.27 Schedule 5",
+    "example": "PR-00002: wall pour 335 m3, 32/40 mix",
+    "records_matched": 138,
+    "billed_lines": {
+     "B.21.040": 138
+    }
+   }
+  },
+  {
+   "series": "PS",
+   "pattern": "excavator and driver held up (?P<quantity>\\d+(?:\\.\\d+)?) hours",
+   "item": "E.51.030",
+   "unit": "hour",
+   "evidence": {
+    "schedule_1": "Standing time, tracked excavator and operator (p.19 Schedule 1)",
+    "record_series": "PS: p.27 Schedule 5",
+    "example": "PS-00004: excavator and driver held up 3 hours",
+    "records_matched": 53,
+    "billed_lines": {
+     "E.51.030": 53
+    }
+   }
+  },
+  {
+   "series": "PS",
+   "pattern": "tracked machine stood idle (?P<quantity>\\d+(?:\\.\\d+)?) hours waiting on access",
+   "item": "E.51.030",
+   "unit": "hour",
+   "evidence": {
+    "schedule_1": "Standing time, tracked excavator and operator (p.19 Schedule 1)",
+    "record_series": "PS: p.27 Schedule 5",
+    "example": "PS-00001: tracked machine stood idle 7 hours waiting on access",
+    "records_matched": 90,
+    "billed_lines": {
+     "E.51.030": 90
+    }
+   }
+  },
+  {
+   "series": "PT",
+   "pattern": "built (?P<quantity>\\d+(?:\\.\\d+)?) large chamber, 1800 dia precast",
+   "item": "C.32.030",
+   "unit": "no.",
+   "evidence": {
+    "schedule_1": "Precast manhole, 1800 mm diameter, depth to 5 m (p.18 Schedule 1)",
+    "record_series": "PT: p.27 Schedule 5",
+    "example": "PT-00001: built 3 large chamber, 1800 dia precast",
+    "records_matched": 135,
+    "billed_lines": {
+     "B.23.020": 1,
+     "C.32.030": 135
+    }
+   }
+  },
+  {
+   "series": "PT",
+   "pattern": "laid (?P<quantity>\\d+(?:\\.\\d+)?) m of 400 ductile main",
+   "item": "C.31.020",
+   "unit": "lm",
+   "evidence": {
+    "schedule_1": "Ductile iron pipe, 400 mm, laid and jointed (p.18 Schedule 1)",
+    "record_series": "PT: p.27 Schedule 5",
+    "example": "PT-00002: laid 302 m of 400 ductile main",
+    "records_matched": 135,
+    "billed_lines": {
+     "C.31.020": 135
+    }
+   }
+  }
+ ]
+}
