@@ -2,8 +2,8 @@
 
 ## Approach
  
-Every figure on an invoice is checked against the contract, and every quantity against its
-site record. Guideline checks 1-11 run in order (c01 ... c11); check 12, writing the outcome
+Each invoice line is checked against the contract's rates and rules, and each quantity that
+has a record against that record. Guideline checks 1-11 run in order (c01 ... c11); check 12, writing the outcome
 down, is `output/findings.csv`. A line rejected by an earlier check is not re-priced by a
 later one, and the expected total is rebuilt from the corrected lines the contract's way
 (civil: round once, half up, retention rounded down; drilling: half to even at each step,
@@ -15,8 +15,9 @@ contract. They gave a valid submission early and showed which patterns look wron
 not: a civil line split across two quantity bands, and PD-210 billed twice on one day for two
 depth intervals. The rate schedules were then extracted with their page and clause and
 verified three ways: against the invoices, by a manual check against the scanned page, and by
-a second OCR engine. Rules come from clauses; a pattern in the billed data only sent the
-reading back to the contract.
+a second OCR engine. Rules are taken from the clauses; the billed data was used to test a
+reading, and where the text left a choice (D23, D27) the data decided it and the choice is
+recorded.
  
 ## Results
  
@@ -66,7 +67,7 @@ three applications tied as the first after Amendment 3 (D25). Unflagged invoices
  
 1. **OCR misreads of numbers.** Docling reversed percentage signs in Schedule 4 Part 3
    (civil p.24: "%96" for 96%) and read a decimal point as a colon (drilling p.41 MB-701
-   "19,237:00"). Any such value would reprice a whole item. Found by the calibration (a
+   "19,237:00"). Such a value would reprice every line of that item. Found by the calibration (a
    misread digit reproduces no billed rate) and the manual check against the scan; eight
    corrections are listed in `extracted/contracts/ocr_corrections.json`.
 2. **Two parts of the contract that read differently.** Schedule 2 and Schedule 3 Part 2 call
@@ -85,7 +86,8 @@ three applications tied as the first after Amendment 3 (D25). Unflagged invoices
    underscores was first read as a name; four records (DX-00089 and three daily reports) are
    now unsigned_record. Records are matched to their line by series, area or well, and day,
    not by reference alone.
-## What we could not determine
+
+## What could not be determined
  
 - **PD-210 nominated sections** (Cl.23): the definition on p.29 limits a performance-drilled
   section to 12-1/4" or 8-1/2", and all 2,390 PD-210 lines are on those sections (0

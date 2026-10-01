@@ -169,7 +169,7 @@ def test_no_section_factor_on_standby() -> None:
     assert (factors.section, factors.standby_percent) == (D(1), D(50))
 
 
-# ---- calibration (CLAUDE.md §8.1) --------------------------------------------------------
+# ---- calibration against the billed rates -------------------------------------------------
 
 
 def test_engine_reproduces_the_clean_majority(data: AuditData) -> None:

@@ -6,7 +6,7 @@
 Pipeline state after P4: `uv run python -m audit audit`, 242 findings, 211 of 2,806 invoices
 flagged. Two runs give identical files; 120 tests pass; ruff is clean.
 
-## Flag share (CLAUDE.md §8.4)
+## Flag share (the brief: 5-8% of invoices are wrong)
 
 | contract | invoices | flagged | share | expected_total = billed_total |
 |---|---|---|---|---|
@@ -65,8 +65,9 @@ of civil lines at the billed rate; no item has more than 5 differences).
 | drilling (service lines) | 91,181 | 91,173 (99.99%) |
 
 - Civil: all 2,169 records match exactly one of 26 work-line templates; each template
-  belongs to one item (extracted/mappings/civil_phrases.json). Ambiguous links: 0 (D20, D31).
-  No LLM call was needed, so there is no phrase-mapping prompt file.
+  belongs to one item (extracted/mappings/civil_phrases.json). Ambiguous links: 0.
+  No LLM call was needed, so the phrase-mapping prompt (prompts/v1_phrase_mapping.md) was not
+  run.
 - Drilling: all 8,151 reports parsed; services mapped through Appendix G and Schedule 8
   (extracted/mappings/drilling_terms.json).
 - Unlinked lines are missing_record: civil 8 (P1 cases), drilling 8 (a report of another
@@ -82,8 +83,8 @@ of civil lines at the billed rate; no item has more than 5 differences).
   not on the first day on the well (c09).
 - Civil: 2 lines above the record (PA-00312-04, 4 against a survey of 3; PA-00243-03, 10 h
   against 10 recorded, 9 chargeable). 25 joint-survey lines are 0.13-1.68% above the survey
-  and are payable as measured (Cl.33A). 140 lines are billed below the record (D30, not
-  errors). No DX or PT ground class differs from its line up to 2025-09-27. No weekly log
+  and are payable as measured (Cl.33A). 140 lines are billed below the record (not
+  errors: guideline 5 and Cl.46 limit payment to the record). No DX or PT ground class differs from its line up to 2025-09-27. No weekly log
   shows fewer than five days.
 
 ## Pricing (from P3, unchanged by P4)
@@ -117,12 +118,12 @@ rejects HC-640 on MDS-00626, MDS-01183, MDS-01424, MDS-01620.
 
 D24 (6-hour minimum with Cl.21A, 0 lines), D28 (PD-210 nominated sections, not checkable),
 D29 (civil standby limits P2, P9, H15, not checkable), and the AN readings D05, D19, D22,
-D25, D26, D27, D30, D31, D32 (c05 at the billed rate; 0 lines at present).
+D25, D26, D27.
 
 ## Known limits of P4
 
 - A line billed above its record is paid at the recorded quantity and the billed rate
   (c05). If the rate is also wrong, the later rate finding does not re-price the line
-  (guideline order, CLAUDE.md §4).
+  (guideline order).
 - Where c05 and c09 both reduce a drilling line (e.g. MW-330 billed 2 days), the earlier
   check's correction is used.

@@ -38,14 +38,12 @@ extend-exclude = ["scripts"]  # the OCR comparison script is kept exactly as it 
 # type hints on every signature (ANN), no print outside the CLI (T20)
 select = ["E", "W", "F", "I", "D", "B", "UP", "ANN", "T20"]
 ignore = ["D105", "D107"]  # magic methods and __init__ need no docstring
-# The google convention leaves D401 off; CLAUDE.md asks for an imperative first line.
-extend-select = ["D401"]
-
+# The google convention turns off D401 (imperative first line of a docstring); it is turned back on here.
 [tool.ruff.lint.pydocstyle]
 convention = "google"
 
 [tool.ruff.lint.per-file-ignores]
 # Test names say what they test, so test functions carry no docstrings.
 "tests/*" = ["D"]
-# The CLI's printed lines are its output meant for the user (CLAUDE.md: print only there).
+# The google convention turns off D401 (imperative first line of a docstring); it is turned back on here.
 "src/audit/cli.py" = ["T201"]

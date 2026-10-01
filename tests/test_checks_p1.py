@@ -109,7 +109,7 @@ def test_cl44_duplicate_is_later_line(data: AuditData, findings: list[Finding]) 
     dup = [f for f in c10_duplicates.run(data) if f.clause == "p.8 Cl.44"]
     assert [f.line_ref for f in dup] == ["PA-00111-12"]
     assert dup[0].evidence.endswith("PA-00111-03")
-    # Guideline order (CLAUDE.md §4): c04 rejects the line first (no JS record), so the
+    # Guideline order: c04 rejects the line first (no JS record), so the
     # later c10 finding on it is not kept.
     on_line = [f.check_id for f in findings if f.line_ref == "PA-00111-12"]
     assert on_line == ["c04"]
@@ -122,8 +122,9 @@ def test_pd210_depth_splits_are_not_duplicates(data: AuditData) -> None:
 
 
 def test_lines_below_quantity_x_rate(findings: list[Finding]) -> None:
-    # 32 civil lines bill less than quantity x rate (D08): 29 are band splits the pricing
-    # engine reproduces (no c11 finding); the 3 on items without bands are arithmetic errors.
+    # 32 civil lines bill less than quantity x rate (Cl.28 p.6; Sch.4 Pt3 p.24): 29 are band
+    # splits the pricing engine reproduces (no c11 finding); the 3 on items without bands are
+    # arithmetic errors.
     below = _hits(findings, "c11", "arithmetic", "PA")
     lines = {f.line_ref for f in below if f.line_ref}
     assert lines == {"PA-00610-02", "PA-00659-03", "PA-00672-02"}

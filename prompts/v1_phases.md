@@ -1,30 +1,26 @@
+Run one phase at a time with the coding assistant, opened in the project folder `invoice_audit_level2/`,
+with `v0.md` as its instructions. Inputs are read from `data/` via `DATA_DIR` (v0.md §0).
+The assistant never runs git or creates repositories; version control and uploading are done by hand.
 
- 
-Paste one phase at a time into Claude Code, opened in the project folder `invoice_audit_level2/`,
-with `CLAUDE.md` at its root. Inputs are read from the exercise repo via `DATA_DIR` (CLAUDE.md §0).
-Claude Code never runs git or creates repositories; version control and uploading are done by hand.
- 
 Do not start the next phase until the current one's acceptance criteria are met and you
 have reviewed the summary. When you change a prompt, save the new version as a new file
 (`v2_phases.md`, …) whose first line says what changed and why.
- 
-Time budget (16 h cap). Original: P0 0.5 · P1 1.5 · P2 3.5 · P3 3 · P4 3 · P5 1.5 · P6 1.5 · P7 1.5.
-Revised: about 8 working hours remain for P3, P4, P6 and P7.
+
 P5 is folded in: retro adjustment and discounts go to P3; daily caps, once-only items and
 minimum charges go to P4. Both parts are required, not optional.
- 
+
 ---
- 
-## P0 — Kick-off and setup (0.5 h)
- 
+
+## P0 — Kick-off and setup
+
 ```
-Read CLAUDE.md fully. Then read the original brief invoice-auditing-level-2-main/README.md and,
+Read v0.md fully. Then read the brief and,
 from DATA_DIR (./data, read-only), both */guidelines/INVOICE_AUDIT_GUIDELINES.md files.
- 
+
 Then:
 1. Restate the task, the scoring and the five deliverables in ≤12 bullets so I can confirm you
-   understood. Flag anything in CLAUDE.md that contradicts the README or the guidelines.
-2. Create the target structure from CLAUDE.md §6 in THIS folder (empty modules with docstrings
+   understood. Flag anything in v0.md that contradicts the README or the guidelines.
+2. Create the target structure from v0.md §6 in THIS folder (empty modules with docstrings
    are fine). Do not create or initialise any repository. src/audit/config.py resolves DATA_DIR
    from the environment (default ./data) and TEMPLATE_PATH (default ./data/submission_template.csv), fails
    with a clear message if either or any expected input file is missing, and exposes every
@@ -32,24 +28,24 @@ Then:
 3. Set up uv + pyproject.toml with pinned versions: pandas, docling,
    pytest. No Makefile (Windows): add src/audit/cli.py + __main__.py so that
    `uv run python -m audit ocr|audit|eval|all` runs each stage, and `uv run pytest` runs tests.
-4. Write src/audit/io.py: load the four CSVs from DATA_DIR, parse every date format listed in CLAUDE.md §5
+4. Write src/audit/io.py: load the four CSVs from DATA_DIR, parse every date format listed in v0.md §5
    into datetime.date, money columns into Decimal. Add tests that the row counts are
    900 / 7,746 / 1,906 / 91,244 and that PA-00001 application_total == Decimal("265123.89").
 5. Create docs/DECISION_LOG.md (template: Assumption / Ambiguity /
    Reading chosen / Why / Impact).
- 
+
 Stop and report. Do not start Phase 1.
 ```
- 
+
 ---
- 
-## P1 — Contract-independent checks + first submission (1.5 h)
- 
+
+## P1 — Contract-independent checks + first submission
+
 ```
 Goal: a complete, valid submission.csv using only checks that need no rate extraction.
-Use the verified facts in CLAUDE.md §5 only.
- 
-Implement in src/audit/checks/ (each returns findings rows per CLAUDE.md §7):
+Use the verified facts in v0.md §5 only.
+
+Implement in src/audit/checks/ (each returns findings rows per v0.md §7):
 - c01_contract: contract_ref and issuer match the contract (exact string).
 - c02_term: every work/service date inside the extended term (civil ≤ 2026-09-30,
   drilling ≤ 2026-12-31, both ≥ commencement).
@@ -64,32 +60,32 @@ Implement in src/audit/checks/ (each returns findings rows per CLAUDE.md §7):
 - c11_arithmetic: quantity × rate = amount per line; Σ lines = subtotal; civil retention
   = floor(5% of total to the halala) and net = total − retention; drilling
   VAT = 15% of net (half-even) and total = net + VAT. Include DS-900 discount lines.
- 
+
 Then src/audit/decide.py (first version): one row per invoice, flagged if any finding,
 category = largest money impact, expected_total = billed ± deltas we can compute
-(else billed), confidence per CLAUDE.md §7. Write submission.csv at the project root
+(else billed), confidence per v0.md §7. Write submission.csv at the project root
 (the deliverable) and output/findings.csv. Validate: 2,806 rows, same order as the template, integer cents.
- 
+
 Report: count of flags per check and per contract, total flagged vs the 140–225 prior,
 and 3 example findings per check with the raw evidence. List anything surprising.
 Stop. Do not start Phase 2.
 ```
- 
+
 ---
- 
-## P2 — Contract extraction (3.5 h) — the highest-risk phase
- 
+
+## P2 — Contract extraction — the highest-risk phase
+
 ```
 Goal: extracted/contracts/civil.json and drilling.json containing every term needed to
 price a line, each value with "source" (page + clause/table) and "verified": true|false.
- 
+
 1. src/audit/ocr.py: run Docling (default pipeline; OCR auto-selects RapidOCR; TableFormer
    accurate) on both PDFs from DATA_DIR, page by page → extracted/ocr/<contract>/page_XX.md,
    tables kept as markdown tables. One-time step (~40 s/page on CPU): skip pages already done,
    and commit the output so later phases and the evaluator never re-run OCR.
    Known from compare_ocr.py: all 60 Schedule 1 codes read; one Schedule 4 band row
    ("A.12.010 4,001 to 16,000 m3 96%") not read in order — check it by eye.
-2. Parse every table listed in CLAUDE.md §5 into JSON from the markdown tables (use the
+2. Parse every table listed in v0.md §5 into JSON from the markdown tables (use the
    column headers to pick each value; civil codes [A-E].dd.ddd, drilling codes XX-ddd): Schedule 1 rates,
    zone/ground factors, uplifts, bands, daily caps, exclusions, joint-survey list, indexed
    rates + index table, USD items + exchange rule, daywork, provisional sums, preliminaries,
@@ -107,31 +103,31 @@ price a line, each value with "source" (page + clause/table) and "verified": tru
    c. Eye check — numbers the invoices cannot confirm (instrument dates, percentages, caps,
       band limits, term dates, windows) are checked by me against a page crop. Save crops to
       extracted/ocr/crops/ and list them for me.
-4. Record in DECISION_LOG: the OCR choice with the compare_ocr.py numbers (CLAUDE.md §6),
+4. Record in DECISION_LOG: the OCR choice with the compare_ocr.py numbers (v0.md §6),
    and every clause you had to interpret (e.g. what "monthly rate" means, how
    retro settlement is billed, what application_total includes).
 5. Note every place the guidelines and the contract differ.
- 
+
 Acceptance: every value has a source; every invoice code present; every calibration
-disagreement explained; the facts already verified in CLAUDE.md §5 reproduced exactly.
+disagreement explained; the facts already verified in v0.md §5 reproduced exactly.
 Report and stop.
 ```
- 
+
 ---
- 
-## P3 — Pricing engine + calibration (3 h)
- 
+
+## P3 — Pricing engine + calibration
+
 ```
 Goal: for every line, the contract rate on its work date, built up in the contract's order,
 and a calibration report showing that the engine reproduces the clean majority.
- 
+
 1. src/audit/contract.py: rate_at(item, date) applying instruments in order issued, with
    per-item effective dates; discount_at(item, date); in_term(date).
 2. src/audit/pricing/civil.py: base → zone (not Series E) → ground (listed items) → night /
    rest-day uplift (listed items; rest day = Fri/Sat) → bands per Contract Year → rebate →
    discount → round once. Indexed (2A) and USD (2B) items per their clauses.
    pricing/drilling.py: rates, depth bands, standby, factors, discounts; half-even rounding
-   at each step. Unit tests: the two golden lines in CLAUDE.md §5 and one per rule.
+   at each step. Unit tests: the two golden lines in v0.md §5 and one per rule.
 3. src/audit/calibrate.py → output/calibration.md: % of lines where expected == billed,
    broken down by item × period. Any item or period with low agreement = a rule we got
    wrong; investigate before trusting it. Iterate until agreement is high and the residual
@@ -139,7 +135,7 @@ and a calibration report showing that the engine reproduces the clean majority.
 4. Add check c07_rate (superseded / wrong rate) and c08_buildup (factor, uplift, discount,
    rounding) using the engine; only confident when calibration for that item is high.
 5. Re-run decide.py and regenerate submission.csv.
- 
+
 Retro settlement (Amendment 3): the difference is one adjustment on the first invoice submitted
 on or after the issue date, and on no other (civil Cl.31A p.32, drilling Cl.36A p.35).
 
@@ -193,14 +189,14 @@ new DECISION_LOG entries, change in flag count. Stop.
 Main functions: `contract.rate_at`, `contract.discount_at`, `contract.contract_year`;
 `pricing.civil.base_rate`, `band_parts`, `built_up_rate`, `price_lines`; `pricing.drilling.built_up_rate`,
 `price_lines`; `calibrate.agreement`; `checks.c07_rate.retro_adjustment`; `run(data)` in c06–c09.
- 
+
 ---
- 
-## P4 — Records parsing + linking (3 h)
- 
+
+## P4 — Records parsing + linking
+
 ```
 Goal: every line linked to its record and its priced item, and quantities checked.
- 
+
 1. records/civil.py: regex parser → table (ticket, type, area, date, ground, week/days-on,
    work_text, quantity, unit_normalised, foreman, engineer_rep). Normalise units
    ("square metres"→m2, "cube"/"m3"→m3, "m"→lm, hours, weeks, "no.").
@@ -237,14 +233,14 @@ only. The one exception found is PA-00170-04, which cites PT-00189, a record tha
 PA-00238-09. So the P4 mapping from record text to item can be a fixed table that you build
 once by reading the templates, stored with its evidence, with no LLM call at runtime. Check
 this on all 2,169 records before relying on it.
- 
+
 Report: link rate, ambiguous count, new findings per check, examples. Stop.
 ```
- 
+
 ---
- 
+
 ## P5 — Limits and adjustments (folded into P3 and P4 — kept here for reference)
- 
+
 ```
 Implement c09_limits: daily caps per item per work area (Clause 31), exclusion windows
 (Clause 32), once-only items, minimum charges, bands per Contract Year, drilling limits
@@ -255,14 +251,14 @@ date (civil Cl.31A p.32, drilling Cl.36A p.35) — missing = retro_adjustment om
 earlier = taken early.
 Re-run everything, regenerate submission.csv. Report and stop.
 ```
- 
+
 ---
- 
-## P6 — Decision, confidence, evaluation (1.5 h)
- 
+
+## P6 — Decision, confidence, evaluation
+
 ```
-Follow CLAUDE.md §8 exactly.
- 
+Follow v0.md §8 exactly.
+
 1. eval/inject.py (fixed seeds A and B): build two evaluation sets from invoices with zero
    findings. Each: ~7% positives with exactly one planted error, ~15 per category listed in
    §8.2, and the rest untouched negatives. Recompute line amount, subtotal, retention/VAT and
@@ -277,19 +273,19 @@ Follow CLAUDE.md §8 exactly.
    money impact, recompute expected_total with all corrections, apply the threshold, and
    check the flag count against 140–225. Explain any big deviation before changing anything.
 5. Produce a list of 30 real flagged invoices (stratified by category) for my manual review.
- 
+
 Report the set-B table, the real flag count, and which categories are weakest. Stop.
 ```
- 
+
 ---
- 
-## P7 — Documentation and packaging (1.5 h)
- 
+
+## P7 — Documentation and packaging
+
 ```
 1. README.md for this project: near the top, a Mermaid flowchart of the pipeline (inputs →
    stages → outputs, and the calibration loop back to extraction). Start from this draft and
    update it to match the final code:
- 
+
        flowchart LR
          PDF[contracts PDF] --> OCR[ocr: Docling] --> CJ[contract JSON]
          CSV[invoices CSV] --> P1[checks without contract]
@@ -305,14 +301,12 @@ Report the set-B table, the real flag count, and which categories are weakest. S
          LIM --> F
          F --> DEC[decide] --> SUB[submission.csv]
          PR -. reprices clean lines? re-check reading .-> OCR
- 
-   Then: what this is; data source and setup — "clone
-   https://github.com/majedzahrani3/invoice-auditing-level-2, copy civilwork/,
-   drilling_services/ and submission_template.csv into ./data (or set DATA_DIR and
+
+   Then: what this is; data and setup — "data in ./data (or set DATA_DIR and
    TEMPLATE_PATH)"; how to run (uv sync --locked; uv run python -m audit all); where outputs go; runtime;
    the one-command reproduction;
-   and AI disclosure (Claude Code for implementation, Claude chat for planning/data
-   exploration; prompts in prompts/).
+   and AI disclosure (AI assistance for implementation, planning and data exploration;
+   prompts in prompts/).
 2. docs/REPORT.md (≤2 pages): approach (including why contract-independent checks came
    first: a valid submission early, and data lessons before the high-risk extraction), calibration results, eval results, flag stats,
    and error analysis grouped by 3–4 FAILURE TYPES (e.g. OCR/extraction, item linking,
@@ -321,7 +315,7 @@ Report the set-B table, the real flag count, and which categories are weakest. S
 3. docs/DECISION_LOG.md: tighten to one page.
 4. Clean-copy test: copy this project folder to a new location (excluding .venv, output/ and
    submission.csv),
-   point DATA_DIR at the exercise repo → uv sync → uv run python -m audit all → identical submission.csv
+   point DATA_DIR at ./data → uv sync → uv run python -m audit all → identical submission.csv
    (compare its hash with the committed root submission.csv). No git, no cloning.
 5. Final validation of submission.csv against the template.
 If the 16 h cap was reached earlier, add "What I would do next" to REPORT.md.

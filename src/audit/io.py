@@ -193,7 +193,7 @@ def load_all(paths: InputPaths | None = None) -> AuditData:
 
 
 def to_cents(amount: Decimal) -> int:
-    """Money in integer minor units (CLAUDE.md §4).
+    """Return money in integer minor units (the brief: amounts x 100).
 
     The amount must already be rounded to 2 dp the contract's way, so the rounding mode
     here never changes a value; it only converts the type.

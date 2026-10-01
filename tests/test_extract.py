@@ -1,4 +1,4 @@
-"""Phase 2: OCR corrections are enforced, and the contract JSON reproduces CLAUDE.md §5."""
+"""Phase 2: OCR corrections are enforced; the contract JSON reproduces values checked on scans."""
 
 from datetime import date
 from decimal import Decimal
@@ -52,7 +52,7 @@ def test_every_clause_quote_is_on_its_page() -> None:
         assert load_clause_terms(ocr_text.load_pages(contract))
 
 
-# ---- the JSON reproduces the verified facts (CLAUDE.md §5) -------------------------------
+# ---- the JSON reproduces the facts checked on the scans -----------------------------------
 
 
 def _values(section: dict) -> dict:

@@ -4,16 +4,16 @@ Guideline check 12 ("the outcome is written down"): findings.csv keeps every fin
 clause, evidence and money effect; the submission carries the verdict per invoice.
 
 - A finding counts when its confidence >= FLAG_THRESHOLD (checks.FLAG_THRESHOLD). The cost
-  is 5 x FN + 1 x FP, so flagging pays whenever P(error) > 1/6 (CLAUDE.md §2). A finding
+  is 5 x FN + 1 x FP, so flagging pays whenever P(error) > 1/6 (the brief's cost measure). A finding
   below it is a query: kept in findings.csv with status "query", never flagged.
 - error_category: the counting finding with the largest money impact; ties go to the higher
   confidence, then to the earlier category in the vocabulary.
 - expected_total: the invoice rebuilt the contract's way from corrected line amounts, in
   guideline order: a line any counting finding rejects is 0; otherwise the correction of
-  the earliest check on it applies (a later check does not re-price it, CLAUDE.md §4).
+  the earliest check on it applies (a later check does not re-price it, guideline order).
   Unflagged invoices keep the billed total.
 - confidence: flagged -> the strongest counting finding (P(invoice wrong)); unflagged ->
-  CLEAN_CONFIDENCE, P(invoice right) (DECISION_LOG D01; tuned in Phase 6).
+  CLEAN_CONFIDENCE, P(invoice right) (DECISION_LOG, Brief; tuned in Phase 6).
 """
 
 from __future__ import annotations

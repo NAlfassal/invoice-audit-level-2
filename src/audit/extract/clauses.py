@@ -3,8 +3,8 @@
 Input: extracted/contracts/<contract>_clauses.json (each term with its page, clause, the
 quote it was read from and the value as written) and the corrected OCR pages. Output: the
 terms as `term` values keyed by name. A term is accepted only if its quote appears word for
-word on its page and the value as written appears in the quote, so a typed-in term can never
-drift from the contract text.
+word on its page and the value as written appears in the quote, so a typed-in term cannot
+differ from its quote on the page.
 """
 
 from __future__ import annotations

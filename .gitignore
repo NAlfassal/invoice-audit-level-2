@@ -20,6 +20,6 @@ wheels/
 # Virtual environments
 .venv
 
-# Local working files, not part of the submission
-prompts/v0.md
+# Local working files
+CLAUDE.md
 scripts/docling_auto.md

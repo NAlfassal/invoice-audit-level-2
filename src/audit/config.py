@@ -1,8 +1,8 @@
-"""Every path the project uses, in one place (CLAUDE.md §0).
+"""Every path the project uses, in one place.
 
 Inputs are read from DATA_DIR (default ./data) and TEMPLATE_PATH (default
 ./data/submission_template.csv). Both can be set as environment variables or in a
-`.env` file at the project root; a real environment variable wins over `.env`.
+`.env` file at the project root; a real environment variable takes precedence over `.env`.
 Nothing under DATA_DIR is ever written.
 """
 
@@ -66,7 +66,7 @@ def _setting(name: str, default: Path) -> Path:
     """Env var, else .env, else the default.
 
     Relative values are taken from the project root, so the pipeline behaves the same
-    whatever folder it is started from (DECISION_LOG D04).
+    whatever folder it is started from.
     """
     value = os.environ.get(name) or _read_dotenv(PROJECT_ROOT / ".env").get(name)
     path = Path(value) if value else default
@@ -113,7 +113,6 @@ def _check(paths: InputPaths) -> None:
         raise ConfigError(
             "Input data not found:\n"
             + "\n".join(missing)
-            + "\n\nCopy civilwork/, drilling_services/ and submission_template.csv from "
-            "https://github.com/majedzahrani3/invoice-auditing-level-2 into ./data, or set "
-            "DATA_DIR and TEMPLATE_PATH (environment or .env, see .env.example)."
+            + "\n\nThe data folder is part of this repository; check that ./data exists, "
+            "or set DATA_DIR."
         )

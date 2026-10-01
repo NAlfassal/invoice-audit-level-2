@@ -1,0 +1,4 @@
+docling==2.130.0
+pandas==3.0.6
+pypdfium2==5.13.0
+pytesseract==0.3.13

@@ -1,4 +1,4 @@
-"""Score the pipeline on injected error sets (CLAUDE.md §8.2), Phase 6.
+"""Score the pipeline on injected error sets, Phase 6.
 
 Input: the invoices, output/findings.csv from the audit stage (the clean pool: invoices with
 no finding), and eval/inject.py. The clean invoices are split in two halves with a fixed
@@ -216,7 +216,7 @@ def result_tables(result: dict) -> list[str]:
 def write_report(results: dict[str, dict], path: Path) -> None:
     """Write output/eval.md: set B as the result, set A as the tuning record."""
     lines = [
-        "# Evaluation on injected errors (CLAUDE.md §8.2)",
+        "# Evaluation on injected errors",
         "",
         "Clean invoices (no finding on the real data) are split into two fixed halves. Each set",
         "plants one error in each of 10 invoices per category (5 civil, 5 drilling where both",
@@ -252,7 +252,7 @@ REVIEW_SIZE = 15
 
 
 def review_list(submission: pd.DataFrame, findings: pd.DataFrame) -> pd.DataFrame:
-    """Pick 15 flagged invoices across the categories for the manual review (CLAUDE.md §9).
+    """Pick 15 flagged invoices across the categories for the manual review.
 
     Every category gets one invoice (the largest money impact); the remaining places go to
     the largest categories, next largest impact first.
@@ -284,7 +284,7 @@ def write_review(path: Path) -> None:
         "",
         "For each invoice: check the finding against the contract clause and the record, and",
         "mark it right or wrong. The share right per category is the real-data precision",
-        "(CLAUDE.md §8.3).",
+        "(the reviewer's estimate).",
         "",
         "| invoice | category | billed | expected | confidence "
         "| finding (clause; evidence) | right? |",

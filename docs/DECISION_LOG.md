@@ -23,7 +23,7 @@ working log, so gaps mark entries that were settled by the text and removed.
 | D25 | AN. Three applications submitted on the Amendment 3 issue date: which is "the first"? | Each flagged at 0.33 | No source orders submissions made on the same date; 1/3 is above the 1/6 threshold | Cl.31A p.32 | 3 |
 | D26 | AN. "A period which has closed" and "not before the last day": is submission on the last day allowed? | Allowed | "Not before the last day" is the sentence that sets the test | Cl.41 p.8 | 0 |
 | D27 | AN. A.14.020 is not measurable "within 2 days following" A.14.010: does the same day count? | Yes, confidence 0.60 | Across all pairs, none falls on days 1-2 and only one on day 0, against 6 on the day before and 9 on day 3 | Cl.32 p.6; Sch.4 Pt5 p.26 | 1 |
-| D28 | AN (open). PD-210 only on the sections nominated in the call-off | Section checked, well not | p.29 limits the section to 12-1/4" or 8-1/2", and all 2,390 PD-210 lines comply; the call-offs are not in the data | Cl.23 p.6; p.29 | 0 |
+| D28 | AN (open). PD-210 only on the sections nominated in the call-off | Section checked, well not | p.29 limits the section to 12-1/4" or 8-1/2", and all 2,390 PD-210 lines comply; the call-offs are not in the data | Cl.23 p.6; App. A p.29 | 0 |
 | D29 | AN (open). Civil standby rules that need times of day, flood watches or safety suspensions | S20 applied from the recorded hours; P2, P9 and H15 not checked | The records do not carry these facts | pp.11-16 | not measured |
  
 **Brief.** `confidence` is read as the probability that the verdict is right (flagged: that the

@@ -1,4 +1,4 @@
-"""Calibration: how often the pricing engine reproduces the billed rate (CLAUDE.md §8.1).
+"""Calibration: how often the pricing engine reproduces the billed rate.
 
 Input: the priced lines of both contracts and the price differences (`pricing.compare`).
 Output: agreement per item x rate period, per item and per invoice, and
@@ -119,7 +119,8 @@ def write_report(data: AuditData, path: Path, unmeasured: frozenset[str]) -> Non
     sections = [
         "# Calibration (Phase 3)",
         "Share of priced lines whose billed rate and amount the pricing engine reproduces "
-        "(CLAUDE.md §8.1). A rate period is the instrument (and month) and discount in force.",
+        "(the brief: 92-95% of invoices are correct). A rate period is the instrument "
+        "(and month) and discount in force.",
         "## Per contract",
         markdown(group_table(table, ["contract"])),
         "## Invoices whose priced lines all agree",

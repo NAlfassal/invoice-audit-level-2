@@ -55,7 +55,7 @@ def test_template_covers_every_invoice(
 def test_pa00001_header(civil_apps: pd.DataFrame) -> None:
     row = civil_apps.set_index("application_no").loc["PA-00001"]
     assert row["application_total"] == Decimal("265123.89")
-    assert row["retention"] == Decimal("13256.19")  # CLAUDE.md §5, Clause 45
+    assert row["retention"] == Decimal("13256.19")  # Cl.45 p.8: 5% of the total, rounded down
     assert row["period_to"] == date(2025, 10, 4)
 
 

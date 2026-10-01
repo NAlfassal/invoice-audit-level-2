@@ -11,13 +11,16 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass
+from typing import TYPE_CHECKING
 
 import pypdfium2 as pdfium
-from PIL import Image
 
 from audit.config import OCR_DIR, InputPaths
 from audit.contract import load_contract
 from audit.extract.report import EYE, open_values
+
+if TYPE_CHECKING:  # Pillow is needed only to cut the crops (the crops stage)
+    from PIL import Image
 
 CROPS_DIR = OCR_DIR / "crops"
 RENDER_SCALE = 1.6  # enough to read digits; grayscale keeps the committed files small
@@ -161,6 +164,8 @@ def _on_crop_page(crop: Crop, entry: dict) -> bool:
 
 def render_crop(pdf: pdfium.PdfDocument, crop: Crop) -> Image.Image:
     """Cut the crop's regions from the rendered pages and stack them top to bottom."""
+    from PIL import Image  # imported here: only the crops stage draws images
+
     strips = []
     for page, top, bottom in crop.regions:
         image = pdf[page - 1].render(scale=RENDER_SCALE).to_pil().convert("L")

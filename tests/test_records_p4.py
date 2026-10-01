@@ -102,7 +102,7 @@ def test_survey_tolerance_not_flagged(findings: list[Finding]) -> None:
 
 
 def test_line_below_record_not_flagged(findings: list[Finding]) -> None:
-    assert _on(findings, "PA-00003-07") == []  # 527 billed, 546 recorded (D30)
+    assert _on(findings, "PA-00003-07") == []  # 527 billed, 546 recorded (guideline 5)
 
 
 def test_signature_without_letters_is_missing() -> None:

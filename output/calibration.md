@@ -1,6 +1,6 @@
 # Calibration (Phase 3)
 
-Share of priced lines whose billed rate and amount the pricing engine reproduces (CLAUDE.md §8.1). A rate period is the instrument (and month) and discount in force.
+Share of priced lines whose billed rate and amount the pricing engine reproduces (the brief: 92-95% of invoices are correct). A rate period is the instrument (and month) and discount in force.
 
 ## Per contract
 

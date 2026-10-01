@@ -6,7 +6,7 @@ one row. "Later" = later submission date, then invoice number, then line number.
 
 Keys:
 - Civil Cl.44 p.8: same item, work area (site) and date; quantity is not part of the key
-  (DECISION_LOG D06).
+  (Cl.44 p.8).
 - Civil, same record: one record evidences one measurement (Cl.44 + Cl.46), so a second
   line for the same item on the same record_ref bills it again, e.g. one weekly dewatering
   log billed as a full week on several applications (D07).

@@ -1,9 +1,9 @@
 """Audit checks: one module per guideline check (c01 ... c11).
 
 Every check takes the loaded data (`io.AuditData`) and the lines already rejected by an
-earlier check, and returns `Finding` rows (CLAUDE.md §7); none prints or decides. `run_all`
+earlier check, and returns `Finding` rows; none prints or decides. `run_all`
 runs them in guideline order, so a line an earlier check rejects is not judged again by a
-later one (CLAUDE.md §4). Guideline check 12, "the outcome is written down", is `decide.py`.
+later one (guideline order). Guideline check 12, "the outcome is written down", is `decide.py`.
 """
 
 from __future__ import annotations
@@ -14,8 +14,8 @@ from functools import cache
 
 from audit.io import AuditData, to_cents
 
-# Fixed error_category vocabulary (CLAUDE.md §7). A flagged invoice takes the category
-# of its finding with the largest money impact.
+# Fixed error_category vocabulary (the brief asks for consistent categories). A flagged
+# invoice takes the category of its finding with the largest money impact.
 CATEGORIES = (
     "wrong_contract_ref",
     "outside_term",
@@ -35,7 +35,7 @@ CATEGORIES = (
     "wrong_unit",  # Cl.26 p.6: a quantity in a unit other than Schedule 1's is rejected in full
 )
 
-# Starting confidences (CLAUDE.md §7), tuned on eval set A in Phase 6. Defined here only.
+# Starting confidences, checked on eval set A in Phase 6. Defined here only.
 CONFIDENCE = {
     "arithmetic": 0.95,
     "duplicate": 0.95,  # civil Cl.44 key; drilling same well, date, service, interval
@@ -51,12 +51,12 @@ CONFIDENCE = {
     "rate_uncalibrated": 0.60,  # below that share, or a contract value not yet verified
     "retro_carrier": 0.90,  # divided by the number of invoices tied as "first" (D18, D25)
     "limit": 0.85,
-    "limit_unverified": 0.60,  # the limit value awaits the eye check (CLAUDE.md §7 cap)
+    "limit_unverified": 0.60,  # the limit value awaits the eye check (capped while unverified)
     "exclusion_same_day": 0.60,  # Cl.32 window read to include the same day (D27)
 }
 
 # A finding counts towards the flag when its confidence reaches this value: the cost is
-# 5 x FN + 1 x FP, so flagging pays whenever P(error) > 1/6 (CLAUDE.md §2).
+# 5 x FN + 1 x FP, so flagging pays whenever P(error) > 1/6 (the brief's cost: 5 x FN + 1 x FP).
 FLAG_THRESHOLD = 0.17
 # Share of an item's lines the engine must reproduce before its rate findings are confident.
 RATE_CALIBRATED = 0.90
@@ -64,7 +64,7 @@ RATE_CALIBRATED = 0.90
 
 @dataclass(frozen=True)
 class Finding:
-    """One audit finding on an invoice or one of its lines (CLAUDE.md §7)."""
+    """One audit finding on an invoice or one of its lines."""
 
     invoice_id: str
     line_ref: str  # "" for an invoice-level finding
@@ -122,7 +122,7 @@ def run_all(data: AuditData) -> list[Finding]:
     """Run every implemented check in guideline order (c01 ... c11).
 
     A line rejected by an earlier check is passed to the later ones, and any later finding on
-    it is dropped: the line is not re-priced or re-judged (CLAUDE.md §4).
+    it is dropped: the line is not re-priced or re-judged (guideline order).
     """
     from audit.checks import (
         c01_contract,

@@ -1,4 +1,4 @@
-# Evaluation on injected errors (CLAUDE.md §8.2)
+# Evaluation on injected errors
 
 Clean invoices (no finding on the real data) are split into two fixed halves. Each set
 plants one error in each of 10 invoices per category (5 civil, 5 drilling where both

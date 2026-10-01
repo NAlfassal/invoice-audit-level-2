@@ -1,4 +1,4 @@
-"""Synthetic error injection (CLAUDE.md §8.2), Phase 6.
+"""Synthetic error injection, Phase 6.
 
 Input: the loaded invoices (`io.AuditData`) and a pool of clean invoice ids (no finding on
 the real data). Output: a copy of the data in which a sample of the pool carries exactly one

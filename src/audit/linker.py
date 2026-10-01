@@ -4,7 +4,7 @@ Input: the loaded invoices (`io.AuditData`), the parsed records (`records.civil`
 `records.drilling`) and the two reviewed mappings in extracted/mappings/. Output: for each
 line, its record, whether the record is for that line's work area (or well) and day, and
 the quantity the record supports for the billed item. Every template maps to one item, so
-no link is ambiguous (D20 would apply if one were).
+no link is ambiguous.
 """
 
 from __future__ import annotations

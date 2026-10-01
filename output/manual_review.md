@@ -2,7 +2,7 @@
 
 For each invoice: check the finding against the contract clause and the record, and
 mark it right or wrong. The share right per category is the real-data precision
-(CLAUDE.md §8.3).
+(the reviewer's estimate).
 
 | invoice | category | billed | expected | confidence | finding (clause; evidence) | right? |
 |---|---|---|---|---|---|---|

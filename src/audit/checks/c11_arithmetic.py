@@ -57,7 +57,7 @@ def civil_lines(lines: pd.DataFrame, split_lines: frozenset[str]) -> list[Findin
     Cl.28 p.6 and Sch.4 Pt3 p.24: a quantity crossing a band is split and each part priced
     at its own rate, so a band-split line is not quantity x rate; the pricing engine judges
     it (c08). Any other line whose amount is not quantity x rate is an arithmetic error
-    (DECISION_LOG D08).
+    (Cl.28 p.6; Sch.4 Pt3 p.24).
     """
     findings = []
     for line in lines.itertuples(index=False):

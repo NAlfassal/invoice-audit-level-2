@@ -6,8 +6,8 @@ item (`unidentified_item`), or whose unit is not the one Schedule 1 states (`wro
 Civil Cl.26 p.6: "a quantity presented in a unit other than that stated shall be rejected
 in its entirety rather than converted"; drilling Cl.35 p.8: "in the unit Schedule 1 gives
 for the service, and in no other". All three are expected 0. A civil record is read with
-the reviewed template table; each template belongs to one item, so no link is ambiguous
-(D20). A drilling report names tools and crew in the rig's words, which c05 reads.
+the reviewed template table; each template belongs to one item, so no link is ambiguous.
+A drilling report names tools and crew in the rig's words, which c05 reads.
 """
 
 from __future__ import annotations
