@@ -3,6 +3,8 @@
 The assumptions made, the ambiguities found, and what was decided about each. The contract
 governs over the guidelines. **AN** = assumption that no source settles. IDs are kept from the
 working log, so gaps mark entries that were settled by the text and removed.
+Abbreviations: Cl. = clause, Sch. = schedule, Pt = part, App. = appendix, p. = page of the
+contract PDF.
  
 | ID | Question | Decision | Why | Clause, page | Invoices |
 | --- | --- | --- | --- | --- | --- |
@@ -26,10 +28,7 @@ working log, so gaps mark entries that were settled by the text and removed.
 | D28 | AN (open). PD-210 only on the sections nominated in the call-off | Section checked, well not | p.29 limits the section to 12-1/4" or 8-1/2", and all 2,390 PD-210 lines comply; the call-offs are not in the data | Cl.23 p.6; App. A p.29 | 0 |
 | D29 | AN (open). Civil standby rules that need times of day, flood watches or safety suspensions | S20 applied from the recorded hours; P2, P9 and H15 not checked | The records do not carry these facts | pp.11-16 | not measured |
  
-**Brief.** `confidence` is read as the probability that the verdict is right (flagged: that the
-invoice is wrong; unflagged: that it is correct). "Severity" is not defined; it is taken as
-money impact, and no error is dropped for being small.
- 
+
 **Guidelines vs contract.** Guideline 10 ("nothing is billed twice") follows the Cl.44 key: the
 same item, work area and date. Guideline 11 ("the arithmetic reconciles") allows a line split
 across two quantity bands: of 32 civil lines below quantity x rate, 29 are band splits and 3

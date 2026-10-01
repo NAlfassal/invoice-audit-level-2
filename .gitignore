@@ -14,12 +14,11 @@ wheels/
 .pytest_cache/
 .ruff_cache/
 
-# Local caches and temp files (uv cache, TEMP), kept on the project drive
+# Local caches 
 .cache/
 
 # Virtual environments
 .venv
 
-# Local working files
-CLAUDE.md
+# Local working 
 scripts/docling_auto.md

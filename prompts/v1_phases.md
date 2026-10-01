@@ -155,7 +155,7 @@ new DECISION_LOG entries, change in flag count. Stop.
    Tests: the two golden lines in §5 and one per rule.
 3. Civil bands (Sch.4 Pt3 pp.24–25, D14, D19): cumulative per item per Contract Year, in the order
    work date, application number, line number; a line crossing a band is split, each part at its own
-   rounded rate (Cl.28). Resolves the 32 lines of D08.
+   rounded rate (Cl.28). Resolves the 32 lines billed below quantity x rate.
 4. Drilling build-up (Cl.17–18 p.6; 17A, 17B p.35; Sch.2, Sch.3): base (PD-210 depth band, or indexed),
    section factor (not on Standby), class factor (not on PD-210, D21), standby %, discount (4% or 7%);
    half to even at each step. PD-210
