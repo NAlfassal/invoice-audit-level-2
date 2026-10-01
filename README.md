@@ -38,6 +38,7 @@ flowchart LR
    into one verdict per invoice.
 4. **Evaluation** (`eval`): errors are planted in clean invoices (set A for tuning, set B for
    the result) and the pipeline is scored on them.
+   
 The civil record wording is mapped to items with a fixed table
 of 26 templates (`extracted/mappings/civil_phrases.json`): all 2,169 records match exactly one
 template, so the phrase-mapping prompt (`prompts/v1_phrase_mapping.md`) was not needed and
@@ -61,6 +62,7 @@ submission template) is included in `./data`. The pipeline only reads this folde
 ```
  
    Open a new terminal afterwards so that `uv` is on the PATH.
+   
 2. From the project folder, install the exact versions pinned in `uv.lock` (Python 3.11; uv
    downloads it if it is missing):
  
